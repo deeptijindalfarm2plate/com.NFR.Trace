@@ -1,0 +1,21 @@
+12:37:59.892 [main] INFO  com.demo.baseutil.Basetest - 
+12:37:59.902 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+12:38:00.095 [main] INFO  com.demo.baseutil.Basetest - Folder creation for Extent
+12:38:00.102 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 02_27_2024_12_38_00/Report/02_27_2024_12_38_00
+12:38:00.344 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+12:38:00.346 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+12:38:23.322 [main] INFO  com.demo.testscripts.TracetestScript - Sign in function call
+12:38:23.324 [main] INFO  com.demo.testscripts.TracetestScript - Validate email address field is clicked is clickable
+12:38:23.854 [main] INFO  com.demo.testscripts.TracetestScript - Clicked on : email address field is clicked
+12:38:23.864 [main] INFO  com.demo.testscripts.TracetestScript - Enter the value into Email Id Entered
+12:38:24.487 [main] INFO  com.demo.testscripts.TracetestScript - utsav@paramountsoft.net typed into Email Id Entered
+12:38:24.489 [main] INFO  com.demo.testscripts.TracetestScript - Validate Enter the password is clickable
+12:38:24.786 [main] INFO  com.demo.testscripts.TracetestScript - Clicked on : Enter the password
+12:38:24.786 [main] INFO  com.demo.testscripts.TracetestScript - Enter the value into Password Id Entered
+12:38:25.142 [main] INFO  com.demo.testscripts.TracetestScript - Admin@1234 typed into Password Id Entered
+12:38:25.142 [main] INFO  com.demo.testscripts.TracetestScript - Validate Press the signin button is clickable
+12:38:26.352 [main] INFO  com.demo.testscripts.TracetestScript - Clicked on : Press the signin button
+12:38:26.371 [main] INFO  com.demo.testscripts.TracetestScript - HomePage title  is matched
+12:38:27.728 [main] INFO  com.demo.testscripts.TracetestScript - Validate Logout the Farm2Plate account is clickable
+12:38:58.178 [main] ERROR com.demo.testscripts.TracetestScript - Logout the Farm2Plate account is not clickable
+12:38:58.179 [main] ERROR com.demo.testscripts.TracetestScript - Unable to click on Logout the Farm2Plate account
