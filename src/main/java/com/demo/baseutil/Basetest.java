@@ -136,7 +136,7 @@ public class Basetest {
 	public synchronized void killTask(String browserName) {
 		try {
 			if (driver != null) {
-             driver.close();
+       //      driver.close();
 			driver.quit();
 
 			} else {

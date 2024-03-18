@@ -2,6 +2,9 @@ package com.demo.pages;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.FileInputStream;
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +16,10 @@ import com.demo.util.WebActionUtil;
 public class Tracelogin {
 	public WebDriver driver;
 	public WebActionUtil actionutil;
+	public static Properties prop = new Properties();
 	public long eto = 30;
+	public static final String usrdir = "user.dir";
+	public static final String CONFIGPATH = System.getProperty(usrdir) + "./config/config.properties";
 
 	public Tracelogin(WebDriver driver, long eto, WebActionUtil actionutil) {
 		this.driver = driver;
@@ -21,6 +27,17 @@ public class Tracelogin {
 		this.actionutil = actionutil;
 		this.eto = eto;
 	}
+	static {
+		try {
+			prop = new Properties();
+			FileInputStream fis = new FileInputStream(CONFIGPATH);
+			prop.load(fis);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
 
 	/* X-path for email */
 	@FindBy(xpath = "//input[@id = 'username_login_input']")
@@ -57,11 +74,24 @@ public class Tracelogin {
 		//System.out.println("print the value of siginPageTitle" + siginPageTitle );
 		assertEquals(siginPageTitle, Basetest.prop.getProperty("HomePageTitle"));
 		Basetest.logger.info("HomePage title  is matched");
-		Thread.sleep(1000);
-		
-		
+		Thread.sleep(1000);		
+		return;
+	}
 	
-		
+	public void verifysuperadminLogin() throws InterruptedException {
+		actionutil.info("Sign in function call");
+		String emailfield = prop.getProperty("emailfield");
+		String passwordfield = prop.getProperty("passwordfield");
+		actionutil.clickOnElement(email, "email address field is clicked");
+		actionutil.typeText(email, emailfield, "Email Id Entered");
+		actionutil.clickOnElement(pass, "Enter the password");
+		actionutil.typeText(pass, passwordfield, "Password Id Entered");
+		actionutil.clickOnElement(signin, "Press the signin button");
+		Thread.sleep(8000);	
+		String siginPageTitle = driver.getTitle();
+		assertEquals(siginPageTitle, Basetest.prop.getProperty("HomePageTitle"));
+		Basetest.logger.info("HomePage title  is matched");
+		Thread.sleep(8000);		
 		return;
 	}
 }

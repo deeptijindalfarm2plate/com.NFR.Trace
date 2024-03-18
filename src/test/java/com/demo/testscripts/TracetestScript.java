@@ -1,7 +1,15 @@
 package com.demo.testscripts;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.demo.baseutil.Basetest;
@@ -22,20 +30,46 @@ public class TracetestScript extends Basetest {
 	  pages.signinpage.verifysigninPage();
 	  }
 	  
-	  @Test(priority = 2, description = "Verify the Login", enabled =
-	  true) public void verifyLogin() throws InterruptedException {
-	  pages.loginpage.verifyLogin("utsav@paramountsoft.net", "Admin@1234"); }
-	 
-	  
-	 @Test(priority = 3, description = "Verify the Logout", enabled =
-	 true) public void verifylogout() throws InterruptedException {
+	  @DataProvider(name = "loginData")
+	    public Object[][] getLoginData() throws IOException, EncryptedDocumentException, InvalidFormatException {
+	        // Provide the path to your Excel file
+		  String userDir = System.getProperty("user.dir");
+	        String filePath = userDir + "/src/test/resources/data/data.xlsx";
+	        String sheetName = "Sheet1";
+
+	        FileInputStream fileInputStream = new FileInputStream(filePath);
+	        Workbook workbook = WorkbookFactory.create(fileInputStream);
+	        Sheet sheet = workbook.getSheet(sheetName);
+	        int rowCount = sheet.getPhysicalNumberOfRows();
+	        int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
+
+	        Object[][] data = new Object[rowCount - 1][colCount];
+
+	        for (int i = 1; i < rowCount; i++) {
+	            for (int j = 0; j < colCount; j++) {
+	                Cell cell = sheet.getRow(i).getCell(j);
+	                data[i - 1][j] = cell.getStringCellValue();
+	            }
+	        }
+
+	        workbook.close();
+	        fileInputStream.close();
+
+	        return data;
+	    }
+	
+     
+	   @Test(dataProvider = "loginData", priority = 2, description = "Verify the Login", enabled = true)
+	    public void verifyLogin1(String emailid, String passwordid) throws InterruptedException, IOException {
+		    pages.loginpage2.verifyLogin1(emailid, passwordid);
+	    
+	  }
+	   
+	@Test(priority = 3, description = "verify the Logout", enabled = true) public
+	  void verifysignupPage() throws InterruptedException {
 	  pages.logout.verifylogout();
 	  }
 	 
-	/* @Test(priority = 4, description = "Sign up form fill", enabled = true) public
-	 * void verifysignupPage() throws InterruptedException {
-	 * pages.signup.verifysignup(); }
-	 */
 	
 	
 }

@@ -29,8 +29,9 @@ public class Tracesigninpage {
 	/**
 	 * Description: Clicking on Sign In button and verify the UI of the Sign-in
 	 * page.
+	 * @throws InterruptedException 
 	 */
-	public void verifysigninPage() {
+	public void verifysigninPage() throws InterruptedException {
 		actionutil.clickOnElement(signin, "Sign in with FarmtoPlate account");
 		String siginPageURL = driver.getCurrentUrl();
 		if (siginPageURL.contains("farmtoplateapps.io/login")) {
