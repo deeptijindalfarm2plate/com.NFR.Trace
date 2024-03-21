@@ -8,7 +8,7 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.demo.testscripts.Tracesignuppage">
+      <class name="com.demo.testscripts.Tracemodules">
         <methods>
           <include name="createFolder"/>
           <include name="browserclose"/>
@@ -17,7 +17,7 @@
           <include name="setExtentReport"/>
           <include name="killTask"/>
         </methods>
-      </class> <!-- com.demo.testscripts.Tracesignuppage -->
+      </class> <!-- com.demo.testscripts.Tracemodules -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

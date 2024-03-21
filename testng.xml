@@ -9,7 +9,10 @@
         <parameter name="browserName" value="chrome" />
         <classes>
         
-        <class name="com.demo.testscripts.Tracesignuppage" />
+        <!--class name="com.demo.testscripts.Tracesignuppage" />-->
+         <!--class name="com.demo.testscripts.Tracetestlogin" />-->
+         <class name="com.demo.testscripts.Tracemodules" />
+         
          
          <!--  <class name="com.demo.testscripts.Tracetestsigninpage" />-->
          <!--   <class name="com.demo.testscripts.Tracetestlogin2" />-->

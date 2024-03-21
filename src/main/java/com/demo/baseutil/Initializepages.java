@@ -7,7 +7,7 @@ import com.demo.pages.Tracelogin2;
 import com.demo.pages.Tracesigninpage;
 import com.demo.pages.Tracesignuppage;
 import com.demo.pages.Tracelogout;
-
+import com.demo.pages.Tracemodules;
 import com.demo.util.WebActionUtil;
 import com.demo.mail.Gmail;
 
@@ -24,6 +24,7 @@ public class Initializepages extends Basetest2 {
 	public Tracelogout logout;
 	public Tracelogin2 loginpage2;
 	public Tracesignuppage signup;
+	public Tracemodules modules;
 	
 	
 	public Initializepages(WebDriver driver, long eto, WebActionUtil actionutil) {
@@ -33,6 +34,7 @@ public class Initializepages extends Basetest2 {
 		loginpage2 = new Tracelogin2(driver, eto, actionutil);
 		logout = new Tracelogout(driver, eto, actionutil);
 		signup= new Tracesignuppage(driver, eto,actionutil);
+		modules= new Tracemodules(driver, eto, actionutil);
 		
 	}
 

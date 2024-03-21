@@ -70,11 +70,12 @@ public class Tracelogin {
 		actionutil.clickOnElement(pass, "Enter the password");
 		actionutil.typeText(pass, passwordfield, "Password Id Entered");
 		actionutil.clickOnElement(signin, "Press the signin button");
+		Thread.sleep(2000);
 		String siginPageTitle = driver.getTitle();
 		//System.out.println("print the value of siginPageTitle" + siginPageTitle );
 		assertEquals(siginPageTitle, Basetest.prop.getProperty("HomePageTitle"));
 		Basetest.logger.info("HomePage title  is matched");
-		Thread.sleep(1000);		
+		Thread.sleep(2000);		
 		return;
 	}
 	
