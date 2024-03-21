@@ -139,7 +139,7 @@ public class Tracemodules {
 		driver.switchTo().window(tabs2.get(0));
 		// Get all the window handles
 		ArrayList<String> tabs22 = new ArrayList<String>(driver.getWindowHandles());
-		System.out.println("print the sixe of tabs" + tabs22.size());
+		System.out.println("print the sixe of tabs---" + tabs22.size());
 
 		// Iterate through the tabs
 		for (int i = 1; i <tabs22.size(); i++) {

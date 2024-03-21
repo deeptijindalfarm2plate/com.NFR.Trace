@@ -27,7 +27,7 @@ public class Tracemodules extends Basetest2 {
 	
 	
 	  @Test(priority = 1, description = "Verify UI of the Sigin Page", enabled = true)
-	  public void verifysignin() throws InterruptedException {
+	  public void verifytracemodule() throws InterruptedException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
 	  pages.modules.tracemudules();
