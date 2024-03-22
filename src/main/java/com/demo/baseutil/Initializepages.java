@@ -7,7 +7,10 @@ import com.demo.pages.Tracelogin2;
 import com.demo.pages.Tracesigninpage;
 import com.demo.pages.Tracesignuppage;
 import com.demo.pages.Tracelogout;
-import com.demo.pages.Tracemodules;
+import com.demo.pages.Tracenetworkmgmt;
+import com.demo.pages.Traceasset;
+import com.demo.pages.Tracedashboard;
+import com.demo.pages.Traceinfra;
 import com.demo.util.WebActionUtil;
 import com.demo.mail.Gmail;
 
@@ -24,7 +27,10 @@ public class Initializepages extends Basetest2 {
 	public Tracelogout logout;
 	public Tracelogin2 loginpage2;
 	public Tracesignuppage signup;
-	public Tracemodules modules;
+	public Tracedashboard modules;
+	public Tracenetworkmgmt nwmgmt;
+	public Traceasset assetpage;
+	public Traceinfra infrapage;
 	
 	
 	public Initializepages(WebDriver driver, long eto, WebActionUtil actionutil) {
@@ -34,8 +40,10 @@ public class Initializepages extends Basetest2 {
 		loginpage2 = new Tracelogin2(driver, eto, actionutil);
 		logout = new Tracelogout(driver, eto, actionutil);
 		signup= new Tracesignuppage(driver, eto,actionutil);
-		modules= new Tracemodules(driver, eto, actionutil);
-		
+		modules= new Tracedashboard(driver, eto, actionutil);
+		nwmgmt = new Tracenetworkmgmt(driver, eto, actionutil);
+		assetpage= new Traceasset(driver, eto,actionutil);
+		infrapage= new Traceinfra(driver, eto,actionutil);
 	}
 
 }

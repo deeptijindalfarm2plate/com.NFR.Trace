@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.demo.baseutil.Basetest;
 import com.demo.util.WebActionUtil;
 
-public class Tracemodules {
+public class Tracenetworkmgmt {
 	public WebDriver driver;
 	public WebActionUtil actionutil;
 	public long eto = 30;
@@ -24,7 +24,7 @@ public class Tracemodules {
 	int randomNumber = new Random().nextInt(1000);
 	String emailaddress = randomValue + randomNumber + "@yopmail.com";	
 	
-	public Tracemodules(WebDriver driver, long eto, WebActionUtil actionutil) {
+	public Tracenetworkmgmt(WebDriver driver, long eto, WebActionUtil actionutil) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		this.actionutil = actionutil;
@@ -248,6 +248,69 @@ public class Tracemodules {
 	private WebElement closebutton;
 
 	
+	/* X-path for Asset and Infrastructure */
+	@FindBy(xpath = "//span[text()='Asset & Infrastructure Data']")
+	private WebElement assetinfra;
+	
+	/* X-path for Asset */
+	@FindBy(xpath = "//span[text()='Assets']")
+	private WebElement asset;
+	
+	/* X-path for Add New Asset*/
+	@FindBy(xpath = "//h5[@id='ADD_ASSET']")
+	private WebElement addnew1;
+	
+	/* X-path for type */
+	@FindBy(xpath = "//input[@placeholder='Select here']")
+	private WebElement assettype;
+
+	/* X-path for dropdown value */
+	@FindBy(xpath = "//div[contains(text(),'Vehicle')]")
+	private WebElement vehicle;
+
+	/* X-path for vehicle name */
+	@FindBy(xpath = "//input[@id='vehicle_name_input']")
+	private WebElement vehiclename;
+	
+	/* X-path for vehiclenumber */
+	@FindBy(xpath = "//input[@id='vehicle_number_input']")
+	private WebElement vehicleno;
+	
+	/* X-path for make */
+	@FindBy(xpath = "//input[@id='make_id']")
+	private WebElement make;
+
+	/* X-path for model */
+	@FindBy(xpath = "//input[@id='model_id']")
+	private WebElement model;
+	
+	/* X-path for enginenumber */
+	@FindBy(xpath = "//input[@id='engine_number_input']")
+	private WebElement engineno;
+	
+	/* X-path for classgvwr */
+	@FindBy(xpath = "//input[@id='class_gvwr_input']")
+	private WebElement classgvwr;
+	
+	/* X-path for weightcapacity */
+	@FindBy(xpath = "//div[contains(@class,'ant-input-number-input-wrap')]//input[@placeholder='Enter here']")
+	private WebElement weightcapacity;
+	
+	/* X-path for dropdown */
+	@FindBy(xpath = "//span[@title='lbs']")
+	private WebElement uom;
+	
+	/* X-path for kgs */
+	@FindBy(xpath = "//div[contains(@class,'ant-select-item-option-content')][normalize-space()='kgs']")
+	private WebElement dropdown;
+	
+	/* X-path for Add button */
+	@FindBy(xpath = "//button[@id='org_invite_button']")
+	private WebElement add;
+
+
+
+	
 
 
 	public void tracemudulesdashboard() throws InterruptedException {
@@ -346,7 +409,7 @@ public class Tracemodules {
 	
 	public void tracemudulenetworkmgmt() throws InterruptedException {
 		Thread.sleep(8000);
-		actionutil.clickOnElement(trace, "click on trace");
+		//actionutil.clickOnElement(trace, "click on trace");
 		Thread.sleep(2000);
 			
 		 actionutil.clickOnElement(networkmgmt, "Network Management is clicked");
@@ -418,11 +481,10 @@ public class Tracemodules {
 			actionutil.clickOnElement(outermodal, "Press the signin button");
 			actionutil.scrollDown();
 			actionutil.clickOnElement(checkbox, "Press the signin button");
-			actionutil.clickOnElement(modalbutton, "Press the button");
-	
-	
+			actionutil.clickOnElement(modalbutton, "Press the button");	
 		return;
 	}
+	
 	
 
 }

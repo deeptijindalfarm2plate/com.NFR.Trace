@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import com.demo.baseutil.Basetest;
 import com.demo.baseutil.Basetest2;
 
-public class Tracemodules extends Basetest2 {
+public class Traceinfra extends Basetest2 {
 
 	/**
 	 * Description: Navigating to sigin page verifying UI of the page
@@ -27,11 +27,10 @@ public class Tracemodules extends Basetest2 {
 	
 	
 	  @Test(priority = 1, description = "Verify UI of the Sigin Page", enabled = true)
-	  public void verifytracemodule() throws InterruptedException {
+	  public void verifytraceinfra() throws InterruptedException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
-	 // pages.modules.tracemudulesdashboard();
-	  pages.modules.tracemudulenetworkmgmt();
+	 	  pages.infrapage.infra();
 	  
 	  }
 	  
