@@ -12,8 +12,8 @@
         <methods>
           <include name="createFolder"/>
           <include name="browserclose"/>
-          <include name="verifysignin"/>
           <include name="launchBrowser"/>
+          <include name="verifytracemodule"/>
           <include name="setExtentReport"/>
           <include name="killTask"/>
         </methods>

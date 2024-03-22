@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T13:52:14Z" name="Suite" finished-at="2024-03-21T13:53:41Z" duration-ms="87073">
+  <suite started-at="2024-03-22T07:48:58Z" name="Suite" finished-at="2024-03-22T07:50:11Z" duration-ms="73104">
     <groups>
     </groups>
-    <test started-at="2024-03-21T13:52:14Z" name="Test" finished-at="2024-03-21T13:53:41Z" duration-ms="87073">
+    <test started-at="2024-03-22T07:48:58Z" name="Test" finished-at="2024-03-22T07:50:11Z" duration-ms="73104">
       <class name="com.demo.testscripts.Tracemodules">
-        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-21T13:52:14Z" name="createFolder" finished-at="2024-03-21T13:52:14Z" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-22T07:48:57Z" name="createFolder" finished-at="2024-03-22T07:48:58Z" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFolder -->
-        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-21T13:52:14Z" name="setExtentReport" finished-at="2024-03-21T13:52:14Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-22T07:48:58Z" name="setExtentReport" finished-at="2024-03-22T07:48:58Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-21T13:52:14Z" name="launchBrowser" finished-at="2024-03-21T13:52:40Z" duration-ms="26114" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-22T07:48:58Z" name="launchBrowser" finished-at="2024-03-22T07:49:27Z" duration-ms="29163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,22 +24,84 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.demo.testscripts.Tracemodules.verifysignin() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.demo.testscripts.Tracemodules.verifytracemodule() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifysignin()[pri:1, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-21T13:52:40Z" name="verifysignin" description="Verify UI of the Sigin Page" finished-at="2024-03-21T13:53:41Z" duration-ms="60640" status="PASS">
+        <test-method signature="verifytracemodule()[pri:1, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-22T07:49:27Z" name="verifytracemodule" description="Verify UI of the Sigin Page" finished-at="2024-03-22T07:50:11Z" duration-ms="43648" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (418, -253)
+  (Session info: chrome=122.0.6261.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.128, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a7e02ecc1c517dc0bd3d495a9bcaa99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (418, -253)
+  (Session info: chrome=122.0.6261.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.128, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a7e02ecc1c517dc0bd3d495a9bcaa99
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:965)
+at com.demo.pages.Tracemodules.tracemudulenetworkmgmt(Tracemodules.java:354)
+at com.demo.testscripts.Tracemodules.verifytracemodule(Tracemodules.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifysignin -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-21T13:53:41Z" name="browserclose" finished-at="2024-03-21T13:53:41Z" duration-ms="0" status="PASS">
+        </test-method> <!-- verifytracemodule -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-22T07:50:11Z" name="browserclose" finished-at="2024-03-22T07:50:11Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-21T13:53:42Z" name="killTask" finished-at="2024-03-21T13:53:42Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Tracemodules@46074492]" started-at="2024-03-22T07:50:12Z" name="killTask" finished-at="2024-03-22T07:50:12Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>

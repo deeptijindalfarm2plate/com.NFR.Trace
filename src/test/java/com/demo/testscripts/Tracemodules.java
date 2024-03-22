@@ -30,7 +30,8 @@ public class Tracemodules extends Basetest2 {
 	  public void verifytracemodule() throws InterruptedException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
-	  pages.modules.tracemudules();
+	 // pages.modules.tracemudulesdashboard();
+	  pages.modules.tracemudulenetworkmgmt();
 	  
 	  }
 	  
