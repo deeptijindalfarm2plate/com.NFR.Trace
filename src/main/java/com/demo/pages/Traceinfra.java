@@ -22,6 +22,8 @@ public class Traceinfra {
 	public WebActionUtil actionutil;
 	public long eto = 30;
 	int randomNumber = new Random().nextInt(1000);
+	int randomNumber1= new Random().nextInt(13);
+	String randomNumber12 = actionutil.generateRandomNumber(13);
 	String randomValue;
 	String emailaddress = randomNumber + "@yopmail.com";
     
@@ -91,8 +93,14 @@ public class Traceinfra {
 	
 	public void infra() throws InterruptedException
 	 {
-		
-		 Thread.sleep(5000);
+		Thread.sleep(8000);
+		actionutil.clickOnElement(trace, "click on trace");
+		Thread.sleep(4000);
+		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", assetinfra);
+		//actionutil.scrollDown();
+		 Thread.sleep(2000);
+		 actionutil.clickOnElement(assetinfra, "Asset & Infrastructure Data is clicked");
+		 Thread.sleep(2000);
 		 actionutil.clickOnElement(infra, "Infra is clicked");
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(addnew, "Add new is clicked");
@@ -102,7 +110,9 @@ public class Traceinfra {
 		 actionutil.clickOnElement(locationtype, "Asset type is clicked");
 		 actionutil.clickOnElement(packagingtype, "vehicle is selected");
 		 actionutil.clickOnElement(gln, "Click on GLN");
-		 actionutil.typeText(gln,"9999978912345", "enter the GLN");
+		 //actionutil.typeText(gln,"9999978912345", "enter the GLN");
+		 actionutil.typeText(gln,randomNumber12, "enter the GLN");
+		 
 		 actionutil.clickOnElement(address, "Click on address");
 		 actionutil.typeText(address,"Bangalore Palace, Palace Cross Road, Vasanth Nagar, Bengaluru, Karnataka, India", "enter the  address");
 	   	 actionutil.clickOnElement(state, "Click on state");
@@ -111,7 +121,10 @@ public class Traceinfra {
 		 actionutil.typeText(city, "Bengaluru", "Enetered the city");
 		 actionutil.clickOnElement(zipcode, "Click on zip");
 		 actionutil.typeText(zipcode, "560052", "Enetred the Zip");
-		 actionutil.scrollDown();
+		 actionutil.scrollDowntoelement(addbutton);
+		 //((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", addbutton);
+		// actionutil.scrollDown();
+		// actionutil.scrollDown();
 		 actionutil.clickOnElement(addbutton, "Click on Add button");
 		 Thread.sleep(1000);	
 

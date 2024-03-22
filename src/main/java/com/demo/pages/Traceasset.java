@@ -105,6 +105,9 @@ public class Traceasset {
 		Thread.sleep(8000);
 		actionutil.clickOnElement(trace, "click on trace");
 		Thread.sleep(4000);
+		 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", assetinfra);
+		//actionutil.scrollDown();
+		 Thread.sleep(2000);
 		 actionutil.clickOnElement(assetinfra, "Asset & Infrastructure Data is clicked");
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(asset, "Assets is clicked");
@@ -133,6 +136,7 @@ public class Traceasset {
 		 actionutil.typeText(weightcapacity,"100", "enter the weight capacity");
 		 actionutil.clickOnElement(uom, "UoM is clicked");
 		 actionutil.clickOnElement(dropdown, "KGS is selected");
+		 actionutil.scrollDown();
 		 actionutil.clickOnElement(add, "Click on Add button");
 		 Thread.sleep(1000);	
 

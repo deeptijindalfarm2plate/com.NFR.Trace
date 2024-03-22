@@ -483,6 +483,16 @@ public class WebActionUtil extends Basetest {
 	 *
 	 * @author Deepti Jindal
 	 */
+	
+	public synchronized void scrollDowntoelement(WebElement element) {
+		try {
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+			Thread.sleep(2000);
+			info("Scroll down");
+		} catch (Exception e) {
+			error("Scroll down failed");
+		}
+	}
 	public synchronized void scrollDown() {
 		try {
 			jsExecutor.executeScript("window.scrollBy(0,100)");
@@ -1259,7 +1269,16 @@ public class WebActionUtil extends Basetest {
 	    }
 	
 	 
-	 
+	    public static String generateRandomNumber(int length) {
+	        StringBuilder sb = new StringBuilder();
+	        Random random = new Random();
+	        for (int i = 0; i < length; i++) {
+	            // Generate a random digit between 0 and 9
+	            int digit = random.nextInt(10);
+	            sb.append(digit);
+	        }
+	        return sb.toString();
+	    }
 	 
 	 
 }

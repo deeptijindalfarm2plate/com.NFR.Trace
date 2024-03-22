@@ -8,16 +8,16 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.demo.testscripts.Tracemodules">
+      <class name="com.demo.testscripts.Traceinfra">
         <methods>
+          <include name="verifytraceinfra"/>
           <include name="createFolder"/>
           <include name="browserclose"/>
           <include name="launchBrowser"/>
-          <include name="verifytracemodule"/>
           <include name="setExtentReport"/>
           <include name="killTask"/>
         </methods>
-      </class> <!-- com.demo.testscripts.Tracemodules -->
+      </class> <!-- com.demo.testscripts.Traceinfra -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
