@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Traceproducts" class="method navigator-link" hash-for-method="verifytracedashbaord">verifytracedashbaord</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Traceprocess" class="method navigator-link" hash-for-method="verifytracedashbaord">verifytracedashbaord</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.demo.testscripts.Traceproducts</span>
+              <span class="class-name">com.demo.testscripts.Traceprocess</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -151,7 +151,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.demo.testscripts.Traceproducts&quot;/&gt;
+      &lt;class name=&quot;com.demo.testscripts.Traceprocess&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -194,13 +194,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifytracedashbaord')
-data.setCell(0, 2, 'com.demo.testscripts.Traceproducts')
-data.setCell(0, 3, 184486);
+data.setCell(0, 2, 'com.demo.testscripts.Traceprocess')
+data.setCell(0, 3, 60948);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -226,30 +226,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.demo.testscripts.Traceproducts</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.demo.testscripts.Traceprocess</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">createFolder</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">136 ms</span>
+                <span class="method-start">154 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceproducts.verifytracedashbaord() throws java.lang.Inter...)</span>
-                <span class="method-start">160 ms</span>
+                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceprocess.verifytracedashbaord() throws java.lang.Interr...)</span>
+                <span class="method-start">178 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifytracedashbaord</span>
-                <span class="method-start">18233 ms</span>
+                <span class="method-start">28555 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">203208 ms</span>
+                <span class="method-start">89805 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">killTask(chrome)</span>
-                <span class="method-start">203971 ms</span>
+                <span class="method-start">90517 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
