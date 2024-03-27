@@ -196,9 +196,15 @@ public class Traceproduct {
 	/* X-path for autosearch*/
 	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[3]/div[3]/div/div/div[2]/ul")
 	private WebElement autosearch1;
+	
 	/* X-path for autosearch*/
 	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[4]/div[3]/div/div/div[2]/ul")
 	private WebElement autosearch2;
+	
+	/* X-path for prodcut id*/
+	@FindBy(xpath = "//tr[1]/th[2]")
+	private WebElement productidsaved;
+	
 	
 	public void products() throws InterruptedException
 	 {
@@ -327,6 +333,9 @@ public class Traceproduct {
 		 actionutil.scrollDowntoelement(registerproduct);
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(registerproduct, "Click on registerproduct");
+		 Thread.sleep(5000);
+		 String saved = productidsaved.getText();
+		 System.out.println(" Print the value of saved" + "  " + saved);
 		 
 
 	 }
