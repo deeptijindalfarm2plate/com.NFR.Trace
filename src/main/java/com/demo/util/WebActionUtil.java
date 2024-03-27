@@ -486,6 +486,7 @@ public class WebActionUtil extends Basetest {
 	
 	public synchronized void scrollDowntoelement(WebElement element) {
 		try {
+			Thread.sleep(2000);
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 			Thread.sleep(2000);
 			info("Scroll down");
