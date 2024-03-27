@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-27T10:07:28Z" name="Suite" finished-at="2024-03-27T10:10:53Z" duration-ms="205299">
+  <suite started-at="2024-03-27T10:55:34Z" name="Suite" finished-at="2024-03-27T10:58:57Z" duration-ms="203095">
     <groups>
     </groups>
-    <test started-at="2024-03-27T10:07:28Z" name="Test" finished-at="2024-03-27T10:10:53Z" duration-ms="205299">
+    <test started-at="2024-03-27T10:55:34Z" name="Test" finished-at="2024-03-27T10:58:57Z" duration-ms="203095">
       <class name="com.demo.testscripts.Traceproducts">
-        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:07:28Z" name="createFolder" finished-at="2024-03-27T10:07:28Z" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:55:34Z" name="createFolder" finished-at="2024-03-27T10:55:34Z" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFolder -->
-        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:07:28Z" name="setExtentReport" finished-at="2024-03-27T10:07:28Z" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:55:34Z" name="setExtentReport" finished-at="2024-03-27T10:55:34Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:07:28Z" name="launchBrowser" finished-at="2024-03-27T10:07:51Z" duration-ms="23249" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:55:34Z" name="launchBrowser" finished-at="2024-03-27T10:55:52Z" duration-ms="18073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,22 +24,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.demo.testscripts.Traceproducts.verifytracedashbaord() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.demo.testscripts.Traceproducts.verifytracedashbaord() throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifytracedashbaord()[pri:1, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:07:51Z" name="verifytracedashbaord" description="Verify UI of product Page" finished-at="2024-03-27T10:10:53Z" duration-ms="181531" status="PASS">
+        <test-method signature="verifytracedashbaord()[pri:1, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:55:52Z" name="verifytracedashbaord" description="Verify UI of product Page" finished-at="2024-03-27T10:58:57Z" duration-ms="184486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifytracedashbaord -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:10:53Z" name="browserclose" finished-at="2024-03-27T10:10:53Z" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:58:57Z" name="browserclose" finished-at="2024-03-27T10:58:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:10:54Z" name="killTask" finished-at="2024-03-27T10:10:54Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Traceproducts@46074492]" started-at="2024-03-27T10:58:58Z" name="killTask" finished-at="2024-03-27T10:58:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -6,6 +6,8 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 
 import org.openqa.selenium.By;
@@ -33,6 +35,7 @@ public class Traceproduct {
 	String proname = "wheat" + randomNumber;
  	String userDir = System.getProperty("user.dir");
 	String imageaddress1 = userDir + "\\src\\test\\resources\\data\\img.jpg";
+	String filePath = userDir +  "\\src\\test\\resources\\data\\file.txt";
 	String imageaddress= "C:\\Users\\Deepti Jindal\\eclipse-workspace\\com.NFR.Trace\\src\\test\\resources\\data\\img.jpg";
 	
     
@@ -205,8 +208,13 @@ public class Traceproduct {
 	@FindBy(xpath = "//tr[1]/th[2]")
 	private WebElement productidsaved;
 	
+	/* X-path for table*/
+	@FindBy(xpath = "//*[@id='myId']/div[1]")
+	private WebElement table;
+
 	
-	public void products() throws InterruptedException
+	
+	public void products() throws InterruptedException, IOException
 	 {
 		Thread.sleep(8000);
 		actionutil.clickOnElement(trace, "click on trace");
@@ -328,6 +336,8 @@ public class Traceproduct {
 		 actionutil.clickOnElement(gln3, "Click on gln3");
 		 actionutil.typeText(gln3, "0956265002424", "gln3 is entered");
 		 Thread.sleep(2000);
+		 actionutil.scrollToElement(table, "scrolldown to table:");
+		 Thread.sleep(2000);
 		 actionutil.clickOnElement(autosearch2, "Click on autosearch");
 		 Thread.sleep(2000);
 		 actionutil.scrollDowntoelement(registerproduct);
@@ -335,8 +345,16 @@ public class Traceproduct {
 		 actionutil.clickOnElement(registerproduct, "Click on registerproduct");
 		 Thread.sleep(5000);
 		 String saved = productidsaved.getText();
+		 String savedinfile = " product id:   " + saved;
 		 System.out.println(" Print the value of saved" + "  " + saved);
 		 
+		// String filePath = "/path/to/your/file.txt";
+
+         // Initialize FileWriter in append mode
+         FileWriter writer = new FileWriter(filePath, true);
+         writer.write(savedinfile + "\n"); // Write the first value
+         writer.write(saved + "\n"); // Write the first value
+         writer.close();
 
 	 }
 	}
