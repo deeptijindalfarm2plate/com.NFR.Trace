@@ -6,6 +6,7 @@ import com.demo.pages.Tracelogin;
 import com.demo.pages.Tracelogin2;
 import com.demo.pages.Tracesigninpage;
 import com.demo.pages.Tracesignuppage;
+import com.demo.pages.Tracetransaction;
 import com.demo.pages.Tracelogout;
 import com.demo.pages.Tracenetworkmgmt;
 import com.demo.pages.Traceprocess;
@@ -35,6 +36,7 @@ public class Initializepages extends Basetest2 {
 	public Traceinfra infrapage;
 	public Traceproduct products;
 	public Traceprocess process;
+	public Tracetransaction transaction;
 	
 	public Initializepages(WebDriver driver, long eto, WebActionUtil actionutil) {
 
@@ -49,6 +51,7 @@ public class Initializepages extends Basetest2 {
 		infrapage= new Traceinfra(driver, eto,actionutil);
 		products = new Traceproduct(driver, eto,actionutil);
 		process = new Traceprocess(driver, eto,actionutil);
+		transaction = new Tracetransaction(driver, eto,actionutil);
 	}
 
 }
