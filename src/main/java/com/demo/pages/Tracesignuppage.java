@@ -264,6 +264,7 @@ public class Tracesignuppage {
 		//  String emailaddress = randomNumber + "@yopmail.com";
 		  System.out.println("Print the value of emailadress" + emailaddress);
 		 actionutil.typeText(email, emailaddress, "emailid is Entered");
+		 actionutil.scrollDown();
 		 actionutil.clickOnElement(dbtype, "Database Type is clicked");
 		 actionutil.clickOnElement(fabric, "Db is selected");
 		 Thread.sleep(2000);

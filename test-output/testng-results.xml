@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="10" total="16" passed="5" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Failed to close the Browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-04-01T12:50:16Z" name="Suite" finished-at="2024-04-01T12:55:49Z" duration-ms="332360">
+  <suite started-at="2024-04-01T14:06:33Z" name="Suite" finished-at="2024-04-01T14:19:38Z" duration-ms="785795">
     <groups>
     </groups>
-    <test started-at="2024-04-01T12:50:16Z" name="Test" finished-at="2024-04-01T12:55:49Z" duration-ms="332360">
-      <class name="com.demo.testscripts.Tracetransaction">
-        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Tracetransaction@46074492]" started-at="2024-04-01T12:50:16Z" name="createFolder" finished-at="2024-04-01T12:50:16Z" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createFolder -->
-        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracetransaction@46074492]" started-at="2024-04-01T12:50:16Z" name="setExtentReport" finished-at="2024-04-01T12:50:16Z" duration-ms="16" status="PASS">
+    <test started-at="2024-04-01T14:06:33Z" name="Test" finished-at="2024-04-01T14:19:38Z" duration-ms="785795">
+      <class name="com.demo.testscripts.Tracenetasset">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracenetasset@32057e6]" started-at="2024-04-01T14:13:48Z" name="setExtentReport" finished-at="2024-04-01T14:13:48Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracetransaction@46074492]" started-at="2024-04-01T12:50:16Z" name="launchBrowser" finished-at="2024-04-01T12:50:32Z" duration-ms="15474" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracenetasset@32057e6]" started-at="2024-04-01T14:13:48Z" name="launchBrowser" finished-at="2024-04-01T14:14:01Z" duration-ms="13272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,22 +23,238 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.demo.testscripts.Tracetransaction.verifytracedashbaord() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void com.demo.testscripts.Tracenetasset.verifytraceassests() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifytracedashbaord()[pri:1, instance:com.demo.testscripts.Tracetransaction@46074492]" started-at="2024-04-01T12:50:32Z" name="verifytracedashbaord" description="Verify UI of product Page" finished-at="2024-04-01T12:55:49Z" duration-ms="316659" status="PASS">
+        <test-method signature="verifytraceassests()[pri:1, instance:com.demo.testscripts.Tracenetasset@32057e6]" started-at="2024-04-01T14:14:01Z" name="verifytraceassests" description="Verify UI of the Sigin Page" finished-at="2024-04-01T14:15:23Z" duration-ms="81709" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifytracedashbaord -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracetransaction@46074492]" started-at="2024-04-01T12:55:49Z" name="browserclose" finished-at="2024-04-01T12:55:49Z" duration-ms="2" status="PASS">
+        </test-method> <!-- verifytraceassests -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracenetasset@32057e6]" started-at="2024-04-01T14:15:23Z" name="browserclose" finished-at="2024-04-01T14:15:23Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Tracetransaction@46074492]" started-at="2024-04-01T12:55:49Z" name="killTask" finished-at="2024-04-01T12:55:49Z" duration-ms="0" status="PASS">
+      </class> <!-- com.demo.testscripts.Tracenetasset -->
+      <class name="com.demo.testscripts.Tracenetworkmanagement">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracenetworkmanagement@62417a16]" started-at="2024-04-01T14:11:06Z" name="launchBrowser" finished-at="2024-04-01T14:11:19Z" duration-ms="12347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.testscripts.Tracenetworkmanagement.verifytracenwmgmt() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracenetworkmanagement@62417a16]" started-at="2024-04-01T14:11:06Z" name="setExtentReport" finished-at="2024-04-01T14:11:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method signature="verifytracenwmgmt()[pri:1, instance:com.demo.testscripts.Tracenetworkmanagement@62417a16]" started-at="2024-04-01T14:11:19Z" name="verifytracenwmgmt" description="Verify UI of the Sigin Page" finished-at="2024-04-01T14:13:48Z" duration-ms="148890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytracenwmgmt -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracenetworkmanagement@62417a16]" started-at="2024-04-01T14:13:48Z" name="browserclose" finished-at="2024-04-01T14:13:48Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.demo.testscripts.Tracenetworkmanagement -->
+      <class name="com.demo.testscripts.Traceinfra">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Traceinfra@26be6ca7]" started-at="2024-04-01T14:15:23Z" name="launchBrowser" finished-at="2024-04-01T14:15:35Z" duration-ms="12182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.testscripts.Traceinfra.verifytraceinfra() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Traceinfra@26be6ca7]" started-at="2024-04-01T14:15:23Z" name="setExtentReport" finished-at="2024-04-01T14:15:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method signature="verifytraceinfra()[pri:1, instance:com.demo.testscripts.Traceinfra@26be6ca7]" started-at="2024-04-01T14:15:35Z" name="verifytraceinfra" description="Verify UI of the Sigin Page" finished-at="2024-04-01T14:16:50Z" duration-ms="74097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytraceinfra -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Traceinfra@26be6ca7]" started-at="2024-04-01T14:16:50Z" name="browserclose" finished-at="2024-04-01T14:16:50Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.demo.testscripts.Traceinfra -->
+      <class name="com.demo.testscripts.Traceproducts">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Traceproducts@6ea1bcdc]" started-at="2024-04-01T14:16:50Z" name="launchBrowser" finished-at="2024-04-01T14:17:03Z" duration-ms="13572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.testscripts.Traceproducts.verifytracedashbaord() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Traceproducts@6ea1bcdc]" started-at="2024-04-01T14:16:50Z" name="setExtentReport" finished-at="2024-04-01T14:16:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method signature="verifytracedashbaord()[pri:1, instance:com.demo.testscripts.Traceproducts@6ea1bcdc]" started-at="2024-04-01T14:17:03Z" name="verifytracedashbaord" description="Verify UI of product Page" finished-at="2024-04-01T14:19:38Z" duration-ms="154697" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input tabindex="-1" class="form-control CustomSelectInput_customSelectInputField__3_jnu DefaultProcessTable_customSelectInputFieldClass__Dbr_P  undefined CustomSelectInput_customSelectInputBoxSelectReadOnly__1dtVf" type="text" autocomplete="off" placeholder="Search and Select" value=""> is not clickable at point (957, 296). Other element would receive the click: <div class="d-flex align-items-center">...</div>
+  (Session info: chrome=123.0.6312.60)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55235b01de1728543418ff4600251f2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input tabindex="-1" class="form-control CustomSelectInput_customSelectInputField__3_jnu DefaultProcessTable_customSelectInputFieldClass__Dbr_P  undefined CustomSelectInput_customSelectInputBoxSelectReadOnly__1dtVf" type="text" autocomplete="off" placeholder="Search and Select" value=""> is not clickable at point (957, 296). Other element would receive the click: <div class="d-flex align-items-center">...</div>
+  (Session info: chrome=123.0.6312.60)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55235b01de1728543418ff4600251f2a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:976)
+at com.demo.pages.Traceproduct.products(Traceproduct.java:338)
+at com.demo.testscripts.Traceproducts.verifytracedashbaord(Traceproducts.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytracedashbaord -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Traceproducts@6ea1bcdc]" started-at="2024-04-01T14:19:38Z" name="browserclose" finished-at="2024-04-01T14:19:38Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.demo.testscripts.Traceproducts -->
+      <class name="com.demo.testscripts.Tracedashboard">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracedashboard@1b0a7baf]" started-at="2024-04-01T14:09:50Z" name="launchBrowser" finished-at="2024-04-01T14:10:03Z" duration-ms="12716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.testscripts.Tracedashboard.verifytracedashbaord() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracedashboard@1b0a7baf]" started-at="2024-04-01T14:09:50Z" name="setExtentReport" finished-at="2024-04-01T14:09:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method signature="verifytracedashbaord()[pri:1, instance:com.demo.testscripts.Tracedashboard@1b0a7baf]" started-at="2024-04-01T14:10:03Z" name="verifytracedashbaord" description="Verify UI of the Sigin Page" finished-at="2024-04-01T14:11:06Z" duration-ms="63353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytracedashbaord -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracedashboard@1b0a7baf]" started-at="2024-04-01T14:11:06Z" name="browserclose" finished-at="2024-04-01T14:11:06Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.demo.testscripts.Tracedashboard -->
+      <class name="com.demo.testscripts.Tracesignuppage">
+        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Tracesignuppage@70fab835]" started-at="2024-04-01T14:06:33Z" name="createFolder" finished-at="2024-04-01T14:06:33Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFolder -->
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracesignuppage@70fab835]" started-at="2024-04-01T14:06:33Z" name="setExtentReport" finished-at="2024-04-01T14:06:33Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracesignuppage@70fab835]" started-at="2024-04-01T14:06:33Z" name="launchBrowser" finished-at="2024-04-01T14:06:46Z" duration-ms="13422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.testscripts.Tracesignuppage.verifysignin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifysignin()[pri:1, instance:com.demo.testscripts.Tracesignuppage@70fab835]" started-at="2024-04-01T14:06:46Z" name="verifysignin" description="Verify UI of the Sigin Page" finished-at="2024-04-01T14:09:50Z" duration-ms="183651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysignin -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracesignuppage@70fab835]" started-at="2024-04-01T14:09:50Z" name="browserclose" finished-at="2024-04-01T14:09:50Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Tracesignuppage@70fab835]" started-at="2024-04-01T14:19:39Z" name="killTask" finished-at="2024-04-01T14:19:39Z" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,9 +263,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Failed to close the Browser]]>
+            </line>
           </reporter-output>
         </test-method> <!-- killTask -->
-      </class> <!-- com.demo.testscripts.Tracetransaction -->
+      </class> <!-- com.demo.testscripts.Tracesignuppage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

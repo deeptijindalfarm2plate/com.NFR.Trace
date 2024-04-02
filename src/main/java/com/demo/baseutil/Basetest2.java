@@ -135,7 +135,7 @@ public class Basetest2 {
 		public void browserclose() {
 		WebActionUtil actionutil = new WebActionUtil(driver, ETO);
 			try {
-			//	driver.close();
+				driver.close();
 				
 				actionutil.info("Browser is closed sucessfuly");
 			} catch (Exception e) {
@@ -155,8 +155,8 @@ public class Basetest2 {
 	public synchronized void killTask(String browserName) {
 		try {
 			if (driver != null) {
-           //  driver.close();
-		////	driver.quit();
+            driver.close();
+			driver.quit();
 
 			} else {
 				WebActionUtil.error("Failed to close the Browser");

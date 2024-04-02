@@ -279,6 +279,8 @@ public class Traceproduct {
 		 //actionutil.scrollDowntoelement(addbutton);
 		// ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ingredientname);
 		actionutil.scrollDown();
+		Thread.sleep(2000);
+		actionutil.scrollDown();
 		//actionutil.scrollDowntoelement(ingredientname);
 		//actionutil.scrollToElement1(ingredientname, "scroll to ingredientname");
 		//actionutil.scrollToElement(ingredientname, "Scroll to ingredientname");
