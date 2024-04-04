@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Traceproducts" class="method navigator-link" hash-for-method="verifytracedashbaord">verifytracedashbaord</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracesignuppage" class="method navigator-link" hash-for-method="verifysignin">verifysignin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracetransaction" class="method navigator-link" hash-for-method="verifytracetransaction">verifytracetransaction</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -116,7 +121,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracesignuppage" class="method navigator-link" hash-for-method="verifysignin">verifysignin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Traceproducts" class="method navigator-link" hash-for-method="verifyproducts">verifyproducts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -139,6 +144,11 @@
                         <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracenetworkmanagement" class="method navigator-link" hash-for-method="verifytracenwmgmt">verifytracenwmgmt</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Traceprocess" class="method navigator-link" hash-for-method="verifytraceprocess">verifytraceprocess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -154,21 +164,76 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.demo.testscripts.Traceproducts</span>
+              <span class="class-name">com.demo.testscripts.Tracetransaction</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifytracedashbaord">
-                  </a> <!-- verifytracedashbaord -->
-                  <span class="method-name">verifytracedashbaord</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input tabindex=&quot;-1&quot; class=&quot;form-control CustomSelectInput_customSelectInputField__3_jnu DefaultProcessTable_customSelectInputFieldClass__Dbr_P  undefined CustomSelectInput_customSelectInputBoxSelectReadOnly__1dtVf&quot; type=&quot;text&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search and Select&quot; value=&quot;&quot;&gt; is not clickable at point (957, 296). Other element would receive the click: &lt;div class=&quot;d-flex align-items-center&quot;&gt;...&lt;/div&gt;
+                  <a name="verifytracetransaction">
+                  </a> <!-- verifytracetransaction -->
+                  <span class="method-name">verifytracetransaction</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;prod_id_undefined&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:983)
+	at com.demo.pages.Tracetransaction.transactionagg(Tracetransaction.java:385)
+	at com.demo.testscripts.Tracetransaction.verifytracetransaction(Tracetransaction.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;prod_id_undefined&apos;]&quot;}
+  (Session info: chrome=123.0.6312.60)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PARAMOUNT-151&apos;, ip: &apos;192.168.29.169&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 709034697600dc164589f8aff371c48d
+*** Element info: {Using=xpath, value=//*[@id=&apos;prod_id_undefined&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify UI of product Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demo.testscripts.Tracesignuppage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifysignin">
+                  </a> <!-- verifysignin -->
+                  <span class="method-name">verifysignin</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;modal-dialog CustomModal_modalDialog__TxXas MyAccount_dialogCss__8K4Qc  undefined undefined&quot;&gt;...&lt;/div&gt; is not clickable at point (637, 266). Other element would receive the click: &lt;h5&gt;...&lt;/h5&gt;
   (Session info: chrome=123.0.6312.60)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PARAMOUNT-151&apos;, ip: &apos;192.168.29.169&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 55235b01de1728543418ff4600251f2a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65e8716c64126f00c7c8e1184db0e6c9
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -178,18 +243,35 @@ Session ID: 55235b01de1728543418ff4600251f2a
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
 	at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:976)
-	at com.demo.pages.Traceproduct.products(Traceproduct.java:338)
-	at com.demo.testscripts.Traceproducts.verifytracedashbaord(Traceproducts.java:33)
+	at com.demo.pages.Tracesignuppage.networkmanagment(Tracesignuppage.java:312)
+	at com.demo.testscripts.Tracesignuppage.verifysignin(Tracesignuppage.java:33)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
+                  <em>
+(Verify UI of the Sigin Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.testscripts.Traceprocess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytraceprocess">
+                  </a> <!-- verifytraceprocess -->
+                  <span class="method-name">verifytraceprocess</span>
                   <em>
 (Verify UI of product Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -203,6 +285,23 @@ Session ID: 55235b01de1728543418ff4600251f2a
                   <span class="method-name">verifytracenwmgmt</span>
                   <em>
 (Verify UI of the Sigin Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.testscripts.Traceproducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyproducts">
+                  </a> <!-- verifyproducts -->
+                  <span class="method-name">verifyproducts</span>
+                  <em>
+(Verify UI of product Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -258,23 +357,6 @@ Session ID: 55235b01de1728543418ff4600251f2a
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.demo.testscripts.Tracesignuppage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifysignin">
-                  </a> <!-- verifysignin -->
-                  <span class="method-name">verifysignin</span>
-                  <em>
-(Verify UI of the Sigin Page)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -298,6 +380,8 @@ Session ID: 55235b01de1728543418ff4600251f2a
       &lt;class name=&quot;com.demo.testscripts.Tracenetasset&quot;/&gt;
       &lt;class name=&quot;com.demo.testscripts.Traceinfra&quot;/&gt;
       &lt;class name=&quot;com.demo.testscripts.Traceproducts&quot;/&gt;
+      &lt;class name=&quot;com.demo.testscripts.Traceprocess&quot;/&gt;
+      &lt;class name=&quot;com.demo.testscripts.Tracetransaction&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -311,7 +395,7 @@ Session ID: 55235b01de1728543418ff4600251f2a
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (6 classes)</span>
+                <span class="test-name">Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -337,36 +421,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifysignin')
-data.setCell(0, 2, 'com.demo.testscripts.Tracesignuppage')
-data.setCell(0, 3, 183651);
+data.setCell(0, 1, 'verifyproducts')
+data.setCell(0, 2, 'com.demo.testscripts.Traceproducts')
+data.setCell(0, 3, 221943);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifytracedashbaord')
-data.setCell(1, 2, 'com.demo.testscripts.Traceproducts')
-data.setCell(1, 3, 154697);
+data.setCell(1, 1, 'verifytracetransaction')
+data.setCell(1, 2, 'com.demo.testscripts.Tracetransaction')
+data.setCell(1, 3, 221421);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifytracenwmgmt')
-data.setCell(2, 2, 'com.demo.testscripts.Tracenetworkmanagement')
-data.setCell(2, 3, 148890);
+data.setCell(2, 1, 'verifytraceprocess')
+data.setCell(2, 2, 'com.demo.testscripts.Traceprocess')
+data.setCell(2, 3, 203722);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifytraceassests')
-data.setCell(3, 2, 'com.demo.testscripts.Tracenetasset')
-data.setCell(3, 3, 81709);
+data.setCell(3, 1, 'verifytracenwmgmt')
+data.setCell(3, 2, 'com.demo.testscripts.Tracenetworkmanagement')
+data.setCell(3, 3, 146253);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifytraceinfra')
-data.setCell(4, 2, 'com.demo.testscripts.Traceinfra')
-data.setCell(4, 3, 74097);
+data.setCell(4, 1, 'verifysignin')
+data.setCell(4, 2, 'com.demo.testscripts.Tracesignuppage')
+data.setCell(4, 3, 138978);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifytracedashbaord')
-data.setCell(5, 2, 'com.demo.testscripts.Tracedashboard')
-data.setCell(5, 3, 63353);
+data.setCell(5, 1, 'verifytraceassests')
+data.setCell(5, 2, 'com.demo.testscripts.Tracenetasset')
+data.setCell(5, 3, 81127);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifytraceinfra')
+data.setCell(6, 2, 'com.demo.testscripts.Traceinfra')
+data.setCell(6, 3, 71828);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifytracedashbaord')
+data.setCell(7, 2, 'com.demo.testscripts.Tracedashboard')
+data.setCell(7, 3, 61763);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <span class="suite-total-time">Total running time: 19 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -377,15 +469,32 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifytracetransaction</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">productid is selected is not clickable</span>
+                <span class="reporter-method-output">Unable to click on productid is selected</span>
+                <span class="reporter-method-output">Unable to click on productid is selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">10 ignored methods</span>
+            <span class="header-content">14 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.demo.testscripts.Tracenetworkmanagement</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createFolder</span>
+                <br/>
+                <span class="ignored-method-name">killTask</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.demo.testscripts.Traceprocess</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">createFolder</span>
                 <br/>
@@ -421,6 +530,15 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.demo.testscripts.Tracetransaction</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createFolder</span>
+                <br/>
+                <span class="ignored-method-name">killTask</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.demo.testscripts.Tracenetasset</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">createFolder</span>
@@ -444,123 +562,195 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">116 ms</span>
+                <span class="method-start">120 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracesignuppage.verifysignin() throws java.lang.Interrupted...)</span>
-                <span class="method-start">130 ms</span>
+                <span class="method-start">134 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifysignin</span>
-                <span class="method-start">13552 ms</span>
+                <span class="method-start">20395 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">197421 ms</span>
+                <span class="method-start">159673 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">159688 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.testscripts.Tracedashboard</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">197515 ms</span>
+                <span class="method-start">160248 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracedashboard.verifytracedashbaord() throws java.lang.Inte...)</span>
-                <span class="method-start">197515 ms</span>
+                <span class="method-start">160248 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifytracedashbaord</span>
-                <span class="method-start">210231 ms</span>
+                <span class="method-start">176775 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">273749 ms</span>
+                <span class="method-start">238715 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">238731 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.testscripts.Tracenetworkmanagement</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">273897 ms</span>
+                <span class="method-start">239257 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracenetworkmanagement.verifytracenwmgmt() throws java.lang...)</span>
-                <span class="method-start">273897 ms</span>
+                <span class="method-start">239258 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifytracenwmgmt</span>
-                <span class="method-start">286244 ms</span>
+                <span class="method-start">254564 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">435290 ms</span>
+                <span class="method-start">401012 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">401012 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.testscripts.Tracenetasset</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">435393 ms</span>
+                <span class="method-start">401548 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracenetasset.verifytraceassests() throws java.lang.Interru...)</span>
-                <span class="method-start">435394 ms</span>
+                <span class="method-start">401548 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifytraceassests</span>
-                <span class="method-start">448667 ms</span>
+                <span class="method-start">416571 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">530585 ms</span>
+                <span class="method-start">497864 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">497881 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.testscripts.Traceinfra</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">530667 ms</span>
+                <span class="method-start">498605 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceinfra.verifytraceinfra() throws java.lang.InterruptedE...)</span>
-                <span class="method-start">530667 ms</span>
+                <span class="method-start">498605 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifytraceinfra</span>
-                <span class="method-start">542849 ms</span>
+                <span class="method-start">512635 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">617146 ms</span>
+                <span class="method-start">584647 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">584648 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.testscripts.Traceproducts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">617338 ms</span>
+                <span class="method-start">585297 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceproducts.verifytracedashbaord() throws java.lang.Inter...)</span>
-                <span class="method-start">617338 ms</span>
+                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceproducts.verifyproducts() throws java.lang.Interrupted...)</span>
+                <span class="method-start">585297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyproducts</span>
+                <span class="method-start">599385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">821541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">821551 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.testscripts.Traceprocess</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setExtentReport</span>
+                <span class="method-start">822621 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceprocess.verifytraceprocess() throws java.lang.Interrup...)</span>
+                <span class="method-start">822621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytraceprocess</span>
+                <span class="method-start">836911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">1040876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">1040892 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.testscripts.Tracetransaction</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setExtentReport</span>
+                <span class="method-start">1041552 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracetransaction.verifytracetransaction() throws java.lang....)</span>
+                <span class="method-start">1041552 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifytracedashbaord</span>
-                <span class="method-start">630910 ms</span>
+                <span class="method-name">verifytracetransaction</span>
+                <span class="method-start">1057136 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">785755 ms</span>
+                <span class="method-start">1278867 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose1</span>
+                <span class="method-start">1278882 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.testscripts.Tracesignuppage</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">killTask(chrome)</span>
-                <span class="method-start">786573 ms</span>
+                <span class="method-start">1280371 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

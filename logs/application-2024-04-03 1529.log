@@ -1,0 +1,36 @@
+15:29:43.990 [main] INFO  com.demo.baseutil.Basetest - 
+15:29:43.995 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+15:29:44.117 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+15:29:44.125 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_03_2024_15_29_44/Report/04_03_2024_15_29_44
+15:29:44.247 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+15:29:44.251 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+15:30:03.066 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:30:05.468 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:30:05.487 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:30:05.499 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:30:05.499 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:30:05.499 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:30:05.499 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:30:07.871 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:30:07.871 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:30:08.124 [main] INFO  com.demo.baseutil.Basetest - farmtoplatef2p@paramountsoft.net typed into Email Id Entered
+15:30:08.124 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:30:10.456 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:30:10.456 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:30:10.789 [main] INFO  com.demo.baseutil.Basetest - Admin1234 typed into Password Id Entered
+15:30:10.810 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:30:10.811 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:30:12.883 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:30:13.512 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:30:17.697 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+15:30:17.713 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:30:48.067 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+15:30:48.068 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+15:31:18.496 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.60)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81450f22a60cda65613f2ad63274af81

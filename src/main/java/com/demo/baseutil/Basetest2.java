@@ -9,6 +9,7 @@ import org.apache.logging.log4j.*;
 import java.util.*; 
 import org.openqa.selenium.WebDriver;
 import org.seleniumhq.jetty9.server.ResourceService;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -135,7 +136,7 @@ public class Basetest2 {
 		public void browserclose() {
 		WebActionUtil actionutil = new WebActionUtil(driver, ETO);
 			try {
-				driver.close();
+				//driver.close();
 				
 				actionutil.info("Browser is closed sucessfuly");
 			} catch (Exception e) {
@@ -165,4 +166,19 @@ public class Basetest2 {
 			WebActionUtil.error("Failed to close the Browser");
 		}
 			}
+	@AfterClass
+	public void browserclose1() {
+	WebActionUtil actionutil = new WebActionUtil(driver, ETO);
+		try {
+			driver.close();
+			driver.quit();
+			
+			actionutil.info("Browser is closed sucessfuly");
+		} catch (Exception e) {
+			actionutil.error(e.getMessage());
+			actionutil.fail("Browser is unable to closed ");
+		}
+
+}
+	
 }

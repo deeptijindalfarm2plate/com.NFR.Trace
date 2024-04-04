@@ -40,7 +40,7 @@ public class FileOperation {
 		Basetest.logger.info("ExtentDir:-" + fileVariables.getExtentDir());
 
 		/* delete extent folder if it exists before running suite */
-		WebActionUtil.deleteDir(fileVariables.getExtentReportFolderPath());
+	//	WebActionUtil.deleteDir(fileVariables.getExtentReportFolderPath());
 
 		try {
 			File file = new File(fileVariables.getExtentDir());

@@ -30,7 +30,8 @@ public class Traceproducts extends Basetest2 {
 	  public void verifyproducts() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
-	  pages.products.products();
+	  pages.products.productsadd();
+	  pages.products.productedit();
 	  
 	  
 	  }

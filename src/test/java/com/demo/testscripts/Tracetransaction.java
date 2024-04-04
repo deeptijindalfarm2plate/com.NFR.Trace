@@ -27,7 +27,7 @@ public class Tracetransaction extends Basetest2 {
 	
 	
 	  @Test(priority = 1, description = "Verify UI of product Page", enabled = true)
-	  public void verifytracedashbaord() throws InterruptedException, IOException {
+	  public void verifytracetransaction() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
 	  pages.transaction.transactioncomm();

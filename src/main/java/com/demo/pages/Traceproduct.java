@@ -32,7 +32,7 @@ public class Traceproduct {
 	String randomNumber12 = actionutil.generateRandomNumber(13);
 	String randomValue;
 	String emailaddress = randomNumber + "@yopmail.com";
-	String proname = "wheat" + randomNumber;
+	String proname = "wheat" + randomNumber1 + randomNumber;
  	String userDir = System.getProperty("user.dir");
 	String imageaddress1 = userDir + "\\src\\test\\resources\\data\\img.jpg";
 	String filePath = userDir +  "\\src\\test\\resources\\data\\file.txt";
@@ -92,6 +92,11 @@ public class Traceproduct {
 	/* X-path for product description */
 	@FindBy(xpath = "//textarea[@id='add_product_description_input']")
 	private WebElement productdesc;
+	
+	/* X-path for product existing */
+	@FindBy(xpath = "	//*[@id='EXISTING_PRODUCTS']")
+	private WebElement productexists;
+
 	
 	/* X-path for upload */
 	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[5]/div[2]/div[1]/div[2]/button")
@@ -208,13 +213,27 @@ public class Traceproduct {
 	@FindBy(xpath = "//tr[1]/th[2]")
 	private WebElement productidsaved;
 	
+	/* X-path for Edit*/
+	@FindBy(xpath = "//tr[1]/th[7]/span[3]/button")
+	private WebElement productidedit;
+	
+	
+	
 	/* X-path for table*/
 	@FindBy(xpath = "//*[@id='myId']/div[1]")
 	private WebElement table;
 
+	/* X-path for save button*/
+	@FindBy(xpath = "//*[@id='add-product-reconfirmation-modal-save-btn']")
+	private WebElement save;
+	
+
+
 	
 	
-	public void products() throws InterruptedException, IOException
+	
+	
+	public void productsadd() throws InterruptedException, IOException
 	 {
 		Thread.sleep(8000);
 		actionutil.clickOnElement(trace, "click on trace");
@@ -332,9 +351,9 @@ public class Traceproduct {
 		 Thread.sleep(2000);	
 		 actionutil.clickOnElement(gln2, "Click on gln2");
 		 actionutil.typeText(gln2, "0956265002424", "gln2 is entered");
-		 Thread.sleep(2000);
+		 Thread.sleep(4000);
 		 actionutil.clickOnElement(autosearch1, "Click on autosearch");
-		 Thread.sleep(2000);
+		 Thread.sleep(5000);
 		 actionutil.clickOnElement(gln3, "Click on gln3");
 		 actionutil.typeText(gln3, "0956265002424", "gln3 is entered");
 		 Thread.sleep(2000);
@@ -345,7 +364,10 @@ public class Traceproduct {
 		 actionutil.scrollDowntoelement(registerproduct);
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(registerproduct, "Click on registerproduct");
-		 Thread.sleep(5000);
+		 Thread.sleep(10000);
+      // actionutil.clickOnElement(productexists, "product exist is clicked");
+       Thread.sleep(10000);
+       driver.navigate().refresh();
 		 String saved = productidsaved.getText();
 		 String savedinfile = " product id:   " + saved;
 		 System.out.println(" Print the value of saved" + "  " + saved);
@@ -359,4 +381,20 @@ public class Traceproduct {
          writer.close();
 
 	 }
+
+	public void productedit() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		actionutil.clickOnElement(productidedit, "Product id is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollToElement1(productdesc, "Product description is clicked");
+		actionutil.typeText(productdesc, "TestTest", "prodcut description is edited");
+				Thread.sleep(2000);
+				actionutil.scrollDownToBottom();
+				Thread.sleep(2000);
+				actionutil.clickOnElement(save, "Saved is clicked");
+				
+	}
+	
+	
 	}

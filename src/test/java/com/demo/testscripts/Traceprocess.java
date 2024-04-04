@@ -27,10 +27,12 @@ public class Traceprocess extends Basetest2 {
 	
 	
 	  @Test(priority = 1, description = "Verify UI of product Page", enabled = true)
-	  public void verifytracedashbaord() throws InterruptedException, IOException {
+	  public void verifytraceprocess() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
-	  pages.process.process();
+		   pages.process.processadd();
+	  pages.process.processedit();
+	  
 	  
 	  
 	  }

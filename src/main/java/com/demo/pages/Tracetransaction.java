@@ -42,9 +42,10 @@ public class Tracetransaction {
 	public static String filePath = userDir +  "\\src\\test\\resources\\data\\file.txt";
 	String imageaddress= "C:\\Users\\Deepti Jindal\\eclipse-workspace\\com.NFR.Trace\\src\\test\\resources\\data\\img.jpg";
 	public static String line;
-    public static int lineNumber = 1; // Change this to the line number you want to read
-    public static int currentLine = 1;
-    public static String savedValue = null;
+   // public static int lineNumber = 1; // Change this to the line number you want to read
+	public static long lineNumber=0;
+	public static int currentLine = 1;
+	public static String savedValue = null;
     public static String datevalue = "03/31/2024" ;
     public static String lot;
     
@@ -95,16 +96,25 @@ public class Tracetransaction {
 	private WebElement checkbox;
 	
 	/* X-path for Process select */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li[1]/div/div/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li[3]/div/div/div")
 	private WebElement processselectobs;
 	
 	/* X-path for Process select */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li[2]/div/div/div")
-	private WebElement processselectagg;
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li[1]/div/div/div")
+	private WebElement processselecttrans;
 	
 	/* X-path for Process select */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li[3]/div/div/div")
-	private WebElement processselectcom;
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li[2]/div/div/div")
+	private WebElement processselectdisagg;
+	
+	/* X-path for Process select */
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[3]/ul/li[4]/div/div/div")
+	private WebElement processselectagg;
+	
+	/* X-path for Process harvesting commission */
+	//@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[3]/ul/li[5]/div/div/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul/li/div/div/div")
+	private WebElement processselectcomm;
 
 	/* X-path for Add Transaction*/
 	@FindBy(xpath = "//button[@id='add_transactions_add_button']")
@@ -174,6 +184,9 @@ public class Tracetransaction {
 	/* X-path for existing product search */
 	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]/div[1]/div/div/div/div/div[2]/div/div/div[2]/ul")
 	private WebElement existingproductsearch;
+	
+	
+	
 	
 	/* X-path for existing search button */
 	@FindBy(xpath = "//*[@id='transactions_search_button']")
@@ -270,31 +283,45 @@ public class Tracetransaction {
 	public static String copyvalue() throws FileNotFoundException
 	{
 		FileReader fileReader = new FileReader(filePath);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-		try
-		{
-			
-	         
-	         while ((line = bufferedReader.readLine()) != null) {
-	             if (currentLine == lineNumber) {
-	                 savedValue = line;
-	                 break;
-	             }
-	             currentLine++;
-	         }
-	         bufferedReader.close();
-	         
-	         System.out.println(" print the value of saved :" + " " + savedValue);
+		BufferedReader bufferedReader = new BufferedReader(fileReader);
+		/*try {
 
-		
-		}
-		catch(Exception e)
-		{
+			while ((line = bufferedReader.readLine()) != null) {
+				if (currentLine == lineNumber) {
+				lineNumber++;
+					savedValue = line;
+					break;
+				}
+				currentLine++;
+			}
+			bufferedReader.close();
+
+			System.out.println(" print the value of saved :" + " " + savedValue);
+
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return savedValue;
+
+	}*/
 		
-		}
+		try (BufferedReader bufferedReader1 = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            // Start reading from the end of the file
+            long lineNumber = 0;
+            while ((line = bufferedReader1.readLine()) != null) {
+                lineNumber++;
+                savedValue = line; // Save the current line as the last line
+                System.out.println("Last line: " + savedValue);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+		return savedValue;
+
+       
+    }
+
 	
 	
 	public void transactioncomm() throws InterruptedException, IOException
@@ -317,9 +344,12 @@ public class Tracetransaction {
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
 		 Thread.sleep(2000);
-		 actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
+		  actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
 		 Thread.sleep(2000);
-		 actionutil.clickOnElement(processselectcom, "Process commision is selected");
+		 actionutil.typeText(chooseprocess, "Harvesting", "Harvestiong/commission is entered");
+		 Thread.sleep(2000);
+		// actionutil.scrollDown();
+		 actionutil.clickOnElement(processselectcomm, "Process commision is selected");
 		 Thread.sleep(2000);
 		 actionutil.scrollDown();
 	      actionutil.clickOnElement(date, "date is selected");
@@ -376,7 +406,9 @@ public class Tracetransaction {
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
 		 Thread.sleep(2000);
-		 actionutil.clickOnElement(processselectagg, "Process aggre is selected");
+		 actionutil.typeText(chooseprocess, "Packing", "Packing/aggregation is entered");
+		 Thread.sleep(2000);
+		 actionutil.clickOnElement(processselectcomm, "Process aggre is selected");
 		 Thread.sleep(2000);
 		 actionutil.scrollDown();
 		 actionutil.clickOnElement(org, "org is selected");
