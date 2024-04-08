@@ -54,7 +54,7 @@ public class Traceprocess {
 	}
 
 	/* X-path for trace button */
-	@FindBy(xpath = "//*[@id='root']/div/div[4]/aside/div/ul/li[1]/div/span")
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span")
 	private WebElement trace;
 
 	/* X-path for Process */
@@ -73,20 +73,20 @@ public class Traceprocess {
 	
 
 	/* X-path for product id search box */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[4]/div/div[2]/div/div/div/div[2]/form/div/div[1]/div[1]/div/div[4]/ul/li")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[4]/div/div[2]/div/div/div/div[2]/form/div/div[1]/div[1]/div/div[4]/ul/li")
 	private WebElement productidsearchbox;
 	
 	/* X-path for existing product search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[4]/div/div[2]/div/div/div/div[2]/form/div/div[1]/div[1]/div/div[2]/ul")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[4]/div/div[2]/div/div/div/div[2]/form/div/div[1]/div[1]/div/div[2]/ul")
 	private WebElement productidsearchbox1;
 
 	/* X-path for Product category */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[4]/div[1]/div/div[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[1]")
 	private WebElement productcategory;
 	// *[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 
 	/* X-path for product based food */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
 	private WebElement productbasedfood;
 
 	/* X-path for productname */
@@ -110,7 +110,7 @@ public class Traceprocess {
 	private WebElement productdesc;
 
 	/* X-path for upload */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[5]/div[2]/div[1]/div[2]/button")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[5]/div[2]/div[1]/div[2]/button")
 	private WebElement upload;
 
 	// span[text()='Upload Photo/Video']
@@ -230,7 +230,7 @@ public class Traceprocess {
 	private WebElement processadd;
 
 	/* X-path for outside */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[5]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]")
 	private WebElement outside;
 
 	/* X-path for processname */
@@ -238,39 +238,39 @@ public class Traceprocess {
 	private WebElement processname;
 
 	/* X-path for process location */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[2]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/input")
 	private WebElement processloc;
 
 	/* X-path for process location search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[2]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div[2]/ul/li[1]")
 	private WebElement processlocsearch;
 
 	/* X-path for process type */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/input")
 	private WebElement processtype;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[1]")
 	private WebElement processcom;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[2]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[2]")
 	private WebElement processobs;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[3]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[3]")
 	private WebElement processagg;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[4]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[4]")
 	private WebElement processdiscomm;
 	
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[5]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[5]")
 	private WebElement processdisagg;
 	
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[6]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[6]")
 	private WebElement processtrans;
 
 	/* X-path for process add */
@@ -278,7 +278,7 @@ public class Traceprocess {
 	private WebElement processadd1;
 	
 	/* X-path for process add */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul")
 	private WebElement processtypeall;
 	
 

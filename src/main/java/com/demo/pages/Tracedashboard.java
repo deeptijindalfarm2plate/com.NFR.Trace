@@ -44,7 +44,8 @@ public class Tracedashboard {
 	private WebElement signin;
 
 	/* X-path for trace button */
-	@FindBy(xpath = "//*[@id='root']/div/div[4]/aside/div/ul/li[1]/div/span")
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span")
+	//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span
 	private WebElement trace;
 
 	/* X-path for trace button */
@@ -52,19 +53,19 @@ public class Tracedashboard {
 	private WebElement dashboard;
 
 	/* X-path for SoilScans button */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[2]/div[2]/div/div[4]/div/div/div[1]/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div[2]/div[2]/div/div[4]/div/div/div[1]/div")
 	private WebElement soilscans;
 
 	/* X-path for lots button */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[2]/div[2]/div/div[3]/div/div/div[1]/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div[2]/div[2]/div/div[3]/div/div/div[1]/div")
 	private WebElement lots;
 
 	/* X-path for product registered button */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[2]/div[2]/div/div[2]/div/div/div[1]/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div[2]/div[2]/div/div[2]/div/div/div[1]/div")
 	private WebElement productreg;
 
 	/* X-path for organization Network */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[2]/div[2]/div/div[1]/div/div/div[1]/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div[2]/div[2]/div/div[1]/div/div/div[1]/div")
 	private WebElement orgnw;
 	
 	/* X-path for Network Management */

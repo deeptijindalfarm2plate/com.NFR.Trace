@@ -102,15 +102,20 @@ public class Tracesignuppage {
 	private WebElement sendinvite;
 	
 	/* X-path for order Management */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/span[2]")
+	
+	
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/span[2]")
+	//@FindBy(xpath = "//*[@id='root']/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/span[2]")
 	private WebElement ordermgmt;
 	
 	/* X-path for soil dashboard */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/span[2]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/span[2]")
+	//@FindBy(xpath = "//*[@id='root']/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/span[2]")
 	private WebElement soildashboard;
 	
-	/* X-path for submit button */
-	@FindBy(xpath = "//*[@id=\"root\"]/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[2]/button[2]")
+	/* X-path for submit button */	
+	@FindBy(xpath = "//button[@class = 'btn btn-light SolidButton_solidButton__3mY_r  undefined']")
+	//@FindBy(xpath = "//*[@id=\"root\"]/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[2]/button[2]")
 	private WebElement submit;
 	
 	/* X-path for input email address */
@@ -247,7 +252,7 @@ public class Tracesignuppage {
 		
 		 Thread.sleep(5000);
 		 actionutil.clickOnElement(networkmgmt, "Network Management is clicked");
-		 Thread.sleep(2000);
+		 Thread.sleep(4000);
 		 actionutil.clickOnElement(addnew, "Add new is clicked");
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(orgname, "Organisation Name is clicked");
@@ -309,13 +314,14 @@ public class Tracesignuppage {
 			actionutil.scrollDown();
 			actionutil.clickOnElement(signin1, "Press the signin button");
 			Thread.sleep(3000);	
-			actionutil.clickOnElement(outermodal, "Press the signin button");
+			//actionutil.clickOnElement(outermodal, "Press the signin button");
 			actionutil.scrollDown();
 			Thread.sleep(1000);
 			actionutil.clickOnElement(modalbutton, "Press the button");
-			actionutil.clickOnElement(outermodal, "Press the signin button");
+			//actionutil.clickOnElement(outermodal, "Press the signin button");
 			actionutil.scrollDown();
 			actionutil.clickOnElement(checkbox, "Press the signin button");
+			Thread.sleep(2000);
 			actionutil.clickOnElement(modalbutton, "Press the button");
 	 }
 public void myprofile() throws InterruptedException

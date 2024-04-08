@@ -49,7 +49,7 @@ public class Traceproduct {
 }
 	
 	/* X-path for trace button */
-	@FindBy(xpath = "//*[@id='root']/div/div[4]/aside/div/ul/li[1]/div/span")
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span")
 	private WebElement trace;
 	
 	/* X-path for Product */
@@ -65,12 +65,12 @@ public class Traceproduct {
 	private WebElement addnew;
 	
 	/* X-path for Product category*/
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[4]/div[1]/div/div[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[1]")
 	private WebElement productcategory;
 	//*[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 	
 	/* X-path for product based food */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
 	private WebElement productbasedfood;
 
 	/* X-path for productname */
@@ -99,7 +99,7 @@ public class Traceproduct {
 
 	
 	/* X-path for upload */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[5]/div[2]/div[1]/div[2]/button")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[5]/div[2]/div[1]/div[2]/button")
 	private WebElement upload;
 	
 	
@@ -120,7 +120,7 @@ public class Traceproduct {
 	private WebElement consumption;
 	
 	/* X-path for UOM */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
 	private WebElement uom;
 	
 	/* X-path for Nutrition quanity */
@@ -132,20 +132,20 @@ public class Traceproduct {
 	private WebElement nuritionfact;
 	
 	/* X-path for Nutrition drop */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[8]/div[2]/div/div[1]/div/div[2]/div[3]/div/div/div")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[8]/div[2]/div/div[1]/div/div[2]/div[3]/div/div/div")
 	private WebElement nuritiondrop;
 	
 	/* X-path for Nutrition value */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[8]/div[2]/div/div[1]/div/div[2]/div[3]/div/div/div[2]/ul/li[1]/div/div/div[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[8]/div[2]/div/div[1]/div/div[2]/div[3]/div/div/div[2]/ul/li[1]/div/div/div[1]")
 	private WebElement nuritionvalue;
 
 
 	/* X-path for Unit of Measurement */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[9]/div[1]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[1]/div/div/div/input")
 	private WebElement unitofmeasue;
 	
-	/* X-path for unit of measurement dropdown */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[9]/div[1]/div/div[2]/ul/li[1]/div/div/div")
+	/* X-path for unit of measurement dropdow */
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[1]/div/div[2]/ul/li[1]/div/div/div")
 	private WebElement dropdown;
 	
 	/* X-path for price */
@@ -153,28 +153,28 @@ public class Traceproduct {
 	private WebElement price;
 	
 	/* X-path for currency */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[9]/div[2]/div[2]/span/div/div/div[1]/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[2]/div[2]/span/div/div/div[1]/div/input")
 	private WebElement currency;
 	
 	/* X-path for currency value */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[9]/div[2]/div[2]/span/div/div/div[2]/ul/li[1]/div/div/div/div/span")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[2]/div[2]/span/div/div/div[2]/ul/li[1]/div/div/div/div/span")
 	private WebElement currencyvalue;
 	
 	/* X-path for Add type packing*/
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[10]/div/div/div[1]/div/div[2]/div[1]/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[1]/input")
 	private WebElement typepacking;
 	
 	/* X-path for Length*/
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[10]/div/div/div[1]/div/div[2]/div[3]/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[3]/input")
 	private WebElement length;
 	//*[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 	
 	/* X-path for breath */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[10]/div/div/div[1]/div/div[2]/div[4]/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[4]/input")
 	private WebElement breath;
 
 	/* X-path for height */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/form/div[10]/div/div/div[1]/div/div[2]/div[5]/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[5]/input")
 	private WebElement height;
 
 	/* X-path for checkbox1 */

@@ -4,7 +4,9 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.StringSelection;
+import java.awt.datatransfer.Transferable;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
@@ -97,7 +99,7 @@ public class WebActionUtil extends Basetest {
 	/**
 	 * Description Method to find random value 
 	 *
-	 * @author deep
+	 * @author deepti Jindal
 	 * @param return value
 	 */
 	public void findvalue(List<WebElement> l1, WebElement we1, String elementName){
@@ -463,7 +465,21 @@ public class WebActionUtil extends Basetest {
 	    }
 	}
 
+	public void scrollToElementnew(WebElement element, String elementName) {
+	    info("Scroll till the " + elementName);
+	    try {
+	    	//JavascriptExecutor js = (JavascriptExecutor) driver;
+	    	jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
+	    	info("Scroll till the " + elementName + " completed");
+	    
+	    } catch (Exception e) {
+	        error("Scroll till the " + elementName + " failed");
+	    }
+	}
 
+
+	
+	
 	/**
 	 * Description Scroll up
 	 *
@@ -667,7 +683,7 @@ public class WebActionUtil extends Basetest {
 	 *
 	 * Description : Validate the value entered in an element
 	 *
-	 * @author Deepti Jindal B
+	 * @author Deepti Jindal
 	 * @param expectedValue
 	 * @param actualvalue
 	 * @param elementName
@@ -694,7 +710,7 @@ public class WebActionUtil extends Basetest {
 	 *
 	 * Description : Verify the attribute value of an element
 	 *
-	 * @author Deepti Jindal B
+	 * @author Deepti Jindal
 	 * @param element
 	 * @param attribute
 	 * @param valuetobecompared
@@ -724,7 +740,7 @@ public class WebActionUtil extends Basetest {
 //	/**
 //	 * Description :Retrieves text of the web element
 //	 *
-//	 * @author Shreya u
+//	 * @author Deepti Jindal
 //	 * @param element
 //	 * @param attribute
 //	 * @param elementName
@@ -778,7 +794,7 @@ public class WebActionUtil extends Basetest {
 //	 *
 //	 * Description : Validate the download format
 //	 *
-//	 * @author Deepti Jindal B
+//	 * @author Deepti Jindal
 //	 * @param downloadedDocumentName
 //	 * @param validationPassMessage
 //	 * @param validationFailMessage
@@ -805,7 +821,7 @@ public class WebActionUtil extends Basetest {
 	/**
 	 * Description :Retrieves text of the webelement
 	 *
-	 * @author Shreya u
+	 * @author Deepti Jindal
 	 * @param element
 	 * @param elementName
 	 */
@@ -846,7 +862,7 @@ public class WebActionUtil extends Basetest {
 //	/**
 //	 * Description :Retrieves text of the Web element
 //	 *
-//	 * @author Shreya u
+//	 * @author Deepti Jindal
 //	 * @param element
 //	 * @param elementName
 //	 * @return enteredValue
@@ -869,7 +885,7 @@ public class WebActionUtil extends Basetest {
 //	 *
 //	 * Description : Retrieves the value entered in an element
 //	 *
-//	 * @author Deepti Jindal B
+//	 * @author Deepti Jindal
 //	 * @param elementId
 //	 * @param elementName
 //	 * @return enteredValue
@@ -890,8 +906,8 @@ public class WebActionUtil extends Basetest {
 //	/**
 //	 * Description : Get file Name
 //	 *
-//	 * @author Vivek Dogra
-//	 * @param fileFormat
+//	 * @author Deepti Jindal
+	//	 * @param fileFormat
 //	 * @return fileName
 //	 */
 //	public synchronized String getSampleFileName(String fileFormat) {
@@ -1281,5 +1297,16 @@ public class WebActionUtil extends Basetest {
 	        return sb.toString();
 	    }
 	 
-	 
+	    public static String getClipboardContents() {
+	        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+	        Transferable contents = clipboard.getContents(null);
+	        if (contents != null && contents.isDataFlavorSupported(DataFlavor.stringFlavor)) {
+	            try {
+	                return (String) contents.getTransferData(DataFlavor.stringFlavor);
+	            } catch (Exception e) {
+	                e.printStackTrace();
+	            }
+	        }
+	        return null;
+	    }
 }

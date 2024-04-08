@@ -35,7 +35,7 @@ public class Traceasset {
 }
 	
 	/* X-path for trace button */
-	@FindBy(xpath = "//*[@id='root']/div/div[4]/aside/div/ul/li[1]/div/span")
+	@FindBy(xpath = "//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span")
 	private WebElement trace;
 	
 	/* X-path for Asset and Infrastructure */
