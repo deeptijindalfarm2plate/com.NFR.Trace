@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracetransaction" class="method navigator-link" hash-for-method="verifytracetransaction">verifytracetransaction</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Traceroles" class="method navigator-link" hash-for-method="verifyusers">verifyusers</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,16 +120,16 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.demo.testscripts.Tracetransaction</span>
+              <span class="class-name">com.demo.testscripts.Traceroles</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifytracetransaction">
-                  </a> <!-- verifytracetransaction -->
-                  <span class="method-name">verifytracetransaction</span>
+                  <a name="verifyusers">
+                  </a> <!-- verifyusers -->
+                  <span class="method-name">verifyusers</span>
                   <em>
-(Verify UI of product Page)                  </em>
+(Verify UI of the Sigin Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +151,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.demo.testscripts.Tracetransaction&quot;/&gt;
+      &lt;class name=&quot;com.demo.testscripts.Traceroles&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -193,14 +193,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifytracetransaction')
-data.setCell(0, 2, 'com.demo.testscripts.Tracetransaction')
-data.setCell(0, 3, 256083);
+data.setCell(0, 1, 'verifyusers')
+data.setCell(0, 2, 'com.demo.testscripts.Traceroles')
+data.setCell(0, 3, 158453);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -226,34 +226,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.demo.testscripts.Tracetransaction</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.demo.testscripts.Traceroles</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">createFolder</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">98 ms</span>
+                <span class="method-start">233 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracetransaction.verifytracetransaction() throws java.lang....)</span>
-                <span class="method-start">119 ms</span>
+                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Traceroles.verifyusers() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">263 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifytracetransaction</span>
-                <span class="method-start">23370 ms</span>
+                <span class="method-name">verifyusers</span>
+                <span class="method-start">26362 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">279735 ms</span>
+                <span class="method-start">185293 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">browserclose1</span>
-                <span class="method-start">279845 ms</span>
+                <span class="method-start">185310 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">killTask(chrome)</span>
-                <span class="method-start">281470 ms</span>
+                <span class="method-start">189492 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

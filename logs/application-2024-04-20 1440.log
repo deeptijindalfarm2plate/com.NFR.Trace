@@ -1,0 +1,46 @@
+14:40:34.185 [main] INFO  com.demo.baseutil.Basetest - 
+14:40:34.196 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+14:40:34.384 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+14:40:34.396 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_20_2024_14_40_34/Report/04_20_2024_14_40_34
+14:40:34.520 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+14:40:34.523 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+14:41:00.471 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+14:41:03.030 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+14:41:03.041 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+14:41:03.054 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+14:41:03.054 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+14:41:03.054 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+14:41:03.054 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+14:41:05.388 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+14:41:05.389 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+14:41:05.808 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+14:41:05.809 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+14:41:08.192 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+14:41:08.194 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+14:41:08.466 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+14:41:08.484 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+14:41:08.485 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+14:41:11.765 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+14:41:13.788 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+14:41:31.815 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+14:41:34.240 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+14:41:40.333 [main] INFO  com.demo.baseutil.Basetest - Validate User Management is clicked is clickable
+14:41:42.762 [main] INFO  com.demo.baseutil.Basetest - Clicked on : User Management is clicked
+14:41:44.767 [main] INFO  com.demo.baseutil.Basetest - Validate roles is clicked is clickable
+14:41:47.231 [main] INFO  com.demo.baseutil.Basetest - Clicked on : roles is clicked
+14:41:49.248 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+14:41:51.623 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+14:41:56.632 [main] INFO  com.demo.baseutil.Basetest - Validate role name is clicked is clickable
+14:41:58.997 [main] INFO  com.demo.baseutil.Basetest - Clicked on : role name is clicked
+14:42:00.999 [main] INFO  com.demo.baseutil.Basetest - Enter the value into rolename is entered
+14:42:01.218 [main] INFO  com.demo.baseutil.Basetest - rolename typed into rolename is entered
+14:42:03.229 [main] INFO  com.demo.baseutil.Basetest - Validate roletype is clicked is clickable
+14:42:05.569 [main] INFO  com.demo.baseutil.Basetest - Clicked on : roletype is clicked
+14:42:07.580 [main] INFO  com.demo.baseutil.Basetest - Validate Admin is clicked is clickable
+14:42:09.982 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Admin is clicked
+14:42:11.995 [main] INFO  com.demo.baseutil.Basetest - Validate modulename is clicked is clickable
+14:42:53.478 [main] ERROR com.demo.baseutil.Basetest - modulename is clicked is not clickable
+14:42:53.485 [main] ERROR com.demo.baseutil.Basetest - Unable to click on modulename is clicked
+14:43:35.082 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+14:43:38.105 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+14:43:38.907 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

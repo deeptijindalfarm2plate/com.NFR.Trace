@@ -9,7 +9,7 @@
         <parameter name="browserName" value="chrome" />
         <classes>
         
-        <class name="com.demo.testscripts.Tracesignuppage" />    
+        <!--class name="com.demo.testscripts.Tracesignuppage" />    
          <class name="com.demo.testscripts.Tracedashboard" />
          <class name="com.demo.testscripts.Tracenetworkmanagement" />       
           <class name="com.demo.testscripts.Tracenetasset" />
@@ -17,7 +17,8 @@
          <class name="com.demo.testscripts.Traceproducts" />
          <class name="com.demo.testscripts.Traceprocess" />
           <class name="com.demo.testscripts.Tracetransaction" />
-         
+          <class name="com.demo.testscripts.Traceusers" />-->
+          <class name="com.demo.testscripts.Traceroles" />
          
          
          <!--  <class name="com.demo.testscripts.Tracetestsigninpage" />-->
