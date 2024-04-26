@@ -1,0 +1,84 @@
+15:33:16.170 [main] INFO  com.demo.baseutil.Basetest - 
+15:33:16.174 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+15:33:16.258 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+15:33:16.264 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_08_2024_15_33_16/Report/04_08_2024_15_33_16
+15:33:16.352 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+15:33:16.353 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+15:34:14.152 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:34:16.606 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:34:16.622 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:34:16.637 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:34:16.637 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:34:16.637 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:34:16.637 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:34:19.109 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:34:19.110 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:34:19.466 [main] INFO  com.demo.baseutil.Basetest - farmtoplatef2p@paramountsoft.net typed into Email Id Entered
+15:34:19.466 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:34:21.909 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:34:21.909 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:34:22.657 [main] INFO  com.demo.baseutil.Basetest - Admin1234 typed into Password Id Entered
+15:34:22.744 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:34:22.744 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:34:25.980 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:34:33.981 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:34:47.010 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+15:34:49.378 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Network Management is clicked
+15:34:51.394 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+15:34:53.778 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+15:34:55.787 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation Name is clicked is clickable
+15:34:58.207 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation Name is clicked
+15:34:58.207 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Organisation is Entered
+15:34:58.623 [main] INFO  com.demo.baseutil.Basetest - DwkfQDAi typed into Organisation is Entered
+15:34:58.623 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation type is clicked is clickable
+15:35:01.010 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation type is clicked
+15:35:01.010 [main] INFO  com.demo.baseutil.Basetest - Validate upstream is selected is clickable
+15:35:03.501 [main] INFO  com.demo.baseutil.Basetest - Clicked on : upstream is selected
+15:35:03.501 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is clicked is clickable
+15:35:06.106 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is clicked
+15:35:06.106 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is selected is clickable
+15:35:08.656 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is selected
+15:35:08.656 [main] INFO  com.demo.baseutil.Basetest - Validate module is clicked is clickable
+15:35:11.059 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is clicked
+15:35:11.059 [main] INFO  com.demo.baseutil.Basetest - Validate module is selected is clickable
+15:35:13.389 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is selected
+15:35:13.389 [main] INFO  com.demo.baseutil.Basetest - Validate email field is clicked is clickable
+15:35:15.723 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email field is clicked
+15:35:15.724 [main] INFO  com.demo.baseutil.Basetest - Enter the value into emailid is Entered
+15:35:16.064 [main] INFO  com.demo.baseutil.Basetest - 414@yopmail.com typed into emailid is Entered
+15:35:16.086 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:35:16.086 [main] INFO  com.demo.baseutil.Basetest - Validate Database Type is clicked is clickable
+15:35:18.426 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Database Type is clicked
+15:35:18.426 [main] INFO  com.demo.baseutil.Basetest - Validate Db is selected is clickable
+15:35:20.891 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Db is selected
+15:35:22.927 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:35:23.931 [main] INFO  com.demo.baseutil.Basetest - Validate Db is selected is clickable
+15:35:26.333 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Db is selected
+15:35:28.341 [main] INFO  com.demo.baseutil.Basetest - Validate ordermgmt is selected is clickable
+15:36:09.513 [main] ERROR com.demo.baseutil.Basetest - ordermgmt is selected is not clickable
+15:36:09.513 [main] ERROR com.demo.baseutil.Basetest - Unable to click on ordermgmt is selected
+15:36:50.840 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:36:51.204 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:38:48.490 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:38:50.882 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:38:50.882 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:38:50.898 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:38:50.898 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:38:50.898 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:38:50.898 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:38:53.234 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:38:53.234 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:38:53.514 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+15:38:53.514 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:38:55.880 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:38:55.880 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:38:56.204 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+15:38:56.225 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:38:56.225 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:38:59.098 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:39:01.113 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:39:11.123 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+15:39:52.772 [main] ERROR com.demo.baseutil.Basetest - click on trace is not clickable
+15:39:52.772 [main] ERROR com.demo.baseutil.Basetest - Unable to click on click on trace
+15:40:34.032 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:40:34.372 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly

@@ -1,0 +1,649 @@
+19:00:26.624 [main] INFO  com.demo.baseutil.Basetest - 
+19:00:26.628 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+19:00:26.731 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+19:00:26.738 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_03_2024_19_00_26/Report/04_03_2024_19_00_26
+19:00:26.832 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+19:00:26.833 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+19:00:47.135 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:00:49.601 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:00:49.617 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:00:49.629 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:00:49.630 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:00:49.630 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:00:49.630 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:00:51.916 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:00:51.917 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:00:52.296 [main] INFO  com.demo.baseutil.Basetest - farmtoplatef2p@paramountsoft.net typed into Email Id Entered
+19:00:52.297 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:00:54.663 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:00:54.664 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:00:54.842 [main] INFO  com.demo.baseutil.Basetest - Admin1234 typed into Password Id Entered
+19:00:54.861 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:00:54.861 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:00:57.719 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:01:05.735 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:01:18.746 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+19:01:21.202 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Network Management is clicked
+19:01:23.209 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+19:01:25.610 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+19:01:27.626 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation Name is clicked is clickable
+19:01:29.995 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation Name is clicked
+19:01:29.995 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Organisation is Entered
+19:01:30.303 [main] INFO  com.demo.baseutil.Basetest - enfnZvEV typed into Organisation is Entered
+19:01:30.303 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation type is clicked is clickable
+19:01:32.768 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation type is clicked
+19:01:32.768 [main] INFO  com.demo.baseutil.Basetest - Validate upstream is selected is clickable
+19:01:35.133 [main] INFO  com.demo.baseutil.Basetest - Clicked on : upstream is selected
+19:01:35.133 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is clicked is clickable
+19:01:37.592 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is clicked
+19:01:37.592 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is selected is clickable
+19:01:40.083 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is selected
+19:01:40.083 [main] INFO  com.demo.baseutil.Basetest - Validate module is clicked is clickable
+19:01:42.560 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is clicked
+19:01:42.560 [main] INFO  com.demo.baseutil.Basetest - Validate module is selected is clickable
+19:01:44.936 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is selected
+19:01:44.937 [main] INFO  com.demo.baseutil.Basetest - Validate email field is clicked is clickable
+19:01:47.379 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email field is clicked
+19:01:47.379 [main] INFO  com.demo.baseutil.Basetest - Enter the value into emailid is Entered
+19:01:47.825 [main] INFO  com.demo.baseutil.Basetest - 248@yopmail.com typed into emailid is Entered
+19:01:47.849 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:01:47.850 [main] INFO  com.demo.baseutil.Basetest - Validate Database Type is clicked is clickable
+19:01:50.314 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Database Type is clicked
+19:01:50.314 [main] INFO  com.demo.baseutil.Basetest - Validate Db is selected is clickable
+19:01:52.744 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Db is selected
+19:01:54.783 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:01:55.799 [main] INFO  com.demo.baseutil.Basetest - Validate Db is selected is clickable
+19:01:58.248 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Db is selected
+19:02:00.262 [main] INFO  com.demo.baseutil.Basetest - Validate ordermgmt is selected is clickable
+19:02:02.665 [main] INFO  com.demo.baseutil.Basetest - Clicked on : ordermgmt is selected
+19:02:02.665 [main] INFO  com.demo.baseutil.Basetest - Validate Soil Dashboard is selected is clickable
+19:02:05.085 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Soil Dashboard is selected
+19:02:05.085 [main] INFO  com.demo.baseutil.Basetest - Validate Submit Button is clicked is clickable
+19:02:07.374 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Submit Button is clicked
+19:02:09.487 [main] INFO  com.demo.baseutil.Basetest - Validate Email address input field is clicked is clickable
+19:02:20.311 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Email address input field is clicked
+19:02:20.311 [main] INFO  com.demo.baseutil.Basetest - Enter the value into email address is entered
+19:02:20.732 [main] INFO  com.demo.baseutil.Basetest - 248@yopmail.com typed into email address is entered
+19:02:20.732 [main] INFO  com.demo.baseutil.Basetest - Validate arrow button is clicked is clickable
+19:02:24.379 [main] INFO  com.demo.baseutil.Basetest - Clicked on : arrow button is clicked
+19:02:27.512 [main] INFO  com.demo.baseutil.Basetest - Validate first email is clicked is clickable
+19:02:29.978 [main] INFO  com.demo.baseutil.Basetest - Clicked on : first email is clicked
+19:02:32.059 [main] INFO  com.demo.baseutil.Basetest - Validate email address is clicked is clickable
+19:02:34.429 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address is clicked
+19:02:36.523 [main] INFO  com.demo.baseutil.Basetest - Validate pass is clicked is clickable
+19:02:40.825 [main] INFO  com.demo.baseutil.Basetest - Clicked on : pass is clicked
+19:02:40.825 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password is entered
+19:02:41.098 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password is entered
+19:02:41.098 [main] INFO  com.demo.baseutil.Basetest - Validate confirm password is clicked is clickable
+19:02:43.389 [main] INFO  com.demo.baseutil.Basetest - Clicked on : confirm password is clicked
+19:02:43.389 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Confirm Password is entered
+19:02:43.706 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Confirm Password is entered
+19:02:45.765 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:02:45.765 [main] INFO  com.demo.baseutil.Basetest - Validate button is clicked is clickable
+19:02:48.163 [main] INFO  com.demo.baseutil.Basetest - Clicked on : button is clicked
+19:02:50.166 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:02:52.579 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:02:52.579 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:02:52.921 [main] INFO  com.demo.baseutil.Basetest - 248@yopmail.com typed into Email Id Entered
+19:02:52.921 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:02:55.407 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:02:55.407 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:02:55.698 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:02:55.714 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:02:55.714 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:02:58.679 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:03:01.688 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:03:06.413 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:03:06.971 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:03:23.506 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:03:25.795 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:03:25.807 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:03:25.819 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:03:25.820 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:03:25.820 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:03:25.820 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:03:28.196 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:03:28.197 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:03:28.473 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:03:28.473 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:03:30.701 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:03:30.701 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:03:30.886 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:03:30.892 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:03:30.892 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:03:33.548 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:03:35.549 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:03:45.572 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:03:47.981 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:03:49.981 [main] INFO  com.demo.baseutil.Basetest - Validate click on dashboard is clickable
+19:03:52.513 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on dashboard
+19:03:54.521 [main] INFO  com.demo.baseutil.Basetest - Validate click on organisation network is clickable
+19:03:56.895 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on organisation network
+19:04:01.931 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:04:01.931 [main] INFO  com.demo.baseutil.Basetest - UI verified for Organisation network page.
+19:04:03.988 [main] INFO  com.demo.baseutil.Basetest - Validate click on product register is clickable
+19:04:06.288 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on product register
+19:04:13.363 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:04:13.363 [main] INFO  com.demo.baseutil.Basetest - UI verified for Product page.
+19:04:14.404 [main] INFO  com.demo.baseutil.Basetest - Validate click on lots is clickable
+19:04:16.889 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on lots
+19:04:22.961 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:04:22.962 [main] INFO  com.demo.baseutil.Basetest - UI verified for Lots page.
+19:04:25.456 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:04:25.982 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:04:41.295 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:04:43.576 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:04:43.584 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:04:43.588 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:04:43.589 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:04:43.589 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:04:43.589 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:04:45.808 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:04:45.808 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:04:46.035 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:04:46.036 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:04:48.260 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:04:48.260 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:04:48.453 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:04:48.471 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:04:48.471 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:04:51.234 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:04:53.255 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:05:03.261 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:05:05.724 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:05:07.726 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+19:05:10.245 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Network Management is clicked
+19:05:15.258 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+19:05:17.694 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+19:05:19.708 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation Name is clicked is clickable
+19:05:21.968 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation Name is clicked
+19:05:21.968 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Organisation is Entered
+19:05:22.200 [main] INFO  com.demo.baseutil.Basetest - RagiENaw typed into Organisation is Entered
+19:05:22.200 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation type is clicked is clickable
+19:05:24.424 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation type is clicked
+19:05:24.424 [main] INFO  com.demo.baseutil.Basetest - Validate upstream is selected is clickable
+19:05:26.874 [main] INFO  com.demo.baseutil.Basetest - Clicked on : upstream is selected
+19:05:26.874 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is clicked is clickable
+19:05:29.276 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is clicked
+19:05:29.276 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is selected is clickable
+19:05:31.759 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is selected
+19:05:31.759 [main] INFO  com.demo.baseutil.Basetest - Validate module is clicked is clickable
+19:05:34.169 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is clicked
+19:05:34.169 [main] INFO  com.demo.baseutil.Basetest - Validate module is selected is clickable
+19:05:36.582 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is selected
+19:05:36.582 [main] INFO  com.demo.baseutil.Basetest - Validate email field is clicked is clickable
+19:05:39.103 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email field is clicked
+19:05:39.103 [main] INFO  com.demo.baseutil.Basetest - Enter the value into emailid is Entered
+19:05:39.701 [main] INFO  com.demo.baseutil.Basetest - 523Cn7oC809@yopmail.com typed into emailid is Entered
+19:05:40.715 [main] INFO  com.demo.baseutil.Basetest - Validate sendinvite button is clicked is clickable
+19:05:43.081 [main] INFO  com.demo.baseutil.Basetest - Clicked on : sendinvite button is clicked
+19:05:45.105 [main] INFO  com.demo.baseutil.Basetest - Validate submit is selected is clickable
+19:05:47.536 [main] INFO  com.demo.baseutil.Basetest - Clicked on : submit is selected
+19:06:02.658 [main] INFO  com.demo.baseutil.Basetest - Validate Email address input field is clicked is clickable
+19:06:06.504 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Email address input field is clicked
+19:06:06.504 [main] INFO  com.demo.baseutil.Basetest - Enter the value into email address is entered
+19:06:06.834 [main] INFO  com.demo.baseutil.Basetest - 523Cn7oC809@yopmail.com typed into email address is entered
+19:06:06.834 [main] INFO  com.demo.baseutil.Basetest - Validate arrow button is clicked is clickable
+19:06:10.350 [main] INFO  com.demo.baseutil.Basetest - Clicked on : arrow button is clicked
+19:06:13.435 [main] INFO  com.demo.baseutil.Basetest - Validate first email is clicked is clickable
+19:06:15.706 [main] INFO  com.demo.baseutil.Basetest - Clicked on : first email is clicked
+19:06:17.775 [main] INFO  com.demo.baseutil.Basetest - Validate email address is clicked is clickable
+19:06:20.191 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address is clicked
+19:06:22.336 [main] INFO  com.demo.baseutil.Basetest - Validate pass is clicked is clickable
+19:06:26.786 [main] INFO  com.demo.baseutil.Basetest - Clicked on : pass is clicked
+19:06:26.786 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password is entered
+19:06:27.071 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password is entered
+19:06:27.071 [main] INFO  com.demo.baseutil.Basetest - Validate confirm password is clicked is clickable
+19:06:29.419 [main] INFO  com.demo.baseutil.Basetest - Clicked on : confirm password is clicked
+19:06:29.419 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Confirm Password is entered
+19:06:29.753 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Confirm Password is entered
+19:06:31.790 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:06:31.791 [main] INFO  com.demo.baseutil.Basetest - Validate button is clicked is clickable
+19:06:34.141 [main] INFO  com.demo.baseutil.Basetest - Clicked on : button is clicked
+19:06:36.159 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:06:38.790 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:06:38.790 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:06:39.061 [main] INFO  com.demo.baseutil.Basetest - 523Cn7oC809@yopmail.com typed into Email Id Entered
+19:06:39.061 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:06:41.423 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:06:41.432 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:06:41.714 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:06:41.745 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:06:41.745 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:06:44.473 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:06:50.486 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:06:53.776 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:06:54.787 [main] INFO  com.demo.baseutil.Basetest - Validate Press the button is clickable
+19:06:57.228 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the button
+19:07:00.237 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:07:02.677 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:07:02.703 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:07:02.703 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:07:05.104 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:07:05.104 [main] INFO  com.demo.baseutil.Basetest - Validate Press the button is clickable
+19:07:07.541 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the button
+19:07:07.737 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:07:08.273 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:07:23.299 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:07:25.552 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:07:25.563 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:07:25.568 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:07:25.568 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:07:25.568 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:07:25.568 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:07:27.849 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:07:27.849 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:07:28.148 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:07:28.148 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:07:30.380 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:07:30.380 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:07:30.616 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:07:30.634 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:07:30.635 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:07:33.901 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:07:37.571 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:07:47.592 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:07:50.032 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:07:56.158 [main] INFO  com.demo.baseutil.Basetest - Validate Asset & Infrastructure Data is clicked is clickable
+19:07:58.616 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Asset & Infrastructure Data is clicked
+19:08:00.622 [main] INFO  com.demo.baseutil.Basetest - Validate Assets is clicked is clickable
+19:08:02.989 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Assets is clicked
+19:08:04.997 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+19:08:07.547 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+19:08:09.563 [main] INFO  com.demo.baseutil.Basetest - Validate Asset type is clicked is clickable
+19:08:12.093 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Asset type is clicked
+19:08:12.093 [main] INFO  com.demo.baseutil.Basetest - Validate vehicle is selected is clickable
+19:08:14.624 [main] INFO  com.demo.baseutil.Basetest - Clicked on : vehicle is selected
+19:08:14.624 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Vehicle Name is clickable
+19:08:16.966 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Vehicle Name
+19:08:16.966 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the vehicle name
+19:08:17.338 [main] INFO  com.demo.baseutil.Basetest - Loading Vehicle typed into enter the vehicle name
+19:08:17.338 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Vehicle Number is clickable
+19:08:19.716 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Vehicle Number
+19:08:19.718 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enter the vehicle number
+19:08:19.984 [main] INFO  com.demo.baseutil.Basetest - G0Vn8Sjg typed into Enter the vehicle number
+19:08:19.984 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Make is clickable
+19:08:22.365 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Make
+19:08:22.365 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the make
+19:08:22.640 [main] INFO  com.demo.baseutil.Basetest - Mahindra typed into enter the make
+19:08:22.640 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Model is clickable
+19:08:24.982 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Model
+19:08:24.982 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the model
+19:08:25.315 [main] INFO  com.demo.baseutil.Basetest - XUV typed into enter the model
+19:08:25.315 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Model is clickable
+19:08:27.770 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Model
+19:08:27.770 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the model
+19:08:28.040 [main] INFO  com.demo.baseutil.Basetest - XUV typed into enter the model
+19:08:28.040 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Vehicle Number is clickable
+19:08:30.520 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Vehicle Number
+19:08:30.520 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enter the engine number
+19:08:30.808 [main] INFO  com.demo.baseutil.Basetest - PZQptXBF typed into Enter the engine number
+19:08:30.808 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Class-GVWR is clickable
+19:08:33.147 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Class-GVWR
+19:08:33.147 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the classgvwr
+19:08:33.519 [main] INFO  com.demo.baseutil.Basetest - Class I typed into enter the classgvwr
+19:08:33.519 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Weight Capacity is clickable
+19:08:35.915 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Weight Capacity
+19:08:35.915 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the weight capacity
+19:08:36.207 [main] INFO  com.demo.baseutil.Basetest - 100 typed into enter the weight capacity
+19:08:36.207 [main] INFO  com.demo.baseutil.Basetest - Validate UoM is clicked is clickable
+19:08:38.574 [main] INFO  com.demo.baseutil.Basetest - Clicked on : UoM is clicked
+19:08:38.574 [main] INFO  com.demo.baseutil.Basetest - Validate KGS is selected is clickable
+19:08:40.922 [main] INFO  com.demo.baseutil.Basetest - Clicked on : KGS is selected
+19:08:40.948 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:08:40.948 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Add button is clickable
+19:08:43.406 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Add button
+19:08:44.589 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:08:45.330 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:08:59.363 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:09:01.697 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:09:01.707 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:09:01.711 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:09:01.711 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:09:01.711 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:09:01.711 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:09:03.947 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:09:03.947 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:09:04.187 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:09:04.187 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:09:06.436 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:09:06.436 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:09:06.623 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:09:06.632 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:09:06.632 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:09:09.285 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:09:11.301 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:09:21.321 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:09:23.729 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:09:29.802 [main] INFO  com.demo.baseutil.Basetest - Validate Asset & Infrastructure Data is clicked is clickable
+19:09:32.135 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Asset & Infrastructure Data is clicked
+19:09:34.151 [main] INFO  com.demo.baseutil.Basetest - Validate Infra is clicked is clickable
+19:09:36.702 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Infra is clicked
+19:09:38.717 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+19:09:41.099 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+19:09:43.115 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Location Name is clickable
+19:09:45.496 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Location Name
+19:09:45.496 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the location name
+19:09:45.789 [main] INFO  com.demo.baseutil.Basetest - Warehouse B typed into enter the location name
+19:09:45.789 [main] INFO  com.demo.baseutil.Basetest - Validate Asset type is clicked is clickable
+19:09:48.100 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Asset type is clicked
+19:09:48.100 [main] INFO  com.demo.baseutil.Basetest - Validate vehicle is selected is clickable
+19:09:50.430 [main] INFO  com.demo.baseutil.Basetest - Clicked on : vehicle is selected
+19:09:50.430 [main] INFO  com.demo.baseutil.Basetest - Validate Click on GLN is clickable
+19:09:52.712 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on GLN
+19:09:52.712 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the GLN
+19:09:53.136 [main] INFO  com.demo.baseutil.Basetest - 8026087931614 typed into enter the GLN
+19:09:53.136 [main] INFO  com.demo.baseutil.Basetest - Validate Click on address is clickable
+19:09:55.546 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on address
+19:09:55.546 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the  address
+19:09:55.959 [main] INFO  com.demo.baseutil.Basetest - Bangalore Palace, Palace Cross Road, Vasanth Nagar, Bengaluru, Karnataka, India typed into enter the  address
+19:09:55.960 [main] INFO  com.demo.baseutil.Basetest - Validate Click on state is clickable
+19:09:58.229 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on state
+19:09:58.229 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetered the state
+19:09:58.516 [main] INFO  com.demo.baseutil.Basetest - KA typed into Enetered the state
+19:09:58.516 [main] INFO  com.demo.baseutil.Basetest - Validate Click on city is clickable
+19:10:00.795 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on city
+19:10:00.795 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetered the city
+19:10:01.078 [main] INFO  com.demo.baseutil.Basetest - Bengaluru typed into Enetered the city
+19:10:01.078 [main] INFO  com.demo.baseutil.Basetest - Validate Click on zip is clickable
+19:10:03.480 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on zip
+19:10:03.480 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetred the Zip
+19:10:03.773 [main] INFO  com.demo.baseutil.Basetest - 560052 typed into Enetred the Zip
+19:10:07.819 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:10:07.819 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Add button is clickable
+19:10:10.186 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Add button
+19:10:11.373 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:10:12.021 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:10:26.114 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:10:29.839 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:10:29.845 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:10:29.849 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:10:29.849 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:10:29.849 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:10:29.849 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:10:32.066 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:10:32.066 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:10:32.319 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:10:32.319 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:10:34.663 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:10:34.663 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:10:34.986 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:10:35.003 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:10:35.003 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:10:37.852 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:10:41.563 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:10:51.576 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:10:53.990 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:11:02.133 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:11:04.138 [main] INFO  com.demo.baseutil.Basetest - Validate Products is clicked is clickable
+19:11:06.551 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Products is clicked
+19:11:11.559 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+19:11:13.918 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+19:11:15.927 [main] INFO  com.demo.baseutil.Basetest - Validate Click on productcategory is clickable
+19:11:18.342 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on productcategory
+19:11:18.343 [main] INFO  com.demo.baseutil.Basetest - Validate productbasedfood is clicked is clickable
+19:11:20.728 [main] INFO  com.demo.baseutil.Basetest - Clicked on : productbasedfood is clicked
+19:11:20.728 [main] INFO  com.demo.baseutil.Basetest - Validate product name is selected is clickable
+19:11:23.014 [main] INFO  com.demo.baseutil.Basetest - Clicked on : product name is selected
+19:11:23.014 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the product
+19:11:23.316 [main] INFO  com.demo.baseutil.Basetest - wheat3693 typed into enter the product
+19:11:23.316 [main] INFO  com.demo.baseutil.Basetest - Validate Click on productid is clickable
+19:11:25.627 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on productid
+19:11:25.627 [main] INFO  com.demo.baseutil.Basetest - Validate Click on checkbox is clickable
+19:11:28.065 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on checkbox
+19:11:28.065 [main] INFO  com.demo.baseutil.Basetest - Validate Click on autogenerate is clickable
+19:11:30.433 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on autogenerate
+19:11:30.433 [main] INFO  com.demo.baseutil.Basetest - Validate Click on productdesc is clickable
+19:11:32.812 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on productdesc
+19:11:32.812 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetered the product desc
+19:11:33.184 [main] INFO  com.demo.baseutil.Basetest - test typed into Enetered the product desc
+19:11:33.185 [main] INFO  com.demo.baseutil.Basetest - Validate Click on upload is clickable
+19:11:35.628 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on upload
+19:11:40.374 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:11:42.402 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:11:42.402 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant name is clickable
+19:11:44.842 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant name
+19:11:44.842 [main] INFO  com.demo.baseutil.Basetest - Enter the value into ingredient name is entered
+19:11:45.142 [main] INFO  com.demo.baseutil.Basetest - wheat typed into ingredient name is entered
+19:11:46.181 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:11:48.195 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant name is clickable
+19:11:50.578 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant name
+19:11:50.578 [main] INFO  com.demo.baseutil.Basetest - Enter the value into nutri name is entered
+19:11:50.820 [main] INFO  com.demo.baseutil.Basetest - fact typed into nutri name is entered
+19:11:50.820 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant QTY is clickable
+19:11:53.109 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant QTY
+19:11:53.109 [main] INFO  com.demo.baseutil.Basetest - Enter the value into nutri qty is entered
+19:11:53.383 [main] INFO  com.demo.baseutil.Basetest - 1 typed into nutri qty is entered
+19:11:53.383 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant drop is clickable
+19:11:55.716 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant drop
+19:11:57.717 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant value is clickable
+19:12:00.047 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant value
+19:12:02.073 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:04.108 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:04.108 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant name is clickable
+19:12:06.480 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant name
+19:12:06.480 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant name is clickable
+19:12:08.840 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant name
+19:12:08.840 [main] INFO  com.demo.baseutil.Basetest - Validate Click on ingrediant name is clickable
+19:12:11.277 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on ingrediant name
+19:12:11.278 [main] INFO  com.demo.baseutil.Basetest - Enter the value into price is entered
+19:12:11.587 [main] INFO  com.demo.baseutil.Basetest - 1 typed into price is entered
+19:12:11.587 [main] INFO  com.demo.baseutil.Basetest - Validate Click on currency is clickable
+19:12:13.995 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on currency
+19:12:14.019 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:14.019 [main] INFO  com.demo.baseutil.Basetest - Validate Click on currency value is clickable
+19:12:16.462 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on currency value
+19:12:16.462 [main] INFO  com.demo.baseutil.Basetest - Validate Click on typepacking value is clickable
+19:12:18.860 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on typepacking value
+19:12:18.860 [main] INFO  com.demo.baseutil.Basetest - Enter the value into typepacking is entered
+19:12:19.093 [main] INFO  com.demo.baseutil.Basetest - 1 typed into typepacking is entered
+19:12:19.093 [main] INFO  com.demo.baseutil.Basetest - Validate Click on length value is clickable
+19:12:21.325 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on length value
+19:12:21.325 [main] INFO  com.demo.baseutil.Basetest - Enter the value into length is entered
+19:12:21.709 [main] INFO  com.demo.baseutil.Basetest - 1 typed into length is entered
+19:12:21.709 [main] INFO  com.demo.baseutil.Basetest - Validate Click on breath value is clickable
+19:12:24.176 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on breath value
+19:12:24.176 [main] INFO  com.demo.baseutil.Basetest - Enter the value into breath is entered
+19:12:24.534 [main] INFO  com.demo.baseutil.Basetest - 1 typed into breath is entered
+19:12:24.535 [main] INFO  com.demo.baseutil.Basetest - Validate Click on height value is clickable
+19:12:27.025 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on height value
+19:12:27.025 [main] INFO  com.demo.baseutil.Basetest - Enter the value into height is entered
+19:12:27.367 [main] INFO  com.demo.baseutil.Basetest - 1 typed into height is entered
+19:12:29.417 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:31.452 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:31.452 [main] INFO  com.demo.baseutil.Basetest - Validate Click on checkbox1 is clickable
+19:12:34.000 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on checkbox1
+19:12:34.016 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:40.112 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:12:40.112 [main] INFO  com.demo.baseutil.Basetest - Validate Click on gln1 is clickable
+19:12:42.508 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on gln1
+19:12:42.508 [main] INFO  com.demo.baseutil.Basetest - Enter the value into gln1 is entered
+19:12:42.842 [main] INFO  com.demo.baseutil.Basetest - 0956265002424 typed into gln1 is entered
+19:12:46.850 [main] INFO  com.demo.baseutil.Basetest - Validate Click on autosearch is clickable
+19:12:49.345 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on autosearch
+19:12:51.354 [main] INFO  com.demo.baseutil.Basetest - Validate Click on gln2 is clickable
+19:12:53.780 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on gln2
+19:12:53.780 [main] INFO  com.demo.baseutil.Basetest - Enter the value into gln2 is entered
+19:12:54.237 [main] INFO  com.demo.baseutil.Basetest - 0956265002424 typed into gln2 is entered
+19:12:58.253 [main] INFO  com.demo.baseutil.Basetest - Validate Click on autosearch is clickable
+19:13:00.649 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on autosearch
+19:13:05.654 [main] INFO  com.demo.baseutil.Basetest - Validate Click on gln3 is clickable
+19:13:08.091 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on gln3
+19:13:08.091 [main] INFO  com.demo.baseutil.Basetest - Enter the value into gln3 is entered
+19:13:08.406 [main] INFO  com.demo.baseutil.Basetest - 0956265002424 typed into gln3 is entered
+19:13:10.414 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolldown to table:
+19:13:10.537 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolldown to table: completed
+19:13:12.541 [main] INFO  com.demo.baseutil.Basetest - Validate Click on autosearch is clickable
+19:13:14.895 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on autosearch
+19:13:20.974 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:13:22.977 [main] INFO  com.demo.baseutil.Basetest - Validate Click on registerproduct is clickable
+19:13:25.349 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on registerproduct
+19:13:56.587 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:13:59.130 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:14:01.140 [main] INFO  com.demo.baseutil.Basetest - Scroll till the Product description is clicked
+19:14:01.303 [main] INFO  com.demo.baseutil.Basetest - Scroll till the Product description is clicked completed
+19:14:01.303 [main] INFO  com.demo.baseutil.Basetest - Enter the value into prodcut description is edited
+19:14:01.601 [main] INFO  com.demo.baseutil.Basetest - TestTest typed into prodcut description is edited
+19:14:05.709 [main] INFO  com.demo.baseutil.Basetest - Validate Saved is clicked is clickable
+19:14:08.053 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Saved is clicked
+19:14:08.272 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:14:09.346 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:14:23.638 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:14:25.941 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:14:25.949 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:14:25.955 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:14:25.955 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:14:25.955 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:14:25.955 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:14:28.248 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:14:28.249 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:14:28.686 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:14:28.686 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:14:30.957 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:14:30.957 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:14:31.156 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:14:31.167 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:14:31.167 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:14:34.014 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:14:37.595 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:14:55.613 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:14:58.069 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:15:06.184 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:15:08.200 [main] INFO  com.demo.baseutil.Basetest - Validate Process is clicked is clickable
+19:15:10.607 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process is clicked
+19:15:15.626 [main] INFO  com.demo.baseutil.Basetest - Validate Process add is clicked is clickable
+19:15:17.992 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process add is clicked
+19:15:23.002 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:15:25.472 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:15:27.494 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Saved Value is entered
+19:15:27.829 [main] INFO  com.demo.baseutil.Basetest - F2PG10000658 typed into Saved Value is entered
+19:15:29.839 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:15:32.127 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:15:34.135 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:15:36.529 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:15:38.545 [main] INFO  com.demo.baseutil.Basetest - Validate outside is clicked is clickable
+19:15:40.947 [main] INFO  com.demo.baseutil.Basetest - Clicked on : outside is clicked
+19:15:42.963 [main] INFO  com.demo.baseutil.Basetest - Validate process name is clicked is clickable
+19:15:45.371 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process name is clicked
+19:15:47.377 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+19:15:47.736 [main] INFO  com.demo.baseutil.Basetest - processname typed into process name Value is entered
+19:15:49.787 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:15:49.787 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+19:15:52.172 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+19:15:54.178 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+19:15:54.495 [main] INFO  com.demo.baseutil.Basetest - 0956265002424 typed into process name Value is entered
+19:15:59.501 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+19:16:01.926 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+19:16:03.928 [main] INFO  com.demo.baseutil.Basetest - Validate process type is clicked is clickable
+19:16:06.323 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process type is clicked
+19:16:08.362 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:16:08.362 [main] INFO  com.demo.baseutil.Basetest - Validate process discomm is clicked is clickable
+19:16:10.698 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process discomm is clicked
+19:16:12.738 [main] INFO  com.demo.baseutil.Basetest - Validate process add button is clicked is clickable
+19:16:15.239 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process add button is clicked
+19:16:22.269 [main] INFO  com.demo.baseutil.Basetest - Validate Process add is clicked is clickable
+19:16:24.713 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process add is clicked
+19:16:29.725 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:16:32.070 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:16:34.084 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Saved Value is entered
+19:16:34.337 [main] INFO  com.demo.baseutil.Basetest - F2PG10000658 typed into Saved Value is entered
+19:16:36.339 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:16:38.675 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:16:40.680 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:16:43.081 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:16:45.082 [main] INFO  com.demo.baseutil.Basetest - Validate outside is clicked is clickable
+19:16:47.595 [main] INFO  com.demo.baseutil.Basetest - Clicked on : outside is clicked
+19:16:49.612 [main] INFO  com.demo.baseutil.Basetest - Validate process name is clicked is clickable
+19:16:52.052 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process name is clicked
+19:16:54.060 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+19:16:54.410 [main] INFO  com.demo.baseutil.Basetest - processnamenew typed into process name Value is entered
+19:16:56.440 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:16:56.440 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+19:16:58.735 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+19:17:00.744 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+19:17:00.985 [main] INFO  com.demo.baseutil.Basetest - 0956265002424 typed into process name Value is entered
+19:17:05.997 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+19:17:08.475 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+19:17:10.479 [main] INFO  com.demo.baseutil.Basetest - Validate process type is clicked is clickable
+19:17:12.853 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process type is clicked
+19:17:14.892 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:17:14.892 [main] INFO  com.demo.baseutil.Basetest - Validate process discomm is clicked is clickable
+19:17:17.434 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process discomm is clicked
+19:17:19.477 [main] INFO  com.demo.baseutil.Basetest - Validate process add button is clicked is clickable
+19:17:21.827 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process add button is clicked
+19:17:31.832 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:17:34.301 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:17:36.308 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Saved Value is entered
+19:17:36.580 [main] INFO  com.demo.baseutil.Basetest - F2PG10000658 typed into Saved Value is entered
+19:17:38.599 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:17:40.954 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:17:42.961 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:17:45.357 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:17:47.601 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:17:48.277 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:18:03.884 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:18:06.192 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+19:18:06.200 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+19:18:06.205 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+19:18:06.205 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+19:18:06.205 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+19:18:06.205 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+19:18:08.468 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+19:18:08.468 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+19:18:08.852 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+19:18:08.852 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+19:18:11.209 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+19:18:11.209 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+19:18:11.404 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+19:18:11.420 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:18:11.420 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+19:18:14.209 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+19:18:18.000 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+19:18:28.014 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+19:18:30.487 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+19:18:38.581 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:18:40.586 [main] INFO  com.demo.baseutil.Basetest - Validate transaction is clicked is clickable
+19:18:43.009 [main] INFO  com.demo.baseutil.Basetest - Clicked on : transaction is clicked
+19:18:48.012 [main] INFO  com.demo.baseutil.Basetest - Validate add new is clicked is clickable
+19:18:50.547 [main] INFO  com.demo.baseutil.Basetest - Clicked on : add new is clicked
+19:18:55.548 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:18:57.902 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:18:59.912 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Saved Value is entered
+19:19:00.146 [main] INFO  com.demo.baseutil.Basetest - F2PG10000658 typed into Saved Value is entered
+19:19:02.153 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:19:04.502 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:19:06.509 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+19:19:08.926 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+19:19:10.940 [main] INFO  com.demo.baseutil.Basetest - Validate chooseprocess id is clicked is clickable
+19:19:13.298 [main] INFO  com.demo.baseutil.Basetest - Clicked on : chooseprocess id is clicked
+19:19:15.311 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Harvestiong/commission is entered
+19:19:15.709 [main] INFO  com.demo.baseutil.Basetest - Harvesting typed into Harvestiong/commission is entered
+19:19:17.720 [main] INFO  com.demo.baseutil.Basetest - Validate Process commision is selected is clickable
+19:19:20.053 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process commision is selected
+19:19:22.122 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:19:22.122 [main] INFO  com.demo.baseutil.Basetest - Validate date is selected is clickable
+19:19:39.631 [main] INFO  com.demo.baseutil.Basetest - Clicked on : date is selected
+19:19:40.648 [main] INFO  com.demo.baseutil.Basetest - Validate date netx button is clickable
+19:19:50.487 [main] INFO  com.demo.baseutil.Basetest - Clicked on : date netx button
+19:19:50.488 [main] INFO  com.demo.baseutil.Basetest - Validate date is entered is clickable
+19:19:52.805 [main] INFO  com.demo.baseutil.Basetest - Clicked on : date is entered
+19:19:54.805 [main] INFO  com.demo.baseutil.Basetest - Validate date is selected is clickable
+19:19:57.131 [main] INFO  com.demo.baseutil.Basetest - Clicked on : date is selected
+19:20:03.206 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:20:03.206 [main] INFO  com.demo.baseutil.Basetest - Validate activity is selected is clickable
+19:20:05.447 [main] INFO  com.demo.baseutil.Basetest - Clicked on : activity is selected
+19:20:05.447 [main] INFO  com.demo.baseutil.Basetest - Enter the value into activity Value is entered
+19:20:05.689 [main] INFO  com.demo.baseutil.Basetest - abcd typed into activity Value is entered
+19:20:11.748 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+19:20:11.748 [main] INFO  com.demo.baseutil.Basetest - Validate packing type dropdown is selected is clickable
+19:20:13.989 [main] INFO  com.demo.baseutil.Basetest - Clicked on : packing type dropdown is selected
+19:20:13.989 [main] INFO  com.demo.baseutil.Basetest - Validate packing type dropdown is selected is clickable
+19:20:16.400 [main] INFO  com.demo.baseutil.Basetest - Clicked on : packing type dropdown is selected
+19:20:18.422 [main] INFO  com.demo.baseutil.Basetest - Validate Add Transaction is selected is clickable
+19:20:20.720 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add Transaction is selected
+19:20:22.722 [main] INFO  com.demo.baseutil.Basetest - Validate productid is selected is clickable
+19:21:03.962 [main] ERROR com.demo.baseutil.Basetest - productid is selected is not clickable
+19:21:03.965 [main] ERROR com.demo.baseutil.Basetest - Unable to click on productid is selected
+19:21:45.607 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:21:46.158 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+19:21:47.111 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

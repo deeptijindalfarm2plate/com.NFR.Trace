@@ -1,0 +1,80 @@
+17:11:01.655 [main] INFO  com.demo.baseutil.Basetest - 
+17:11:01.663 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+17:11:01.824 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+17:11:01.832 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_08_2024_17_11_01/Report/04_08_2024_17_11_01
+17:11:01.956 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+17:11:01.958 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+17:11:23.260 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+17:11:25.741 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+17:11:25.758 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+17:11:25.767 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+17:11:25.767 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+17:11:25.768 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+17:11:25.768 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+17:11:28.055 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+17:11:28.057 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+17:11:28.515 [main] INFO  com.demo.baseutil.Basetest - farmtoplatef2p@paramountsoft.net typed into Email Id Entered
+17:11:28.516 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+17:11:30.904 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+17:11:30.905 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+17:11:31.229 [main] INFO  com.demo.baseutil.Basetest - Admin1234 typed into Password Id Entered
+17:11:31.246 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+17:11:31.246 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+17:11:34.533 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+17:11:47.352 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+17:12:00.368 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+17:12:02.943 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Network Management is clicked
+17:12:04.956 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+17:12:07.618 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+17:12:09.622 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation Name is clicked is clickable
+17:12:12.420 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation Name is clicked
+17:12:12.420 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Organisation is Entered
+17:12:12.854 [main] INFO  com.demo.baseutil.Basetest - cU3fKeFr typed into Organisation is Entered
+17:12:12.854 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation type is clicked is clickable
+17:12:15.264 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation type is clicked
+17:12:15.264 [main] INFO  com.demo.baseutil.Basetest - Validate upstream is selected is clickable
+17:12:17.735 [main] INFO  com.demo.baseutil.Basetest - Clicked on : upstream is selected
+17:12:17.735 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is clicked is clickable
+17:12:20.088 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is clicked
+17:12:20.089 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is selected is clickable
+17:12:22.575 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation role is selected
+17:12:22.577 [main] INFO  com.demo.baseutil.Basetest - Validate module is clicked is clickable
+17:12:25.012 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is clicked
+17:12:25.012 [main] INFO  com.demo.baseutil.Basetest - Validate module is selected is clickable
+17:12:27.471 [main] INFO  com.demo.baseutil.Basetest - Clicked on : module is selected
+17:12:27.472 [main] INFO  com.demo.baseutil.Basetest - Validate email field is clicked is clickable
+17:12:29.967 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email field is clicked
+17:12:29.967 [main] INFO  com.demo.baseutil.Basetest - Enter the value into emailid is Entered
+17:12:30.420 [main] INFO  com.demo.baseutil.Basetest - 576@yopmail.com typed into emailid is Entered
+17:12:30.438 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+17:12:30.438 [main] INFO  com.demo.baseutil.Basetest - Validate Database Type is clicked is clickable
+17:12:32.903 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Database Type is clicked
+17:12:32.903 [main] INFO  com.demo.baseutil.Basetest - Validate Db is selected is clickable
+17:12:35.386 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Db is selected
+17:12:37.456 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+17:12:38.462 [main] INFO  com.demo.baseutil.Basetest - Validate Db is selected is clickable
+17:12:41.675 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Db is selected
+17:12:43.678 [main] INFO  com.demo.baseutil.Basetest - Validate ordermgmt is selected is clickable
+17:13:25.083 [main] ERROR com.demo.baseutil.Basetest - ordermgmt is selected is not clickable
+17:13:25.084 [main] ERROR com.demo.baseutil.Basetest - Unable to click on ordermgmt is selected
+17:14:06.701 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+17:14:06.897 [main] ERROR com.demo.baseutil.Basetest - disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.88, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52373}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b8f25d7c5da3277868f4d89a9c20961
+17:14:12.217 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+17:14:12.219 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+17:14:12.225 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+17:14:12.225 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+17:14:12.244 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.88, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 717ad0e467b7d2f4d388190783c22a49

@@ -1,0 +1,18 @@
+20:01:08.809 [main] INFO  com.demo.baseutil.Basetest - 
+20:01:08.815 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+20:01:08.925 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+20:01:08.932 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace performance/reports/Automation Report- 04_25_2024_20_01_08/Report/04_25_2024_20_01_08
+20:01:09.040 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+20:01:09.041 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+20:02:59.279 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+20:02:59.358 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+20:03:29.410 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+20:03:29.410 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+20:03:59.661 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=124.0.6367.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a59d9eae49f649347e6313d14b447a5
