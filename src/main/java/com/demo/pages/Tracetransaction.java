@@ -366,10 +366,10 @@ public class Tracetransaction {
 
 		Thread.sleep(8000);
 		
-		 actionutil.clickOnElement(trace, "click on trace"); Thread.sleep(4000);
+		/* actionutil.clickOnElement(trace, "click on trace"); Thread.sleep(4000);
 		  actionutil.scrollDowntoelement(transaction); Thread.sleep(2000);
 		 actionutil.clickOnElement(transaction, "transaction is clicked");
-		 Thread.sleep(5000);
+		 Thread.sleep(5000);*/
 		 
 
 		Thread.sleep(2000);
