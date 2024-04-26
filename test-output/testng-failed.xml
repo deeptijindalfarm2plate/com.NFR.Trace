@@ -8,17 +8,17 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.demo.testscripts.Traceroles">
+      <class name="com.demo.testscripts.Inventorycapacity">
         <methods>
           <include name="createFolder"/>
           <include name="browserclose"/>
           <include name="launchBrowser"/>
+          <include name="verifyinventory"/>
           <include name="browserclose1"/>
-          <include name="verifyusers"/>
           <include name="setExtentReport"/>
           <include name="killTask"/>
         </methods>
-      </class> <!-- com.demo.testscripts.Traceroles -->
+      </class> <!-- com.demo.testscripts.Inventorycapacity -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

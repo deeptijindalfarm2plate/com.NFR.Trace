@@ -13,6 +13,8 @@ import com.demo.pages.Tracenetworkmgmt;
 import com.demo.pages.Traceprocess;
 import com.demo.pages.Traceproduct;
 import com.demo.pages.Traceroles;
+import com.demo.pages.Inventorycapacity;
+import com.demo.pages.Inventoryquotation;
 import com.demo.pages.Traceasset;
 import com.demo.pages.Tracedashboard;
 import com.demo.pages.Traceinfra;
@@ -41,6 +43,8 @@ public class Initializepages extends Basetest2 {
 	public Tracetransaction transaction;
 	public Traceusers users;
 	public Traceroles roles;
+	public Inventorycapacity inventory;
+	public Inventoryquotation quotationpage;
 	
 	public Initializepages(WebDriver driver, long eto, WebActionUtil actionutil) {
 
@@ -58,6 +62,9 @@ public class Initializepages extends Basetest2 {
 		transaction = new Tracetransaction(driver, eto,actionutil);
 		users = new Traceusers(driver,eto, actionutil);
 		roles = new Traceroles(driver,eto, actionutil);
+		inventory = new Inventorycapacity(driver,eto, actionutil);
+		quotationpage = new Inventoryquotation(driver,eto, actionutil);
+		
 	}
 
 }

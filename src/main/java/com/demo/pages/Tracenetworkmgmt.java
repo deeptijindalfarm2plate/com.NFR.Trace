@@ -138,7 +138,7 @@ public class Tracenetworkmgmt {
 	private WebElement sendinvite;
 
 	/* X-path for submit */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[2]/button[2]")
+	@FindBy(xpath = "//button[contains(text(),'Submit')]")
 	private WebElement submit;
 	
 	/* X-path for input email address */
