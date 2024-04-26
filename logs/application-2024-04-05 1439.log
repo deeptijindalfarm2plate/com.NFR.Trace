@@ -1,0 +1,30 @@
+14:39:56.435 [main] INFO  com.demo.baseutil.Basetest - 
+14:39:56.441 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+14:39:56.523 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+14:39:56.529 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_05_2024_14_39_56/Report/04_05_2024_14_39_56
+14:39:56.621 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+14:39:56.622 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+14:40:17.222 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+14:40:19.809 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+14:40:19.835 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+14:40:19.850 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+14:40:19.850 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+14:40:19.850 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+14:40:19.850 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+14:40:22.194 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+14:40:22.195 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+14:40:22.521 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+14:40:22.521 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+14:40:24.836 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+14:40:24.836 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+14:40:25.083 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+14:40:25.093 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+14:40:25.093 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+14:40:28.240 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+14:40:32.350 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+14:40:36.375 [main] INFO  com.demo.baseutil.Basetest - Validate productid is selected is clickable
+14:41:17.631 [main] ERROR com.demo.baseutil.Basetest - productid is selected is not clickable
+14:41:17.631 [main] ERROR com.demo.baseutil.Basetest - Unable to click on productid is selected
+14:41:59.264 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+14:41:59.868 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+14:42:00.177 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

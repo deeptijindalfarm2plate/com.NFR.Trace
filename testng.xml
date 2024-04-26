@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="browserName" value="chrome" />
+    <listeners>
+        <listener class-name="com.demo.listeners.TestListener" />
+    </listeners>
+    <test name="Test">
+        <parameter name="browserName" value="chrome" />
+        <classes>
+        
+        <!--class name="com.demo.testscripts.Tracesignuppage" />
+         <class name="com.demo.testscripts.Tracedashboard" />
+         <class name="com.demo.testscripts.Tracenetworkmanagement" />      
+          <class name="com.demo.testscripts.Tracenetasset" />
+         <class name="com.demo.testscripts.Traceinfra" />
+         <class name="com.demo.testscripts.Traceproducts" />-->
+         <class name="com.demo.testscripts.Traceprocess" />
+          <!--class name="com.demo.testscripts.Tracetransaction" />-->
+         
+         
+         
+         <!--  <class name="com.demo.testscripts.Tracetestsigninpage" />-->
+           <!--class name="com.demo.testscripts.Tracetestlogin" />-->
+         <!--   <class name="com.demo.testscripts.Tracetestlogin2" />-->
+         <!-- <class name="com.demo.testscripts.Tracetestlogout" />-->
+            
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
