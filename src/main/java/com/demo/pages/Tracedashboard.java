@@ -139,7 +139,7 @@ public class Tracedashboard {
 	private WebElement sendinvite;
 
 	/* X-path for submit */
-	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[3]/div[2]/div[1]/div/div/div[2]/div/div[2]/button[2]")
+	@FindBy(xpath = "//button[contains(text(),'Submit')]")
 	private WebElement submit;
 	
 	/* X-path for input email address */
@@ -193,6 +193,12 @@ public class Tracedashboard {
 	/* X-path for outer modal window */
 	@FindBy(xpath = "//*[@id='root']/div/div[5]/div[2]/div/div/div[2]")	
 	private WebElement outermodal1;
+	
+	
+	/* X-path for continue button */
+	@FindBy(xpath = "//button[contains(text(),'Continue')]")
+	//@FindBy(xpath = "//button[contains(text(),'Confirm & Login')]")	
+	private WebElement continue1;
 	
 	/* X-path for my profile first name */
 	@FindBy(xpath = "//input[@name='firstName']")
@@ -464,22 +470,25 @@ public class Tracedashboard {
 		 actionutil.clickOnElement(confirmpass, "confirm password is clicked");
 		 actionutil.typeText(confirmpass, "Admin@1234", "Confirm Password is entered");
 		 Thread.sleep(2000);
-		 actionutil.scrollDown();
+		 		 actionutil.scrollDowntoelement(button);
 		 actionutil.clickOnElement(button, "button is clicked");
 		 Thread.sleep(2000);
 		  actionutil.clickOnElement(email1, "email address field is clicked");
 			actionutil.typeText(email1, emailaddress, "Email Id Entered");
 			actionutil.clickOnElement(pass1, "Enter the password");
 			actionutil.typeText(pass, "Admin@1234", "Password Id Entered");
-			actionutil.scrollDown();
+			actionutil.scrollDowntoelement(signin1);
 			actionutil.clickOnElement(signin1, "Press the signin button");
 			Thread.sleep(6000);	
-			actionutil.clickOnElement(outermodal1, "Press the signin button");
-			//actionutil.scrollDown();
-			Thread.sleep(1000);
-			actionutil.clickOnElement(modalbutton, "Press the button");
-			Thread.sleep(3000);
-			actionutil.clickOnElement(outermodal, "Press the signin button");
+			//actionutil.clickOnElement(outermodal1, "Press the signin button");
+			actionutil.clickOnElement(continue1, "Press the continue button");
+			//actionutil.clickOnElement(outermodal, "Press the outemodal button");
+			actionutil.scrollDown();
+			actionutil.scrollDowntoelement(checkbox);
+			Thread.sleep(5000);
+			//actionutil.clickOnElement(modalbutton, "Press the button");
+			//Thread.sleep(3000);
+			//actionutil.clickOnElement(outermodal, "Press the signin button");
 			actionutil.scrollDown();
 			actionutil.clickOnElement(checkbox, "Press the signin button");
 			actionutil.clickOnElement(modalbutton, "Press the button");	

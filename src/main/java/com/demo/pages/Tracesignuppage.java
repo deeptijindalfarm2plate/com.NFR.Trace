@@ -101,6 +101,12 @@ public class Tracesignuppage {
 	@FindBy(xpath = "//button[@id='org_invite_button']")
 	private WebElement sendinvite;
 	
+	/* X-path for table */
+	@FindBy(xpath = "//td[1]")
+	private WebElement table;
+	
+	//td[1]
+	
 	/* X-path for order Management */
 	
 	
@@ -250,6 +256,7 @@ public class Tracesignuppage {
 	 public void networkmanagment() throws InterruptedException
 	 {
 		
+
 		 Thread.sleep(5000);
 		 actionutil.clickOnElement(networkmgmt, "Network Management is clicked");
 		 Thread.sleep(4000);
@@ -258,19 +265,31 @@ public class Tracesignuppage {
 		 actionutil.clickOnElement(orgname, "Organisation Name is clicked");
 		 String randomValue = actionutil.generateRandomAlphanumeric(8);
 		 actionutil.typeText(orgname, randomValue, "Organisation is Entered");
+		
 		 actionutil.clickOnElement(orgtype, "Organisation type is clicked");
+		 
 		 actionutil.clickOnElement(upstream, "upstream is selected");
+		 
 		 actionutil.clickOnElement(orgrole, "Organisation role is clicked");
 		 actionutil.clickOnElement(rolesupplier, "Organisation role is selected");
 		 actionutil.clickOnElement(module, "module is clicked");
 		 //actionutil.clickOnElement((getModuleElement("'Trace'")), "Trace is selected");
 		actionutil.clickOnElement(trace, "module is selected");
+		
 		 actionutil.clickOnElement(email, "email field is clicked");
 		//  String emailaddress = randomNumber + "@yopmail.com";
 		  System.out.println("Print the value of emailadress" + emailaddress);
 		 actionutil.typeText(email, emailaddress, "emailid is Entered");
-		 actionutil.scrollDown();
+		 Thread.sleep(2000);
+	//	actionutil.scrollDown();
+		 actionutil.scrollDowntoelement(email);
+		 Thread.sleep(5000);
+		 
+//	actionutil.scrollDowntoelement(dbtype);
+	Thread.sleep(2000);
+		// actionutil.scrollDowntoelement(dbtype);
 		 actionutil.clickOnElement(dbtype, "Database Type is clicked");
+		
 		 actionutil.clickOnElement(fabric, "Db is selected");
 		 Thread.sleep(2000);
 		 actionutil.scrollDown();
@@ -304,14 +323,14 @@ public class Tracesignuppage {
 		 actionutil.clickOnElement(confirmpass, "confirm password is clicked");
 		 actionutil.typeText(confirmpass, "Admin@1234", "Confirm Password is entered");
 		 Thread.sleep(2000);
-		 actionutil.scrollDown();
+		 actionutil.scrollDowntoelement(button);
 		 actionutil.clickOnElement(button, "button is clicked");
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(email1, "email address field is clicked");
 			actionutil.typeText(email1, emailaddress, "Email Id Entered");
 			actionutil.clickOnElement(pass1, "Enter the password");
 			actionutil.typeText(pass, "Admin@1234", "Password Id Entered");
-			actionutil.scrollDown();
+			actionutil.scrollDowntoelement(signin1);
 			actionutil.clickOnElement(signin1, "Press the signin button");
 			Thread.sleep(3000);	
 			//actionutil.clickOnElement(outermodal, "Press the signin button");
@@ -347,7 +366,8 @@ public void myprofile() throws InterruptedException
 	Thread.sleep(2000);	
 	//actionutil.typeText(cmpzip, "10038", "Enetred the Zip");
 	actionutil.scrollDownToBottom();
-	Thread.sleep(1000);
+	actionutil.scrollDowntoelement(cmpsubmit);
+	Thread.sleep(2000);
 	//actionutil.scrollDown();
 	actionutil.clickOnElement(cmpsubmit, "Click on Submit");
 	Thread.sleep(1000);

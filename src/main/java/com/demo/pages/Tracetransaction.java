@@ -133,13 +133,13 @@ public class Tracetransaction {
 	private WebElement date;
 
 	/* X-path for packing type dropdown */
-	@FindBy(xpath = "//*[@id='myForm']/div[4]/div/div/div[3]/div/div[1]/div/input")
+	@FindBy(xpath = "//*[@id='myForm']/div[4]/div/div/div[2]/div/div[1]/div/input")
 	private WebElement packingtype;
 
 	/* X-path for packing type dropdown value */
-	@FindBy(xpath = "//*[@id='myForm']/div[4]/div/div/div[3]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='myForm']/div[4]/div/div/div[2]/div/div[2]/ul/li[1]")
 	private WebElement packingtypeselect;
-
+	
 	/* X-path for packing type date next button */
 	@FindBy(xpath = "//*/div[3]/div/div/div/div/div[1]/div/div[1]/div[1]/button[3]")
 	private WebElement datenextbutton;
@@ -268,6 +268,44 @@ public class Tracetransaction {
 	/* X-path for SSCC */
 	@FindBy(xpath = "//*[@id='myForm']/div[4]/div[3]/div[1]/div[1]/label/img")
 	private WebElement ssccimg;
+	
+
+/* X-path for  tlc */
+	@FindBy(xpath = "//input[@id='add_transactions_commission_TLC_Number']")
+	private WebElement tlc;
+
+/* X-path for  Location */
+	@FindBy(xpath = "//input[@id='add_transactions_commission_LocationOfImmediateEvent']")
+	private WebElement Location;
+
+/* X-path for  commodity */
+	@FindBy(xpath = "//input[@name='CommodityVarietyOfTheProduct']")
+	private WebElement commodity;
+
+/* X-path for  field */
+	@FindBy(xpath = "//input[@name='FieldOrFoodGrowingAreaName']")
+	private WebElement field;
+
+/* X-path for  container */
+	@FindBy(xpath = "//*[@id='myForm']/div[4]/div/div/div[14]/div/div[1]/div/input")
+	private WebElement Container;
+
+/* X-path for document */
+	@FindBy(xpath = "//input[@name='DocumentReferenceNo']")
+	private WebElement document;
+
+/* X-path for itemsgtin */
+	@FindBy(xpath = "//input[@name='UoMSGTIN']")
+	private WebElement itemsgtin;
+
+/* X-path for weightsgtin */
+	@FindBy(xpath = "//input[@name='WeightPerSGTIN']")
+	private WebElement weightsgtin;
+
+/* X-path for  countsgtin */
+	@FindBy(xpath = "//input[@name='CountOfSGTIN']")
+	private WebElement countsgtin;
+
 
 	public static String copyvalue() throws FileNotFoundException {
 		FileReader fileReader = new FileReader(filePath);
@@ -342,10 +380,33 @@ public class Tracetransaction {
 		actionutil.clickOnElement(activity, "activity is selected");
 		actionutil.typeText(activity, "abcd", "activity Value is entered");
 		Thread.sleep(2000);
-		actionutil.scrollDowntoelement(packingtype);
+		//actionutil.scrollDowntoelement(packingtype);
 		actionutil.clickOnElement(packingtype, "packing type dropdown is selected");
 		actionutil.clickOnElement(packingtypeselect, "packing type dropdown is selected");
 		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(packingtype);
+		actionutil.clickOnElement(tlc, "tlc is clicked");
+		actionutil.typeText(tlc, "1234567890", "Tlc no is entered");
+		actionutil.clickOnElement(Location, "location is clicked");
+		actionutil.typeText(Location, "location", "location no is entered");
+		actionutil.clickOnElement(commodity, "commodity is clicked");
+		actionutil.typeText(commodity, "commodity", "commodity is entered");
+		actionutil.scrollDowntoelement(tlc);
+		actionutil.clickOnElement(field, "filed is clicked");
+		actionutil.typeText(field, "filed", "filed is entered");
+		actionutil.clickOnElement(Container, "container is clicked");
+		actionutil.typeText(Container, "container", "filed is entered");
+		actionutil.clickOnElement(countsgtin, "count sgtin is clicked");
+		actionutil.typeText(countsgtin, "123", "countsgtin is entered");
+		actionutil.clickOnElement(weightsgtin, "weightsgtin sgtin is clicked");
+		actionutil.typeText(weightsgtin, "1234567", "weightsgtin is entered");
+		actionutil.clickOnElement(itemsgtin, "itemsgtin sgtin is clicked");
+		actionutil.typeText(itemsgtin, "1234567", "itemsgtin is entered");
+		actionutil.clickOnElement(document, "document is clicked");
+		actionutil.typeText(document, "1234567", "document is entered");
+		
+		
+		
 		// actionutil.clickOnElement(lotnumber, "lot number is selected");
 		// lot= lotnumber.getText();
 		// System.out.println("print the value of lot :" + " " + lot);
@@ -353,6 +414,7 @@ public class Tracetransaction {
 		// actionutil.clickOnElement(sscc, "sscc is selected");
 		// actionutil.typeText(sscc, "001234560000000018", "sscc Value is entered");
 		actionutil.scrollDownToBottom();
+		actionutil.scrollDowntoelement(document);
 		// actionutil.scrollDowntoelement(addnew);
 		actionutil.clickOnElement(addtran, "Add Transaction is selected");
 

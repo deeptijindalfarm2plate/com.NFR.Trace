@@ -494,6 +494,20 @@ public class WebActionUtil extends Basetest {
 		}
 	}
 	
+	
+	 
+		public synchronized void scrollUptoelement(WebElement element, String elementname ) {
+			try {
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+		        
+		        // Scroll up to the element
+		        js.executeScript("arguments[0].scrollIntoView(true);", element);
+		    }			catch (Exception e) {
+				error("Scroll up failed");
+			}
+		}
+		
+	
 	/**
 	 * Description Scroll down
 	 *
@@ -511,13 +525,29 @@ public class WebActionUtil extends Basetest {
 		}
 	}
 	public synchronized void scrollDown() {
-		try {
-			jsExecutor.executeScript("window.scrollBy(0,100)");
-			info("Scroll down");
-		} catch (Exception e) {
-			error("Scroll down failed");
-		}
+	    try {
+	        jsExecutor.executeScript("window.scrollBy(0,100)");
+	        info("Scroll down successful");
+	    } catch (Exception e) {
+	        error("Scroll down failed: " + e.getMessage());
+	    }
 	}
+
+	
+	public synchronized void scrollDown2() {
+	    try {
+	        // Initialize jsExecutor if not done already
+	        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+
+	        // Scroll down by 200 pixels (adjust as needed)
+	        jsExecutor.executeScript("window.scrollBy(0, 200)");
+
+	        info("Scroll down successful");
+	    } catch (Exception e) {
+	        error("Scroll down failed: " + e.getMessage());
+	    }
+	}
+
 	public synchronized void scrollDown1() {
 		try {
 			jsExecutor.executeScript("window.scrollBy(0,80)");

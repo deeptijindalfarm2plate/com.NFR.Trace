@@ -69,7 +69,7 @@ public class Tracelogin {
 		actionutil.typeText(email, emailfield, "Email Id Entered");
 		actionutil.clickOnElement(pass, "Enter the password");
 		actionutil.typeText(pass, passwordfield, "Password Id Entered");
-		actionutil.scrollDown();
+		actionutil.scrollDowntoelement(signin);
 		actionutil.clickOnElement(signin, "Press the signin button");
 		Thread.sleep(2000);
 		String siginPageTitle = driver.getTitle();
@@ -88,7 +88,10 @@ public class Tracelogin {
 		actionutil.typeText(email, emailfield, "Email Id Entered");
 		actionutil.clickOnElement(pass, "Enter the password");
 		actionutil.typeText(pass, passwordfield, "Password Id Entered");
-		actionutil.scrollDown();
+		Thread.sleep(5000);
+		//actionutil.scrollDown();
+		actionutil.scrollDowntoelement(signin);
+		Thread.sleep(1000);
 		actionutil.clickOnElement(signin, "Press the signin button");
 		Thread.sleep(8000);	
 		String siginPageTitle = driver.getTitle();

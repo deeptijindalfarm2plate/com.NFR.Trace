@@ -326,6 +326,7 @@ public class Traceprocess {
 	
 
 	public void processadd() throws InterruptedException, IOException {
+		
 		Thread.sleep(8000);
 		Thread.sleep(8000);
 
@@ -348,28 +349,48 @@ public class Traceprocess {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(outside, "outside is clicked");
 		Thread.sleep(2000);
+		actionutil.scrollDown();
 		actionutil.clickOnElement(processname, "process name is clicked");
 		Thread.sleep(2000);
 		actionutil.typeText(processname, "processname", "process name Value is entered");
 		Thread.sleep(2000);
-		actionutil.scrollDown();
+		actionutil.scrollDowntoelement(productidtextnew);
+		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
 		actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		actionutil.clickOnElement(processtype, "process type is clicked");
 		Thread.sleep(2000);
 		actionutil.scrollDown();
 		actionutil.clickOnElement(processdisagg, "process discomm is clicked");
 		Thread.sleep(2000);
-		actionutil.scrollDownToBottom();
+		actionutil.scrollDowntoelement(processadd1);
+		//actionutil.scrollDownToBottom();
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
 		
+		
+		
+		
 		//New process type transformation
+
+		/*
+		Thread.sleep(8000);
+		Thread.sleep(8000);
+
+		actionutil.clickOnElement(trace, "click on trace");
+		Thread.sleep(4000);
+		actionutil.scrollDowntoelement(process);
+		Thread.sleep(2000);
+		actionutil.clickOnElement(process, "Process is clicked");
+		Thread.sleep(5000);		
+		*/
+		
+		
 		
 		Thread.sleep(5000);
 		actionutil.clickOnElement(processadd, "Process add is clicked");
@@ -385,6 +406,7 @@ public class Traceprocess {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(outside, "outside is clicked");
 		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(productidtextnew);
 		actionutil.clickOnElement(processname, "process name is clicked");
 		Thread.sleep(2000);
 		actionutil.typeText(processname, "processnamenew", "process name Value is entered");
@@ -402,7 +424,8 @@ public class Traceprocess {
 		actionutil.scrollDown();
 		actionutil.clickOnElement(processtrans, "process discomm is clicked");
 		Thread.sleep(2000);
-		actionutil.scrollDownToBottom();
+		actionutil.scrollDowntoelement(processadd1);
+		//actionutil.scrollDownToBottom();
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
 		

@@ -297,16 +297,16 @@ public class Traceproduct {
 		// actionutil.typeText(zipcode, "560052", "Enetred the Zip");
 		 //actionutil.scrollDowntoelement(addbutton);
 		// ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ingredientname);
-		actionutil.scrollDown();
+	//	actionutil.scrollDown();
 		Thread.sleep(2000);
-		actionutil.scrollDown();
+		actionutil.scrollDowntoelement(upload);
 		//actionutil.scrollDowntoelement(ingredientname);
 		//actionutil.scrollToElement1(ingredientname, "scroll to ingredientname");
 		//actionutil.scrollToElement(ingredientname, "Scroll to ingredientname");
 		 actionutil.clickOnElement(ingredientname, "Click on ingrediant name");
 		 actionutil.typeText(ingredientname, "wheat", "ingredient name is entered");
 		 Thread.sleep(1000);	
-		 actionutil.scrollDown();
+		// actionutil.scrollDowntoelement(nuritionfact);
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(nuritionfact, "Click on ingrediant name");
 		 actionutil.typeText(nuritionfact, "fact", "nutri name is entered");
@@ -316,7 +316,7 @@ public class Traceproduct {
 		 Thread.sleep(2000);
 		 actionutil.clickOnElement(nuritionvalue, "Click on ingrediant value");
 		 Thread.sleep(2000);
-		 actionutil.scrollDown();
+		 actionutil.scrollDowntoelement(nuritionfact);
 		 Thread.sleep(2000);
 		 actionutil.scrollDown();
 		 
@@ -325,7 +325,7 @@ public class Traceproduct {
 		 actionutil.clickOnElement(price, "Click on ingrediant name");
 		 actionutil.typeText(price, "1", "price is entered");
 		 actionutil.clickOnElement(currency, "Click on currency");
-		 actionutil.scrollDown();
+		// actionutil.scrollDowntoelement(currencyvalue);
 		 actionutil.clickOnElement(currencyvalue, "Click on currency value");
 		 actionutil.clickOnElement(typepacking, "Click on typepacking value");
 		 actionutil.typeText(typepacking, "1", "typepacking is entered");
@@ -337,12 +337,13 @@ public class Traceproduct {
 		 actionutil.typeText(height, "1", "height is entered");
 		 Thread.sleep(2000);
 		 actionutil.scrollDown();
-		 Thread.sleep(2000);
-		 actionutil.scrollDown();
+		// Thread.sleep(2000);
+		// actionutil.scrollDown();
+		// actionutil.scrollDowntoelement(checkbox1);
 		 actionutil.clickOnElement(checkbox1, "Click on checkbox1");
-		 actionutil.scrollDown();
-		 Thread.sleep(2000);
-		 actionutil.scrollDowntoelement(gln3);
+		 //actionutil.scrollDown();
+		 Thread.sleep(5000);
+		 actionutil.scrollDowntoelement(height);
 		 //actionutil.scrollDown();
 		 actionutil.clickOnElement(gln1, "Click on gln1");
 		 actionutil.typeText(gln1, "0956265002424", "gln1 is entered");

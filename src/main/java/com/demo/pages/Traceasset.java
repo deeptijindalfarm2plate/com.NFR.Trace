@@ -136,6 +136,7 @@ public class Traceasset {
 		 actionutil.typeText(weightcapacity,"100", "enter the weight capacity");
 		 actionutil.clickOnElement(uom, "UoM is clicked");
 		 actionutil.clickOnElement(dropdown, "KGS is selected");
+		 actionutil.scrollDowntoelement(add);
 		 actionutil.scrollDown();
 		 actionutil.clickOnElement(add, "Click on Add button");
 		 Thread.sleep(1000);	

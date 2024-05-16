@@ -1,0 +1,48 @@
+21:22:06.947 [main] INFO  com.demo.baseutil.Basetest - 
+21:22:06.952 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+21:22:07.022 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+21:22:07.027 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 05_09_2024_21_22_07/Report/05_09_2024_21_22_07
+21:22:07.100 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+21:22:07.101 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+21:22:30.010 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+21:22:32.332 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+21:22:32.357 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+21:22:32.366 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+21:22:32.367 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+21:22:32.367 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+21:22:32.367 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+21:22:34.630 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+21:22:34.630 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+21:22:34.881 [main] INFO  com.demo.baseutil.Basetest - farmtoplatef2p@paramountsoft.net typed into Email Id Entered
+21:22:34.881 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+21:22:37.204 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+21:22:37.205 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+21:22:37.430 [main] INFO  com.demo.baseutil.Basetest - Admin1234 typed into Password Id Entered
+21:22:46.522 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+21:22:47.525 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+21:22:50.414 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+21:22:58.422 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+21:23:11.452 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+21:23:13.906 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Network Management is clicked
+21:23:17.910 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+21:23:20.291 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+21:23:22.304 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation Name is clicked is clickable
+21:23:24.632 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation Name is clicked
+21:23:24.632 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Organisation is Entered
+21:23:24.931 [main] INFO  com.demo.baseutil.Basetest - pMjNiHkP typed into Organisation is Entered
+21:23:24.931 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation type is clicked is clickable
+21:23:27.319 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Organisation type is clicked
+21:23:27.319 [main] INFO  com.demo.baseutil.Basetest - Validate upstream is selected is clickable
+21:23:29.801 [main] INFO  com.demo.baseutil.Basetest - Clicked on : upstream is selected
+21:23:33.867 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+21:23:38.880 [main] INFO  com.demo.baseutil.Basetest - Validate Organisation role is clicked is clickable
+21:23:41.005 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+21:23:41.295 [main] ERROR com.demo.baseutil.Basetest - disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bef47f429c9fd4f61e01888c6f9a3969
+21:23:41.929 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser
