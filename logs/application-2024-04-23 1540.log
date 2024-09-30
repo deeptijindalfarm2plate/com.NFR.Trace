@@ -1,0 +1,32 @@
+15:40:21.738 [main] INFO  com.demo.baseutil.Basetest - 
+15:40:21.742 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+15:40:21.832 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+15:40:21.838 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_23_2024_15_40_21/Report/04_23_2024_15_40_21
+15:40:21.938 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+15:40:21.939 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+15:40:40.217 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:40:42.564 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:40:42.573 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:40:42.581 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:40:42.581 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:40:42.581 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:40:42.581 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:40:44.872 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:40:44.873 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:40:45.220 [main] INFO  com.demo.baseutil.Basetest - amit@paramountsoft.net typed into Email Id Entered
+15:40:45.221 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:40:47.495 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:40:47.495 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:40:47.686 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+15:40:47.707 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:40:47.707 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:40:50.379 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:40:52.394 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:41:02.417 [main] INFO  com.demo.baseutil.Basetest - Validate click on IM is clickable
+15:41:04.786 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on IM
+15:41:08.790 [main] INFO  com.demo.baseutil.Basetest - Validate Inventory Capacity is clicked is clickable
+15:41:11.293 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Inventory Capacity is clicked
+15:41:13.306 [main] INFO  com.demo.baseutil.Basetest - Validate Add tab is clicked is clickable
+15:41:14.933 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:41:15.512 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:41:16.094 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

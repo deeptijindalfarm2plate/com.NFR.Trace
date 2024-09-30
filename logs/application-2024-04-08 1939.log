@@ -1,0 +1,17 @@
+19:39:04.432 [main] INFO  com.demo.baseutil.Basetest - 
+19:39:04.440 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+19:39:04.614 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+19:39:04.623 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 04_08_2024_19_39_04/Report/04_08_2024_19_39_04
+19:39:04.762 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+19:39:04.765 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+19:39:14.136 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+19:39:16.283 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+19:39:16.284 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+19:39:16.524 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.88, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f888f95f79544d99f8e89d226b7707b2

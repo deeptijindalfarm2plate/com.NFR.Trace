@@ -1,0 +1,32 @@
+15:21:24.554 [main] INFO  com.demo.baseutil.Basetest - 
+15:21:24.559 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+15:21:24.641 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+15:21:24.646 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 05_17_2024_15_21_24/Report/05_17_2024_15_21_24
+15:21:24.734 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+15:21:24.735 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+15:21:34.109 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:21:36.548 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:21:36.559 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:21:36.565 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:21:36.566 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:21:36.566 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:21:36.566 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:21:38.822 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:21:38.824 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:21:39.147 [main] INFO  com.demo.baseutil.Basetest - amit@paramountsoft.net typed into Email Id Entered
+15:21:39.147 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:21:41.426 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:21:41.426 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:21:41.698 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+15:21:50.796 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:21:51.814 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:21:54.581 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:22:02.599 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:22:10.619 [main] INFO  com.demo.baseutil.Basetest - Validate trace is clicked is clickable
+15:22:13.367 [main] INFO  com.demo.baseutil.Basetest - Clicked on : trace is clicked
+15:22:18.448 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+15:22:59.823 [main] ERROR com.demo.baseutil.Basetest - Network Management is clicked is not clickable
+15:22:59.823 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Network Management is clicked
+15:23:41.905 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:23:42.433 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:23:42.674 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

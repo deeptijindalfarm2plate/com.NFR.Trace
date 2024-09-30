@@ -1,0 +1,34 @@
+11:13:30.997 [main] INFO  com.demo.baseutil.Basetest - 
+11:13:31.002 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+11:13:31.073 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+11:13:31.076 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace/reports/Automation Report- 06_27_2024_11_13_31/Report/06_27_2024_11_13_31
+11:13:31.172 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+11:13:31.173 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+11:13:45.332 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+11:13:47.759 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+11:13:47.778 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+11:13:47.787 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+11:13:47.788 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+11:13:47.788 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+11:13:47.788 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+11:13:50.064 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+11:13:50.065 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+11:13:50.392 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+11:13:50.393 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+11:13:52.683 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+11:13:52.683 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+11:13:52.916 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+11:13:56.981 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+11:13:56.981 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+11:13:59.795 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+11:14:02.075 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+11:14:20.097 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+11:14:22.500 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+11:14:30.601 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+11:14:32.617 [main] INFO  com.demo.baseutil.Basetest - Validate Process is clicked is clickable
+11:14:35.202 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process is clicked
+11:14:40.212 [main] INFO  com.demo.baseutil.Basetest - Validate Process add is clicked is clickable
+11:14:42.748 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process add is clicked
+11:14:47.754 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+11:15:29.027 [main] ERROR com.demo.baseutil.Basetest - Product id is clicked is not clickable
+11:15:29.027 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Product id is clicked

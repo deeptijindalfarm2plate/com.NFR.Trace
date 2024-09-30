@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.demo.testscripts.Traceassetcontainer">
+        <methods>
+          <include name="verifytraceassests"/>
+          <include name="createFolder"/>
+          <include name="browserclose"/>
+          <include name="launchBrowser"/>
+          <include name="browserclose1"/>
+          <include name="setExtentReport"/>
+          <include name="killTask"/>
+        </methods>
+      </class> <!-- com.demo.testscripts.Traceassetcontainer -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

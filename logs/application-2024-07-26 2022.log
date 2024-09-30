@@ -1,0 +1,38 @@
+20:22:26.898 [main] INFO  com.demo.baseutil.Basetest - 
+20:22:26.902 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+20:22:26.997 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+20:22:27.001 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace/reports/Automation Report- 07_26_2024_20_22_27/Report/07_26_2024_20_22_27
+20:22:27.115 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+20:22:27.116 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+20:22:37.100 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+20:22:39.718 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+20:22:39.732 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+20:22:39.740 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+20:22:39.740 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+20:22:39.740 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+20:22:39.740 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+20:22:42.023 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+20:22:42.024 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+20:22:42.333 [main] INFO  com.demo.baseutil.Basetest - clhijshz193@yopmail.com typed into Email Id Entered
+20:22:42.334 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+20:22:44.610 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+20:22:44.610 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+20:22:44.893 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+20:22:48.975 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+20:22:48.976 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+20:22:51.758 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+20:22:53.772 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+20:23:03.794 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+20:23:06.125 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+20:23:14.200 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+20:23:16.210 [main] INFO  com.demo.baseutil.Basetest - Validate Process is clicked is clickable
+20:23:46.718 [main] ERROR com.demo.baseutil.Basetest - Process is clicked is not clickable
+20:23:46.718 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Process is clicked
+20:24:17.279 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee90333a3894b820bfe2c0772c5adc44

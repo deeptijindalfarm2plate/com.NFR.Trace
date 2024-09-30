@@ -1,0 +1,50 @@
+15:22:47.885 [main] INFO  com.demo.baseutil.Basetest - 
+15:22:47.896 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+15:22:48.086 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+15:22:48.097 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace Performance latest/reports/Automation Report- 08_21_2024_15_22_48/Report/08_21_2024_15_22_48
+15:22:48.252 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+15:22:48.254 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+15:23:07.473 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:23:10.028 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:23:10.044 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:23:10.060 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:23:10.061 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:23:10.061 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:23:10.061 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:23:12.421 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:23:12.422 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:23:12.852 [main] INFO  com.demo.baseutil.Basetest - manufact123@yopmail.com typed into Email Id Entered
+15:23:12.852 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:23:15.290 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:23:15.290 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:23:15.631 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+15:23:19.695 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:23:19.696 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:23:22.810 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:23:24.819 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:23:26.831 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolled to process
+15:23:36.568 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolled to process completed
+15:23:41.574 [main] INFO  com.demo.baseutil.Basetest - Validate Process is clicked is clickable
+15:23:44.161 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process is clicked
+15:23:49.170 [main] INFO  com.demo.baseutil.Basetest - Validate Process add is clicked is clickable
+15:23:51.639 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process add is clicked
+15:23:56.647 [main] INFO  com.demo.baseutil.Basetest - Validate shared product id is clicked is clickable
+15:23:59.029 [main] INFO  com.demo.baseutil.Basetest - Clicked on : shared product id is clicked
+15:24:03.041 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+15:24:05.365 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+15:24:07.378 [main] INFO  com.demo.baseutil.Basetest - Enter the value into roduct id Value is entered
+15:24:07.558 [main] ERROR com.demo.baseutil.Basetest -  Unable to type F2PG10001009 into roduct id Value is entered
+15:24:07.773 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:24:08.859 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:24:12.617 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+15:24:12.621 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:24:43.036 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+15:24:43.036 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+15:25:13.581 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 416b3882a2806a7aab4ceb00aef03682

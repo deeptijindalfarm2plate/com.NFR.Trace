@@ -1,0 +1,46 @@
+13:57:48.836 [main] INFO  com.demo.baseutil.Basetest - 
+13:57:48.841 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+13:57:48.975 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+13:57:48.984 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace/reports/Automation Report- 08_05_2024_13_57_48/Report/08_05_2024_13_57_48
+13:57:49.180 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+13:57:49.183 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+13:58:01.696 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+13:58:04.170 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+13:58:04.187 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+13:58:04.203 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+13:58:04.204 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+13:58:04.204 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+13:58:04.204 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+13:58:06.585 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+13:58:06.586 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+13:58:07.010 [main] INFO  com.demo.baseutil.Basetest - ldekkenq362@yopmail.com typed into Email Id Entered
+13:58:07.010 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+13:58:09.326 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+13:58:09.326 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+13:58:09.623 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+13:58:13.706 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+13:58:13.706 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+13:58:16.605 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+13:58:19.204 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+13:58:26.221 [main] INFO  com.demo.baseutil.Basetest - Scroll till the Transaction is scrolled
+13:58:26.307 [main] INFO  com.demo.baseutil.Basetest - Scroll till the Transaction is scrolled completed
+13:58:26.308 [main] INFO  com.demo.baseutil.Basetest - Validate transaction is clicked is clickable
+13:58:28.780 [main] INFO  com.demo.baseutil.Basetest - Clicked on : transaction is clicked
+13:58:28.780 [main] INFO  com.demo.baseutil.Basetest - Validate productid is selected is clickable
+13:58:31.148 [main] INFO  com.demo.baseutil.Basetest - Clicked on : productid is selected
+13:58:31.148 [main] INFO  com.demo.baseutil.Basetest - Validate shared product is clicked is clickable
+13:58:33.510 [main] INFO  com.demo.baseutil.Basetest - Clicked on : shared product is clicked
+13:58:33.510 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the productid
+13:58:33.845 [main] INFO  com.demo.baseutil.Basetest - F2PG10000947 typed into enter the productid
+13:58:33.845 [main] INFO  com.demo.baseutil.Basetest - Validate productid is selected is clickable
+13:58:36.194 [main] INFO  com.demo.baseutil.Basetest - Clicked on : productid is selected
+13:58:36.194 [main] INFO  com.demo.baseutil.Basetest - Validate search is selected is clickable
+13:58:38.534 [main] INFO  com.demo.baseutil.Basetest - Clicked on : search is selected
+13:58:38.534 [main] INFO  com.demo.baseutil.Basetest - Validate shared batch is clicked is clickable
+13:58:42.373 [main] INFO  com.demo.baseutil.Basetest - Clicked on : shared batch is clicked
+13:58:42.374 [main] INFO  com.demo.baseutil.Basetest - Validate shared batch value is clicked is clickable
+13:59:13.029 [main] ERROR com.demo.baseutil.Basetest - shared batch value is clicked is not clickable
+13:59:13.029 [main] ERROR com.demo.baseutil.Basetest - Unable to click on shared batch value is clicked
+13:59:43.882 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+13:59:44.437 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+13:59:45.078 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

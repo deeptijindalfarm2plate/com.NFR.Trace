@@ -1,0 +1,73 @@
+11:27:18.500 [main] INFO  com.demo.baseutil.Basetest - 
+11:27:18.509 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+11:27:18.608 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+11:27:18.614 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace/reports/Automation Report- 07_22_2024_11_27_18/Report/07_22_2024_11_27_18
+11:27:18.741 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+11:27:18.742 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+11:27:35.866 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+11:27:38.411 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+11:27:38.426 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+11:27:38.438 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+11:27:38.438 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+11:27:38.438 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+11:27:38.438 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+11:27:40.783 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+11:27:40.784 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+11:27:41.173 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+11:27:41.174 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+11:27:43.502 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+11:27:43.503 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+11:27:43.814 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+11:27:47.886 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+11:27:47.886 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+11:27:50.822 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+11:27:53.342 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+11:28:03.349 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+11:28:05.808 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+11:28:07.809 [main] INFO  com.demo.baseutil.Basetest - Validate Network Management is clicked is clickable
+11:28:10.277 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Network Management is clicked
+11:28:15.378 [main] INFO  com.demo.baseutil.Basetest - Validate Click on profile account is clickable
+11:28:17.748 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on profile account
+11:28:17.750 [main] INFO  com.demo.baseutil.Basetest - Validate Logout the Farm2Plate account is clickable
+11:28:20.194 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Logout the Farm2Plate account
+11:28:20.195 [main] INFO  com.demo.baseutil.Basetest - user is on function call
+11:28:20.195 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+11:28:22.491 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+11:28:22.492 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+11:28:22.887 [main] INFO  com.demo.baseutil.Basetest - yivljxii429@yopmail.com typed into Email Id Entered
+11:28:22.888 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+11:28:25.288 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+11:28:25.289 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+11:28:25.617 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+11:28:29.702 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+11:28:29.704 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+11:28:32.227 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+11:28:40.259 [main] INFO  com.demo.baseutil.Basetest - Validate Click on address is clickable
+11:28:42.603 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on address
+11:28:42.604 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the  address
+11:28:43.056 [main] INFO  com.demo.baseutil.Basetest - 123 William Street, New York, NY, USA typed into enter the  address
+11:28:45.061 [main] INFO  com.demo.baseutil.Basetest - Validate comapny name is clicked is clickable
+11:28:47.424 [main] INFO  com.demo.baseutil.Basetest - Clicked on : comapny name is clicked
+11:28:47.424 [main] INFO  com.demo.baseutil.Basetest - Validate Click on state is clickable
+11:28:49.818 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on state
+11:28:49.818 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetered the state
+11:28:50.086 [main] INFO  com.demo.baseutil.Basetest - NY typed into Enetered the state
+11:28:50.086 [main] INFO  com.demo.baseutil.Basetest - Validate Click on zip is clickable
+11:28:52.433 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on zip
+11:28:52.436 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetred the Zip
+11:28:52.731 [main] INFO  com.demo.baseutil.Basetest - 10038-3804 typed into Enetred the Zip
+11:28:52.731 [main] INFO  com.demo.baseutil.Basetest - Validate Click on city is clickable
+11:28:55.037 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on city
+11:28:55.038 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetered the city
+11:28:55.282 [main] INFO  com.demo.baseutil.Basetest - New York typed into Enetered the city
+11:28:55.283 [main] INFO  com.demo.baseutil.Basetest - Validate Click on country is clickable
+11:28:57.562 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on country
+11:28:57.562 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Enetered the country
+11:28:57.866 [main] INFO  com.demo.baseutil.Basetest - United States typed into Enetered the country
+11:29:03.975 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+11:29:05.982 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Submit is clickable
+11:29:08.346 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Submit
+11:29:11.372 [main] INFO  com.demo.baseutil.Basetest - Validate Click on profile account is clickable
+11:29:13.610 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+11:29:14.369 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+11:29:14.963 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

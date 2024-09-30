@@ -1,0 +1,43 @@
+15:30:52.447 [main] INFO  com.demo.baseutil.Basetest - 
+15:30:52.452 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+15:30:52.541 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+15:30:52.546 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace\com.NFR.Trace/reports/Automation Report- 05_30_2024_15_30_52/Report/05_30_2024_15_30_52
+15:30:52.651 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+15:30:52.652 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+15:31:05.182 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:31:07.575 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+15:31:07.594 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+15:31:07.602 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+15:31:07.602 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+15:31:07.602 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+15:31:07.602 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+15:31:09.822 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+15:31:09.822 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+15:31:10.124 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+15:31:10.124 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+15:31:12.415 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+15:31:12.415 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+15:31:12.661 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+15:31:16.714 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:31:16.714 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:31:19.466 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:31:21.962 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:31:31.972 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+15:31:34.386 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+15:31:40.525 [main] INFO  com.demo.baseutil.Basetest - Validate Asset & Infrastructure Data is clicked is clickable
+15:31:42.907 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Asset & Infrastructure Data is clicked
+15:31:44.919 [main] INFO  com.demo.baseutil.Basetest - Validate Assets is clicked is clickable
+15:31:47.431 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Assets is clicked
+15:31:49.446 [main] INFO  com.demo.baseutil.Basetest - Validate Add new is clicked is clickable
+15:31:51.875 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Add new is clicked
+15:31:53.881 [main] INFO  com.demo.baseutil.Basetest - Validate Asset type is clicked is clickable
+15:31:56.260 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Asset type is clicked
+15:31:56.260 [main] INFO  com.demo.baseutil.Basetest - Validate Click on Vehicle Name is clickable
+15:31:58.579 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Click on Vehicle Name
+15:32:00.589 [main] INFO  com.demo.baseutil.Basetest - Validate container name is clicked is clickable
+15:32:02.962 [main] INFO  com.demo.baseutil.Basetest - Clicked on : container name is clicked
+15:32:08.979 [main] INFO  com.demo.baseutil.Basetest - Enter the value into enter the conatiner name
+15:32:09.247 [main] ERROR com.demo.baseutil.Basetest -  Unable to type container873into enter the conatiner name
+15:32:09.438 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:32:09.987 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:32:10.483 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser
