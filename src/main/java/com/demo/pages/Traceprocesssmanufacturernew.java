@@ -255,15 +255,15 @@ public class Traceprocesssmanufacturernew {
 	private WebElement processname;
 
 	/* X-path for process location */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div")
 	private WebElement processloc;
 
 	/* X-path for process location search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div[2]/ul/li")
 	private WebElement processlocsearch;
 
 	/* X-path for process type */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[1]/div/input")
 	private WebElement processtype;
 
 	/* X-path for process type search */
@@ -271,32 +271,32 @@ public class Traceprocesssmanufacturernew {
 	private WebElement processcom;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[2]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[2]")
 	private WebElement processobs;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[3]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div//div[2]/ul/li[3]")
 	private WebElement processcooling;
 	
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[4]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[4]")
 	private WebElement processagg;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[5]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[5]")
 	private WebElement processdiscomm;
 	
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[6]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[6]")
 	private WebElement processdisagg;
 	
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[7]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[7]")
 	private WebElement processtrans;
 	
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement processcomm;
 	
 	/* X-path for process type search */
@@ -417,10 +417,14 @@ public class Traceprocesssmanufacturernew {
 		Thread.sleep(2000);
 		actionutil.scrollDown();
 		actionutil.clickOnElement(processloc, "process loc is clicked");
-		Thread.sleep(2000);
-		actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
+		Thread.sleep(5000);
+		// Using Actions class to type text into an input field
+		Actions actions1 = new Actions(driver);
+		actions1.moveToElement(processloc).click().sendKeys("9650541994111").perform();
+
+		//actionutil.typeText(processloc, "9650541994112", "process name Value is entered");
 		Thread.sleep(5000);		
-		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+		actionutil.clickOnElement(processlocsearch, "process search is clicked");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processtype, "process type is clicked");
 		Thread.sleep(2000);
@@ -468,7 +472,10 @@ public class Traceprocesssmanufacturernew {
 		actionutil.scrollDown();
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
+		actions.moveToElement(processloc).click().sendKeys("9650541994111").perform();
+
+		//actionutil.typeText(processloc, "9650541994112", "process name Value is entered");
+		//actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
 		Thread.sleep(5000);		
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 		Thread.sleep(2000);
@@ -515,7 +522,8 @@ public class Traceprocesssmanufacturernew {
 				actionutil.scrollDown();
 				actionutil.clickOnElement(processloc, "process loc is clicked");
 				Thread.sleep(2000);
-				actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
+				actions.moveToElement(processloc).click().sendKeys("9650541994111").perform();
+				//actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
 				Thread.sleep(5000);		
 				actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 				Thread.sleep(2000);
@@ -563,7 +571,8 @@ public class Traceprocesssmanufacturernew {
 			actionutil.scrollDown();
 			actionutil.clickOnElement(processloc, "process loc is clicked");
 			Thread.sleep(2000);
-			actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
+			actions.moveToElement(processloc).click().sendKeys("9650541994111").perform();
+			//actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
 			Thread.sleep(5000);		
 			actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 			Thread.sleep(2000);

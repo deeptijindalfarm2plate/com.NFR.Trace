@@ -30,9 +30,9 @@ public class Traceprocessscen5 extends Basetest2 {
 	  public void verifytraceprocess() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("distributorqa@yopmail.com", "Admin@1234");
-		   pages.processdisshared.processadddisagg();
-		   pages.processdisshared.processaddtrans();
-		   pages.processdisshared.processaddobs();
+		 pages.processdisshared.processadddisagg();
+		  pages.processdisshared.processaddtrans();
+		  pages.processdisshared.processaddobs();
 		   pages.processdisshared.processaddagg();
 	  //pages.process.processedit();
 	  

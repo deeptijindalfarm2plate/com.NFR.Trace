@@ -255,35 +255,43 @@ public class Traceprocesssmanufacturershared {
 	private WebElement processname;
 
 	/* X-path for process location */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/div/input")
 	private WebElement processloc;
 
 	/* X-path for process location search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div[2]/ul/li[1]")
+	
 	private WebElement processlocsearch;
+	
 
 	/* X-path for process type */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/div/input")
 	private WebElement processtype;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement processcom;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[2]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[2]")
 	private WebElement processobsold;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[3]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[3]")
 	private WebElement processaggold;
 
 	/* X-path for process type search */
 	@FindBy(xpath = "//div[ contains(text(), 'Commission')]")
 	private WebElement processdiscomm;
+	
+	/* X-path for process type search */
+	@FindBy(xpath = "//div[contains(text(),'Event Date & Time')]")
+	private WebElement justforscroll;
+	
+	
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[5]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[5]/div/div/div[1]")
 	private WebElement processdisagg;
 
 	/* X-path for process type search */
@@ -452,17 +460,22 @@ public class Traceprocesssmanufacturershared {
 		Thread.sleep(2000);
 		//9650541994111
 		actionutil.typeText(processloc, "9650541994111", "process name Value is entered");
-		Thread.sleep(8000);
+		Thread.sleep(4000);
 
-		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+	actionutil.clickOnElement(processlocsearch, "clicked on process");
+	Thread.sleep(6000);
+		//actionutil.scrollToElement(processname, "scrolled to processdiscomm");
+	//	Thread.sleep(8000);
+		actionutil.clickOnElement(processtype, "process loc is clicked");
 		Thread.sleep(5000);
-		actionutil.clickOnElement(processtype, "process type is clicked");
-		Thread.sleep(2000);
-		actionutil.scrollDown();
+	//	actionutil.clickOnElement(processtype, "process type is clicked");
+		//Thread.sleep(2000);
+	
 		actionutil.clickOnElement(processdisagg, "process disagg is clicked");
 		Thread.sleep(2000);
 		actionutil.scrollToElement(processadd1, "process add is scrolled");
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
+		Thread.sleep(8000);
 		System.out.println("disaggregation process is finsished....");
 		Thread.sleep(5000);
 	}

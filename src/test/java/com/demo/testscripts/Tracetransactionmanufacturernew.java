@@ -21,24 +21,19 @@ public class Tracetransactionmanufacturernew extends Basetest2 {
 	 * Description: Navigating to sigin page verifying UI of the page
 	 * 
 	 * @throws InterruptedException
-	 * @throws IOException 
+	 * @throws IOException
 	 *
 	 */
-	
-	
-	  @Test(priority = 1, description = "Verify UI of product Page", enabled = true)
-	  public void verifytracetransaction() throws InterruptedException, IOException {
-		  pages.signinpage.verifysigninPage();
-		   pages.loginpage.verifyLogin("ldekkenq362@yopmail.com", "Admin@1234");
-    pages.transactionnew.transactioncomm();
+
+	@Test(priority = 1, description = "Verify UI of product Page", enabled = true)
+	public void verifytracetransaction() throws InterruptedException, IOException {
+		pages.signinpage.verifysigninPage();
+		pages.loginpage.verifyLogin("ldekkenq362@yopmail.com", "Admin@1234");
+		pages.transactionnew.transactioncomm();
 	pages.transactionnew.transactiontrans();
-		 pages.transactionnew.transactionobswithlot();
-	       pages.transactionnew. transactionagg();
-	
-	 
-	  
-	  
-	  }
-	  
-	  	
+	pages.transactionnew.transactionobswithlot();
+		pages.transactionnew.transactionagg();
+
+	}
+
 }

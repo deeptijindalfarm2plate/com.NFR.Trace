@@ -2,23 +2,32 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[click on trace is not clickable]]>
+    </line>
+    <line>
+      <![CDATA[Unable to click on click on trace]]>
+    </line>
+    <line>
+      <![CDATA[Unable to click on click on trace]]>
+    </line>
+    <line>
       <![CDATA[Failed to close the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-30T10:50:42Z" name="Suite" finished-at="2024-09-30T10:52:12Z" duration-ms="89642">
+  <suite started-at="2024-12-17T12:03:18Z" name="Suite" finished-at="2024-12-17T12:05:36Z" duration-ms="137138">
     <groups>
     </groups>
-    <test started-at="2024-09-30T10:50:42Z" name="Test" finished-at="2024-09-30T10:52:12Z" duration-ms="89642">
-      <class name="com.demo.testscripts.Tracequestionbank">
-        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:50:42Z" name="createFolder" finished-at="2024-09-30T10:50:42Z" duration-ms="198" status="PASS">
+    <test started-at="2024-12-17T12:03:18Z" name="Test" finished-at="2024-12-17T12:05:36Z" duration-ms="137138">
+      <class name="com.demo.testscripts.Tracetransactionsupplier">
+        <test-method is-config="true" signature="createFolder()[pri:0, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:03:18Z" name="createFolder" finished-at="2024-12-17T12:03:18Z" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFolder -->
-        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:50:42Z" name="setExtentReport" finished-at="2024-09-30T10:50:42Z" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:03:18Z" name="setExtentReport" finished-at="2024-12-17T12:03:18Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:50:42Z" name="launchBrowser" finished-at="2024-09-30T10:51:04Z" duration-ms="22199" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:03:18Z" name="launchBrowser" finished-at="2024-12-17T12:03:34Z" duration-ms="15311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,50 +36,26 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.demo.testscripts.Tracequestionbank.verifytraceinfra() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.demo.testscripts.Tracetransactionsupplier.verifytracetransaction() throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifytraceinfra()[pri:1, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:51:04Z" name="verifytraceinfra" description="Verify UI of the Sigin Page" finished-at="2024-09-30T10:52:11Z" duration-ms="66250" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="verifytracetransaction()[pri:1, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:03:34Z" name="verifytracetransaction" description="Verify UI of product Page" finished-at="2024-12-17T12:05:34Z" duration-ms="119981" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[element click intercepted: Element <p class="AddQuestionBank_addFieldButton__3egsy">...</p> is not clickable at point (846, 670). Other element would receive the click: <div class="footer">...</div>
-  (Session info: chrome=129.0.6668.60)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc3139bb0390fd834ea34908fb04b9ba]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span' (tried for 30 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p class="AddQuestionBank_addFieldButton__3egsy">...</p> is not clickable at point (846, 670). Other element would receive the click: <div class="footer">...</div>
-  (Session info: chrome=129.0.6668.60)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc3139bb0390fd834ea34908fb04b9ba
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
-at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:1036)
-at com.demo.pages.Tracequestionbank.traceaddcomapnyquestions(Tracequestionbank.java:154)
-at com.demo.testscripts.Tracequestionbank.verifytraceinfra(Tracequestionbank.java:33)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:1043)
+at com.demo.pages.Traceassetcontainer.assets(Traceassetcontainer.java:144)
+at com.demo.pages.Tracetransactionsupplier.transactioncomm(Tracetransactionsupplier.java:574)
+at com.demo.testscripts.Tracetransactionsupplier.verifytracetransaction(Tracetransactionsupplier.java:33)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
@@ -94,21 +79,63 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span"}
+  (Session info: chrome=131.0.6778.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.108, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ff4f1bf1b0901f9baf70fbc87a3487
+*** Element info: {Using=xpath, value=//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 27 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
+            <line>
+              <![CDATA[click on trace is not clickable]]>
+            </line>
+            <line>
+              <![CDATA[Unable to click on click on trace]]>
+            </line>
+            <line>
+              <![CDATA[Unable to click on click on trace]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifytraceinfra -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:52:11Z" name="browserclose" finished-at="2024-09-30T10:52:11Z" duration-ms="1" status="PASS">
+        </test-method> <!-- verifytracetransaction -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:05:34Z" name="browserclose" finished-at="2024-12-17T12:05:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="browserclose1()[pri:0, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:52:11Z" name="browserclose1" finished-at="2024-09-30T10:52:12Z" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="browserclose1()[pri:0, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:05:34Z" name="browserclose1" finished-at="2024-12-17T12:05:36Z" duration-ms="1095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose1 -->
-        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Tracequestionbank@46074492]" started-at="2024-09-30T10:52:13Z" name="killTask" finished-at="2024-09-30T10:52:13Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="killTask(java.lang.String)[pri:0, instance:com.demo.testscripts.Tracetransactionsupplier@46074492]" started-at="2024-12-17T12:05:36Z" name="killTask" finished-at="2024-12-17T12:05:36Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,7 +149,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- killTask -->
-      </class> <!-- com.demo.testscripts.Tracequestionbank -->
+      </class> <!-- com.demo.testscripts.Tracetransactionsupplier -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

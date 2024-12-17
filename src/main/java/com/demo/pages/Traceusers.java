@@ -22,7 +22,7 @@ public class Traceusers {
 	public long eto = 30;
 	int randomNumber = new Random().nextInt(1000);
 	String randomValue;
-	String emailaddress = "abc" + randomNumber + "@yopmail.com";
+	String emailaddress = "abcdefjjggk" + randomNumber + "@yopmail.com";
 	String randomphnumber = actionutil.generateRandomNumber(10);
     
 
@@ -369,7 +369,11 @@ public void users() throws InterruptedException
 	 actionutil.clickOnElement(inputemailaddress, "Email address input field is clicked");
 	 actionutil.typeText(inputemailaddress, emailaddress, "email address is entered");
 	 actionutil.clickOnElement(arrow, "arrow button is clicked");
-	 Thread.sleep(3000);
+	 Thread.sleep(7000);
+	 driver.navigate().refresh();
+	 Thread.sleep(2000);
+
+	// Thread.sleep(3000);
 	 driver.switchTo().frame("ifinbox");
 	 actionutil.clickOnElement(firstemail, "first email is clicked");
 	 Thread.sleep(2000);
@@ -386,7 +390,7 @@ public void users() throws InterruptedException
 	 Thread.sleep(2000);
 	 actionutil.scrollDown();
 	 actionutil.clickOnElement(button, "button is clicked");
-	 Thread.sleep(2000);
+	 Thread.sleep(7000);
 	 actionutil.clickOnElement(email1, "email address field is clicked");
 		actionutil.typeText(email1, emailaddress, "Email Id Entered");
 		actionutil.clickOnElement(pass1, "Enter the password");

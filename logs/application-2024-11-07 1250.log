@@ -1,0 +1,46 @@
+12:50:51.186 [main] INFO  com.demo.baseutil.Basetest - 
+12:50:51.201 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+12:50:51.506 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+12:50:51.527 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace QA latest/reports/Automation Report- 11_07_2024_12_50_51/Report/11_07_2024_12_50_51
+12:50:51.811 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+12:50:51.817 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+12:51:23.302 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+12:51:25.908 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+12:51:25.962 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+12:51:25.980 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+12:51:25.980 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+12:51:25.980 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+12:51:25.981 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+12:51:28.729 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+12:51:28.731 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+12:51:29.399 [main] INFO  com.demo.baseutil.Basetest - ldekkenq362@yopmail.com typed into Email Id Entered
+12:51:29.399 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+12:51:31.890 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+12:51:31.892 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+12:51:32.297 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+12:51:36.373 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+12:51:36.373 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+12:51:40.468 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+12:51:42.484 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+12:51:52.513 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+12:51:54.928 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+12:51:59.941 [main] INFO  com.demo.baseutil.Basetest - Scroll till the transaction is scrolled
+12:52:00.043 [main] INFO  com.demo.baseutil.Basetest - Scroll till the transaction is scrolled completed
+12:52:00.043 [main] INFO  com.demo.baseutil.Basetest - Validate transaction is clicked is clickable
+12:52:02.777 [main] INFO  com.demo.baseutil.Basetest - Clicked on : transaction is clicked
+12:52:07.782 [main] INFO  com.demo.baseutil.Basetest - Validate add new is clicked is clickable
+12:52:10.168 [main] INFO  com.demo.baseutil.Basetest - Clicked on : add new is clicked
+12:52:15.181 [main] INFO  com.demo.baseutil.Basetest - Validate sharedproduct is clicked is clickable
+12:52:17.711 [main] INFO  com.demo.baseutil.Basetest - Clicked on : sharedproduct is clicked
+12:52:22.717 [main] INFO  com.demo.baseutil.Basetest - Validate clicked on CTE is clickable
+12:52:25.146 [main] INFO  com.demo.baseutil.Basetest - Clicked on : clicked on CTE
+12:52:29.157 [main] INFO  com.demo.baseutil.Basetest - Validate clicked on CTEagg comm is clickable
+12:52:31.630 [main] INFO  com.demo.baseutil.Basetest - Clicked on : clicked on CTEagg comm
+12:52:33.634 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+12:52:35.985 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+12:52:38.375 [main] INFO  com.demo.baseutil.Basetest - Validate Productselect is clicked is clickable
+12:53:09.125 [main] ERROR com.demo.baseutil.Basetest - Productselect is clicked is not clickable
+12:53:09.131 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Productselect is clicked
+12:53:40.323 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+12:53:42.060 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+12:53:43.558 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

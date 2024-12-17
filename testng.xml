@@ -16,8 +16,9 @@
          <class name="com.demo.testscripts.Traceinfra" />        
          <class name="com.demo.testscripts.Traceassetcontainer" />
          <class name="com.demo.testscripts.Traceusers" />
-         <class name="com.demo.testscripts.Traceroles" />-->
+         <class name="com.demo.testscripts.Traceroles" />
          <class name = "com.demo.testscripts.Tracequestionbank"/>
+         <class name = "com.demo.testscripts.Tracedrivers"/>-->
         
 <!-- This is scenario 1
 Scenario#1: Supplier Account
@@ -26,8 +27,8 @@ Process -> 3CTEs (Commission/Cooling/Observation/Aggregation)
 Transactions- Commission (New LGTIN)/Aggregation (New SSCC)-->
 
          <!--class name="com.demo.testscripts.Traceproducts" />
-         <class name="com.demo.testscripts.Traceprocess" />
-         <class name="com.demo.testscripts.Tracetransactionsupplier" />-->
+         <class name="com.demo.testscripts.Traceprocess" />-->
+         <class name="com.demo.testscripts.Tracetransactionsupplier" />
    
    <!-- This is scenario 2
 Scenario#2: Manufacturer Account
@@ -50,7 +51,7 @@ Again on the new Product ID  (Bread) Before Aggregation do an Observation event 
 Transactions -> Observation on newly created LGTIN by Manufacturer on transformation event.
 Next will be Aggregation Event> Aggre(New SSCC) by selecting distributor org and its GLN -->
        
-         <!--class name="com.demo.testscripts.Traceproductmanufacturer" />           
+         <!--class name="com.demo.testscripts.Traceproductmanufacturer" />       
          <class name="com.demo.testscripts.Traceprocesssmanufacturernew" />
          <class name="com.demo.testscripts.Tracetransactionmanufacturernew" />-->
    
@@ -75,12 +76,14 @@ Transaction -> Not required (edited)-->
                      
          
          
-         
+      
          
           
-          <!--class name="com.demo.testscripts.Inventorycapacity" />        
+          <!--class name="com.demo.testscripts.Inventorycapacity" />
+          <class name="com.demo.testscripts.Inventoryquotation" />-->
+          
          
-         <class name="com.demo.testscripts.Tracetestsigninpage" />
+         <!--class name="com.demo.testscripts.Tracetestsigninpage" />
            <class name="com.demo.testscripts.Tracetestlogin" />
          <class name="com.demo.testscripts.Tracetestlogin2" />
           <class name="com.demo.testscripts.Tracetestlogout" />

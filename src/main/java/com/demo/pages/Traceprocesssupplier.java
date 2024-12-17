@@ -253,47 +253,51 @@ public class Traceprocesssupplier {
 	private WebElement processname;
 
 	/* X-path for process location */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/div/input")
+	//*[@id="root"]/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/div/input
 	private WebElement processloc;
 
 	/* X-path for process location search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div[2]/ul/li[1]")
+	//*[@id="root"]/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div[2]/ul/li/div/div/div[1]
 	private WebElement processlocsearch;
 
 	/* X-path for process type */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[1]/div/input")
+	//*[@id="root"]/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[1]/div/input
 	private WebElement processtype;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]")
+	//*[@id="root"]/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]/div
 	private WebElement processcom;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[2]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[2]")
 	private WebElement processobs;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[3]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[3]")
 	private WebElement processcooling;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[4]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[4]")
 	private WebElement processagg;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[5]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[5]")
 	private WebElement processshipping;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[6]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[6]")
 	private WebElement processdiscomm;
 	
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[7]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[7]")
 	private WebElement processdisagg;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[8]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[8]")
 	private WebElement processtrans;
 
 	/* X-path for process add */
@@ -359,7 +363,9 @@ public class Traceprocesssupplier {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
+		actions.sendKeys(processloc, "0956265002424").perform();
+		Thread.sleep(4000);
+		//actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 		Thread.sleep(5000);
@@ -497,6 +503,54 @@ public class Traceprocesssupplier {
 		actionutil.scrollDowntoelement(processadd1);
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
+		
+		
+		//New process shipping
+		
+		Thread.sleep(8000);
+		//actionutil.clickOnElement(trace, "click on trace");
+		//Thread.sleep(4000);
+		actionutil.scrollDowntoelement(process);
+		Thread.sleep(2000);
+		actionutil.clickOnElement(process, "Process is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processadd, "Process add is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+		Thread.sleep(2000);
+		actions.sendKeys(productidtextnew, copyvalue1).perform();
+		Thread.sleep(2000);
+		actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(outside, "outside is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(productidtextnew);
+		actionutil.clickOnElement(processname, "process name is clicked");
+		Thread.sleep(2000);
+		actionutil.typeText(processname, "processshipping", "process name Value is entered");
+		Thread.sleep(2000);
+		actionutil.scrollDown();
+		actionutil.clickOnElement(processloc, "process loc is clicked");
+		Thread.sleep(2000);
+		actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(processtype, "process type is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDown();
+		actionutil.clickOnElement(processshipping, "process shipping is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(processadd1);
+		actionutil.clickOnElement(processadd1, "process add button is clicked");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(processadd1, "process add button is clicked");
+		Thread.sleep(4000);
+		System.out.println("Process shipping is completed....");
+		Thread.sleep(5000);
+
 
 	}
 

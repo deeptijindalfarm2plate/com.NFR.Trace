@@ -101,7 +101,7 @@ public class Traceproduct {
 	// button[@class='FileUpload_uploadButton__9mScn undefined']
 
 	/* X-path for Ingredient name */
-	@FindBy(xpath = "//input[@id='add_product_ingredients_input']")
+	@FindBy(xpath = "//input[@id ='add_product_ingredients_input_0']")
 	private WebElement ingredientname;
 
 	/* X-path for Ingredient add */
@@ -117,11 +117,11 @@ public class Traceproduct {
 	private WebElement uom;
 
 	/* X-path for Nutrition quanity */
-	@FindBy(xpath = "//input[@id='add_product_nutrition_quantity_input']")
+	@FindBy(xpath = "//input[@id='add_product_nutrition_quantity_input_0']")
 	private WebElement nutritionqty;
 
 	/* X-path for Nutrition fact */
-	@FindBy(xpath = "//input[@id='add_product_nutrition_name_input']")
+	@FindBy(xpath = "//input[@id='add_product_nutrition_name_input_0']")
 	private WebElement nuritionfact;
 
 	/* X-path for Nutrition drop */
@@ -178,36 +178,59 @@ public class Traceproduct {
 	private WebElement registerproduct;
 
 	/* X-path for GLN number */
-	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[2]/div[3]/div/div/div/div/input")
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_0']")
 	private WebElement gln1;
 
 	/* X-path for GLN number */
-	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[3]/div[3]/div/div/div/div/input")
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_1']")
 	private WebElement gln2;
 
 	/* X-path for GLN number */
-	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[4]/div[3]/div/div/div/div/input")
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_2']")
 	private WebElement gln3;
+	
+	/* X-path for GLN number */
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_3']")
+	private WebElement gln4;
+	
+
+	/* X-path for GLN number */
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_4']")
+	private WebElement gln5;
 
 	/* X-path for autosearch */
-	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[2]/div[3]/div/div/div[2]/ul")
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_0_0']")
 	private WebElement autosearch;
+	
+	/* X-path for autosearch */
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_3_0']")
+	private WebElement autosearch4;
+	
+	/* X-path for autosearch */
+	@FindBy(xpath = "//*[@id='DefaultProcessTable_inputs_gln_4_0']")
+	private WebElement autosearch5;
 
 	/* X-path for autosearch */
-	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[3]/div[3]/div/div/div[2]/ul")
+	@FindBy(xpath = " //*[@id='DefaultProcessTable_inputs']/div[1]/div/div[3]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement autosearch1;
 
 	/* X-path for autosearch */
-	@FindBy(xpath = "//*[@id='myId']/div[1]/div/div[4]/div[3]/div/div/div[2]/ul")
+	@FindBy(xpath = "  //*[@id='DefaultProcessTable_inputs']/div[1]/div/div[4]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement autosearch2;
 
 	/* X-path for prodcut id */
 	@FindBy(xpath = "//tr[1]/th[2]")
 	private WebElement productidsaved;
-
-	/* X-path for Edit */
-	@FindBy(xpath = "//tr[1]/th[7]/span[3]/button")
+	
+	/* X-path for prodcut id */
+	@FindBy(xpath = "//input[@type='search']")
+	private WebElement existingproductidfield;
+	
+	/* X-path for prodcut id */
+	@FindBy(xpath = "//div[@id='productSearch_0']")
 	private WebElement productidedit;
+	
+	//div[@id='productSearch_0']ivate WebElement productidedit;
 
 	/* X-path for table */
 	@FindBy(xpath = "//*[@id='myId']/div[1]")
@@ -319,9 +342,8 @@ public class Traceproduct {
 		actionutil.typeText(height, "1", "height is entered");
 		Thread.sleep(2000);
 		actionutil.scrollDown();
-		// Thread.sleep(2000);
-		// actionutil.scrollDown();
-		// actionutil.scrollDowntoelement(checkbox1);
+		
+		
 		actionutil.clickOnElement(checkbox1, "Click on checkbox1");
 		// actionutil.scrollDown();
 		Thread.sleep(5000);
@@ -343,14 +365,37 @@ public class Traceproduct {
 		actionutil.scrollToElement(table, "scrolldown to table:");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(autosearch2, "Click on autosearch");
+	//	Thread.sleep(2000);
+	//	actionutil.clickOnElement(gln4, "Click on gln4");
+	//	actionutil.typeText(gln4, "warehouse", "gln4 is entered");
+		//Thread.sleep(4000);
+		//actionutil.clickOnElement(autosearch4, "Click on autosearch");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(gln5, "Click on gln5");
+		actionutil.typeText(gln5, "warehouse", "gln5 is entered");
 		Thread.sleep(2000);
+		actionutil.scrollToElement(table, "scrolldown to table:");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(autosearch5, "Click on autosearch");
+		Thread.sleep(10000);
+		
 		actionutil.scrollDowntoelement(registerproduct);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(registerproduct, "Click on registerproduct");
-		Thread.sleep(10000);
-		// actionutil.clickOnElement(productexists, "product exist is clicked");
-		Thread.sleep(10000);
-		driver.navigate().refresh();
+		Thread.sleep(12000);
+		//extra lines frpm 386 to 397//
+		actionutil.scrollDowntoelement(products);
+		Thread.sleep(2000);
+		actionutil.clickOnElement(products, "Products is clicked");
+		Thread.sleep(5000);
+		
+		
+		//driver.navigate().refresh();
+		actionutil.clickOnElement(existingproductidfield, "product exist is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(productidedit, "product exist is clicked");
+		Thread.sleep(5000);
+	
 		String saved = productidsaved.getText();
 		String savedinfile = " product id:   " + saved;
 		System.out.println(" Print the value of saved" + "  " + saved);
@@ -363,6 +408,7 @@ public class Traceproduct {
 		writer.write(saved + "\n"); // Write the first value
 		writer.close();
 		System.out.println("Product is registered successfull");
+		
 	}
 
 	public void productsaddmanu() throws InterruptedException, IOException {
@@ -475,6 +521,21 @@ public class Traceproduct {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(autosearch2, "Click on autosearch");
 		Thread.sleep(2000);
+		Thread.sleep(5000);
+		actionutil.clickOnElement(gln4, "Click on gln3");
+		actionutil.typeText(gln4, "test", "gln4 is entered");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(autosearch, "Click on autosearch");
+		Thread.sleep(2000);
+		
+		actionutil.clickOnElement(gln5, "Click on gln3");
+		actionutil.typeText(gln5, "test", "gln5 is entered");
+		Thread.sleep(2000);
+		actionutil.scrollToElement(table, "scrolldown to table:");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(autosearch2, "Click on autosearch");
+		Thread.sleep(2000);
+		
 		actionutil.scrollDowntoelement(registerproduct);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(registerproduct, "Click on registerproduct");

@@ -143,9 +143,10 @@ public class Traceasset {
 		 actionutil.typeText(model,"XUV", "enter the model");
 		 actionutil.clickOnElement(engineno, "Click on Vehicle Number");
 		 String randomValue1 = actionutil.generateRandomAlphanumeric(8);
-		 actionutil.typeText(engineno, randomValue1, "Enter the engine number");
+		 String randomValue2 = randomValue1 + "1";
+		 actionutil.typeText(engineno, randomValue2, "Enter the engine number");
 		 actionutil.clickOnElement(classgvwr, "Click on Class-GVWR");
-		 actionutil.typeText(classgvwr,"Class I", "enter the classgvwr");
+		 actionutil.typeText(classgvwr,"C1-20", "enter the classgvwr");
 		 actionutil.clickOnElement(weightcapacity, "Click on Weight Capacity");
 		 actionutil.typeText(weightcapacity,"100", "enter the weight capacity");
 		//actionutil.clickOnElement(uom, "UoM is clicked");

@@ -1,0 +1,66 @@
+13:11:44.701 [main] INFO  com.demo.baseutil.Basetest - 
+13:11:44.708 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+13:11:44.819 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+13:11:44.824 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace QA latest/reports/Automation Report- 10_10_2024_13_11_44/Report/10_10_2024_13_11_44
+13:11:44.951 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+13:11:44.953 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+13:11:55.171 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+13:11:57.654 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+13:11:57.665 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+13:11:57.674 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+13:11:57.674 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+13:11:57.675 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+13:11:57.675 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+13:12:00.210 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+13:12:00.211 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+13:12:00.601 [main] INFO  com.demo.baseutil.Basetest - ldekkenq362@yopmail.com typed into Email Id Entered
+13:12:00.602 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+13:12:02.934 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+13:12:02.934 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+13:12:03.173 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+13:12:07.234 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+13:12:07.234 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+13:12:10.278 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+13:12:12.288 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+13:12:22.312 [main] INFO  com.demo.baseutil.Basetest - Validate trace is clicked is clickable
+13:12:24.594 [main] INFO  com.demo.baseutil.Basetest - Clicked on : trace is clicked
+13:12:29.607 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolled to process
+13:12:29.678 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolled to process completed
+13:12:34.690 [main] INFO  com.demo.baseutil.Basetest - Validate Process is clicked is clickable
+13:12:37.213 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process is clicked
+13:12:42.221 [main] INFO  com.demo.baseutil.Basetest - Validate Process add is clicked is clickable
+13:12:44.555 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process add is clicked
+13:12:49.562 [main] INFO  com.demo.baseutil.Basetest - Validate shared product id is clicked is clickable
+13:12:51.909 [main] INFO  com.demo.baseutil.Basetest - Clicked on : shared product id is clicked
+13:12:55.920 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+13:12:58.345 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+13:13:06.786 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is selected is clickable
+13:13:09.122 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is selected
+13:13:11.122 [main] INFO  com.demo.baseutil.Basetest - Validate process name is clicked is clickable
+13:13:13.424 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process name is clicked
+13:13:15.435 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+13:13:15.709 [main] INFO  com.demo.baseutil.Basetest - processdisagg typed into process name Value is entered
+13:13:17.710 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+13:13:20.040 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+13:13:22.047 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+13:13:22.292 [main] INFO  com.demo.baseutil.Basetest - 9650541994111 typed into process name Value is entered
+13:13:30.294 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+13:13:32.596 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+13:13:37.609 [main] INFO  com.demo.baseutil.Basetest - Validate process type is clicked is clickable
+13:13:39.957 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process type is clicked
+13:13:42.000 [main] INFO  com.demo.baseutil.Basetest - Scroll down successful
+13:13:42.000 [main] INFO  com.demo.baseutil.Basetest - Validate process disagg is clicked is clickable
+13:13:43.457 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+13:13:44.071 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+13:13:47.073 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+13:13:47.077 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+13:14:17.158 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+13:14:17.158 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+13:14:47.699 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT-151', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52571}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f83831cc9a6e9261231a5916196c3c7

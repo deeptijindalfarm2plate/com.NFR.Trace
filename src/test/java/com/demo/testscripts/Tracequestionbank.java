@@ -27,10 +27,11 @@ public class Tracequestionbank extends Basetest2 {
 	
 	
 	  @Test(priority = 1, description = "Verify UI of the Sigin Page", enabled = true)
-	  public void verifytraceinfra() throws InterruptedException {
+	  public void verifyquestionbank() throws InterruptedException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("distributorqa@yopmail.com", "Admin@1234");
-	 	  pages.quesbank.traceaddcomapnyquestions();
+	 	 pages.quesbank.traceaddcomapnyquestions();
+	 	pages.quesbank.tracedeletecompanyquestions();
 	 	// pages.quesbank.traceaddproductuestions();
 	  
 	  }

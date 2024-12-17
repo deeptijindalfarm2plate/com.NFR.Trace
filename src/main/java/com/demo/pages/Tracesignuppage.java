@@ -141,7 +141,7 @@ public class Tracesignuppage {
 	private WebElement emailsubject;
 	
 	/* X-path for email link */
-	@FindBy(xpath = "//*[@id='mail']/div/div/div[1]/section/a")
+	@FindBy(xpath = " //*[@id='mail']/div/div[1]/section/a")
 	private WebElement link;
 	
 	/* X-path for enter password */
@@ -352,6 +352,8 @@ public class Tracesignuppage {
 		 actionutil.typeText(inputemailaddress, emailaddress, "email address is entered");
 		 actionutil.clickOnElement(arrow, "arrow button is clicked");
 		 Thread.sleep(7000);
+		 driver.navigate().refresh();
+		 Thread.sleep(2000);
 		 driver.switchTo().frame("ifinbox");
 		 actionutil.clickOnElement(firstemail, "first email is clicked");
 		 Thread.sleep(2000);
@@ -378,10 +380,11 @@ public class Tracesignuppage {
 			Thread.sleep(3000);	
 			//actionutil.clickOnElement(outermodal, "Press the signin button");
 			actionutil.scrollDown();
-			Thread.sleep(1000);
-			actionutil.clickOnElement(modalbutton, "Press the button");
+			Thread.sleep(2000);
+			 actionutil.clickOnElement(modalbutton, "Press the button");
 			//actionutil.clickOnElement(outermodal, "Press the signin button");
 			actionutil.scrollDown();
+			Thread.sleep(2000);
 			actionutil.clickOnElement(checkbox, "Press the signin button");
 			Thread.sleep(2000);
 			actionutil.clickOnElement(modalbutton, "Press the button");
@@ -428,7 +431,7 @@ public void myprofile() throws InterruptedException
 	actionutil.clickOnElement(ifscdrop, "ifscdrop is clicked");
 	actionutil.clickOnElement(ifscdropvalue, "ifscdrop is clicked");
 	actionutil.clickOnElement(ifsccode, "ifsccode is clicked");
-	actionutil.typeText(ifsccode, "1234IFSC908", "Enetered the ifsccode");
+	actionutil.typeText(ifsccode, "IFSC0123494", "Enetered the ifsccode");
 	
 	
 	 
@@ -440,7 +443,7 @@ public void myprofile() throws InterruptedException
 	Thread.sleep(2000);
 	//actionutil.scrollDown();
 	actionutil.clickOnElement(cmpsubmit, "Click on Submit");
-	Thread.sleep(1000);
+	Thread.sleep(3000);
 	//actionutil.clickOnElement(closebutton, "Click on close button");
 	
 	

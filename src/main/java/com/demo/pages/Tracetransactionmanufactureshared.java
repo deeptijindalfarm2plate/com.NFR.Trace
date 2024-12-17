@@ -67,13 +67,37 @@ public class Tracetransactionmanufactureshared {
 	private WebElement transaction;
 
 	/* X-path for existing Product id */
-	@FindBy(xpath = "//*[@id='prod_id__add_transactions']")
+//	@FindBy(xpath = "//*[@id='prod_id__add_transactions']")
+	@FindBy(xpath = "(//input[@type= 'search' ])[2]")
 	private WebElement productidtext;
 	
+	/* X-path for add new */
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]/div[2]/div/form/div/div/div/div/div[1]/div/div")
+	private WebElement CTE;
+	//input[@class='ant-select-selection-search-input']
+	
+	/* X-path for add new */
+	@FindBy(xpath = "//div[@class='ant-select-item-option-content' and text()='Commission']")
+	private WebElement CTEcomm;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "(//div[contains(text(),'Aggregation')])[1]")
+	private WebElement CTEagg;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "(//div[contains(text(),'Disaggregation')])[1]")
+	private WebElement CTEdisagg;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "(//div[contains(text(),'Observation')])[1]")
+	private WebElement CTEobs;
+	
+	
+	
+	
 	/* X-path for new Product select*/
-	@FindBy(xpath = "(//p[@class='mb-0'])[1]")
+	@FindBy(xpath = "//*[@id='productSearch_0']")
 	//(//span[contains(@class ,'Searchbar_idText')])[1] 
-		
 	private WebElement productselect;
 
 
@@ -82,14 +106,20 @@ public class Tracetransactionmanufactureshared {
 	private WebElement productidsearchbox;
 
 	/* X-path for choose process */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[1]/div/input")
+	@FindBy(xpath = "(//input[@type='search'])[3]")
 	private WebElement chooseprocess;
 	// *[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 	
 	
 	/* X-path for choose process */
-	@FindBy(xpath = "//div[@class='d-flex align-items-center']")
+	@FindBy(xpath = "//*/body/div[4]/div/div/div[2]/div/div/div/div/div/div")
 	private WebElement chooseprocessselect;
+	
+
+	/* X-path for Add Transaction */
+	@FindBy(xpath = "//button[@type='submit']")
+	private WebElement submit;
+
 	
 	/* X-path for choose process */
 	@FindBy(xpath = "//*[@id='myForm']/div[1]/div[1]/div/div/div[1]/div/input")
@@ -340,7 +370,7 @@ private WebElement typesign;
 private WebElement placesign;
 
 /* X-path for add signature submit */
-	@FindBy(xpath = "(//button[contains(text(), 'Submit')])[2]")
+	@FindBy(xpath = "(//button[contains(text(), 'Submit')])[3]")
 private WebElement signsubmit;
 	/* X-path for Remarks */
 	//@FindBy(xpath = "//input[@name='Remarks_1691015072410000015']")
@@ -573,8 +603,15 @@ private WebElement signsubmit;
 		Thread.sleep(5000);
 		actionutil.clickOnElement(sharedproduct, "sharedproduct is clicked");
 		Thread.sleep(5000);
+		actionutil.clickOnElement(CTE, "clicked on CTE");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(CTEdisagg, "clicked on CTEdisagg comm");
+		Thread.sleep(2000);
 		actionutil.clickOnElement(productidtext, "Product id is clicked");
 		Thread.sleep(2000);
+		
+	//	actionutil.clickOnElement(productidtext, "Product id is clicked");
+		//Thread.sleep(2000);
 		String prodid= copyvalueprodid();
 		/**Extra line-----463**/
 		Actions actions = new Actions(driver);
@@ -588,11 +625,14 @@ private WebElement signsubmit;
 	//	Thread.sleep(2000);
 		actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(chooseprocess, "disagg", "Harvestiong/commission is entered");
+		actionutil.typeText(chooseprocess, "processdisagg", "Harvestiong/commission is entered");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(chooseprocessselect, "process is selected");
 		Thread.sleep(6000);
-		actionutil.clickOnElement(locf, "locf is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(submit, "click on submit button");
+		Thread.sleep(2000);
+				actionutil.clickOnElement(locf, "locf is clicked");
 	Thread.sleep(2000);
 	actionutil.typeText(locf, "9650541994111", "locf Value is entered");
 	Thread.sleep(5000);

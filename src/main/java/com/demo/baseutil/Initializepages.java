@@ -32,6 +32,7 @@ import com.demo.pages.Inventoryquotation;
 import com.demo.pages.Traceassetcontainer;
 import com.demo.pages.Traceasset;
 import com.demo.pages.Tracedashboard;
+import com.demo.pages.Tracedrivers;
 import com.demo.pages.Traceinfra;
 import com.demo.util.WebActionUtil;
 import com.demo.mail.Gmail;
@@ -74,6 +75,7 @@ public class Initializepages extends Basetest2 {
 	public Traceprocessdistributorshared processdisshared;
 	public Tracetransactiondistsharedscen5 trandissharedscen5;
 	public Tracequestionbank quesbank;
+	public Tracedrivers drivers;
 	
 	
 	public Initializepages(WebDriver driver, long eto, WebActionUtil actionutil) {
@@ -108,6 +110,7 @@ public class Initializepages extends Basetest2 {
 		processdisshared = new Traceprocessdistributorshared(driver, eto, actionutil);
 		trandissharedscen5 =new Tracetransactiondistsharedscen5(driver, eto, actionutil);
 		quesbank= new Tracequestionbank(driver,eto, actionutil);
+		drivers = new Tracedrivers(driver, eto, actionutil);
 	}
 
 }

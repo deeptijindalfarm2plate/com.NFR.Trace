@@ -159,7 +159,7 @@ public class Tracedashboard {
 	private WebElement emailsubject;
 	
 	/* X-path for email link */
-	@FindBy(xpath = "//*[@id='mail']/div/div/div[1]/section/a")
+	@FindBy(xpath = "//*[@id='mail']/div/div[1]/section/a")
 	private WebElement link;
 	
 	/* X-path for enter password */

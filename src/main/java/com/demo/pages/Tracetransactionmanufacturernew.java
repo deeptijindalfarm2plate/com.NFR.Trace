@@ -67,15 +67,17 @@ public class Tracetransactionmanufacturernew {
 	private WebElement transaction;
 
 	/* X-path for existing Product id */
-	@FindBy(xpath = "//*[@id='prod_id__add_transactions']")
+	//@FindBy(xpath = "//*[@id='prod_id__add_transactions']")
+	@FindBy(xpath = "(//input[@type= 'search' ])[2]")
+	
 	private WebElement productidtext;
 
 	/* X-path for product id search box */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]/div[2]/div/div/div[1]/div[2]/form/div/div[1]/div[1]/div/div[2]/ul/li/p")
+	@FindBy(xpath = "//*[@id='productSearch_0']")
 	private WebElement productidsearchbox;
 
 	/* X-path for choose process */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[1]/div/input")
+	@FindBy(xpath = "(//input[@type='search'])[3]")
 	private WebElement chooseprocess;
 	// *[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 
@@ -119,7 +121,7 @@ public class Tracetransactionmanufacturernew {
 	/* X-path for Process harvesting commission */
 	// @FindBy(xpath =
 	// "//*[@id='root']/div/div[5]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[3]/ul/li[5]/div/div/div")
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/ul")
+	@FindBy(xpath = "//*/body/div[4]/div/div/div[2]/div/div/div/div/div/div")
 	/// li/div/div/div
 	private WebElement processselectcomm;
 
@@ -161,7 +163,8 @@ public class Tracetransactionmanufacturernew {
 	private WebElement packingtype;
 
 	/* X-path for packing type dropdown */
-	@FindBy(xpath = "//*[@id='myForm']/div[5]/div/div/div[2]/div/div[1]/div/input")
+	@FindBy(xpath = "//input[@id='add_transactions_transformation_PackagingType']")
+	//@FindBy(xpath = "//input[@id='PackagingType']")
 	private WebElement packingtype1;
 
 	/* X-path for packing type dropdown value */
@@ -169,14 +172,15 @@ public class Tracetransactionmanufacturernew {
 	private WebElement packingtypeselect;
 
 	/* X-path for packing type dropdown value */
-	@FindBy(xpath = "//*[@id='myForm']/div[5]/div/div/div[2]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//li[@id='add_transactions_transformation_PackagingType_0']")
 	private WebElement packingtypeselect1;
+	
 	/* X-path for packing type dropdown value */
 	@FindBy(xpath = "(//div/input)[23]")
 	private WebElement batchscroll;
 
 	/* X-path for packing type date next button */
-	@FindBy(xpath = "//*/div[2]/div/div/div/div/div[1]/div/div[1]/div[1]/button[3]")
+	@FindBy(xpath = "//button[@class='ant-picker-header-next-btn']")
 	private WebElement datenextbutton;
 
 	/* X-path for packing type date next button */
@@ -207,7 +211,7 @@ public class Tracetransactionmanufacturernew {
 	@FindBy(xpath = "//*/div[3]/div/div/div/div/div[1]/div/div[1]/div[1]/button[3]")
 	private WebElement datenextbuttonnew;
 	/* X-path for packing type date next button */
-	@FindBy(xpath = "//*/body/div[3]/div/div/div/div/div[1]/div/div[1]/div[1]/button[3]")
+	@FindBy(xpath = "(//button[@class='ant-picker-header-super-next-btn'])[2]")
 	private WebElement datenextbutton1;
 
 	@FindBy(xpath = "//*/body/div[4]/div/div/div/div/div[1]/div/div[1]/div[1]/button[3]")
@@ -220,11 +224,12 @@ public class Tracetransactionmanufacturernew {
 
 	/* X-path for packing type dropdown value */
 	// @FindBy(xpath = "//td[@title='2024-03-30']")
-	@FindBy(xpath = "//html//body//div[3]//div/div/div/div/div[1]/div/div[1]/div[2]/table/tbody/tr[3]/td[5]/div[@class='ant-picker-cell-inner']")
+	@FindBy(xpath = "(//tr[3]/td[5]/div[@class='ant-picker-cell-inner'])[2]")
+	
 	private WebElement dateselect1;
 
 	/* X-path for ok button */
-	@FindBy(xpath = "//*/div[2]/div/div/div/div/div[2]/ul/li/button")
+	@FindBy(xpath = "//button/span[contains(text(), 'OK')]")
 	private WebElement okbutton;
 
 	/* X-path for ok button */
@@ -236,7 +241,7 @@ public class Tracetransactionmanufacturernew {
 	private WebElement okbuttonnew;
 
 	/* X-path for ok button */
-	@FindBy(xpath = "//*/div[3]/div/div/div/div/div[2]/ul/li/button")
+	@FindBy(xpath = "(//button/span[contains(text(),'OK')])[2]")
 	private WebElement okbutton1;
 
 	/* X-path for ok button */
@@ -255,7 +260,7 @@ public class Tracetransactionmanufacturernew {
 	/* X-path for existing product search */
 	// @FindBy(xpath =
 	// "//*[@id='root']/div/div[6]/div/div[5]/div[1]/div/div/div/div/div[2]/div/div/div[2]/ul")
-	@FindBy(xpath = "//div[@class='product-label']")
+	@FindBy(xpath = "//div[@id='productSearch_0']")
 
 	private WebElement existingproductsearch;
 
@@ -360,12 +365,16 @@ public class Tracetransactionmanufacturernew {
 	//// li[@class='CustomSelectInput_customSelectInputOptionsListItemContainer__2IjAW
 	//// undefined undefined ']
 	/* X-path for purchase */
-	@FindBy(xpath = "//*[@id='myForm']/div[4]/div[3]/div[14]/div[2]/input")
+	@FindBy(xpath = "//input[@name='purchaseOrderNo']")
 	private WebElement purchase;
 
 	/* X-path for bill */
-	@FindBy(xpath = "//*[@id='myForm']/div[4]/div[3]/div[15]/div[2]/input")
+	@FindBy(xpath = "//input[@id='add_transactions_aggregation_billOfLadingNo']")
 	private WebElement bill;
+	
+	
+	
+	
 
 	/* X-path for lot arrow */
 	// @FindBy(xpath = "//*[@id='Icon_material-arrow-forward']")
@@ -419,7 +428,7 @@ public class Tracetransactionmanufacturernew {
 	private WebElement field;
 
 	/* X-path for container */
-	@FindBy(xpath = "(//input[contains(@class,'form-control CustomSelectInput_customSelectInputField')])[8]")
+	@FindBy(xpath = "(//input[contains(@class,'form-control CustomSelectInput_customSelectInputField')])[7]")
 	private WebElement Container;
 
 	// *[@id="myForm"]/div[4]/div/div/div[19]/div/div/div/input
@@ -443,7 +452,7 @@ public class Tracetransactionmanufacturernew {
 
 	/* X-path for itemsgtin */
 	@FindBy(xpath = "(//input[contains(@class,'form-control CustomSelectInput_customSelectInputField')])[7]")
-	//// *[@id="myForm"]/div[4]/div/div/div[17]/div/div/div/input
+	//// //*[@id='myForm']/div[4]/div/div/div[17]/div/div[1]/div/input
 	private WebElement itemsgtin1;
 
 	/* X-path for itemsgtin */
@@ -469,6 +478,32 @@ public class Tracetransactionmanufacturernew {
 	/* X-path for weightsgtin */
 	@FindBy(xpath = "//input[@name='WeightPerSGTIN']")
 	private WebElement weightsgtin;
+	
+	/* X-path for Add Transaction */
+	@FindBy(xpath = "//button[@type='submit']")
+	private WebElement submit;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[5]/div[2]/div/form/div/div/div/div/div[1]/div/div")
+	private WebElement CTE;
+	//input[@class='ant-select-selection-search-input']
+	
+	/* X-path for add new */
+	@FindBy(xpath = "//div[@class='ant-select-item-option-content' and text()='Commission']")
+	private WebElement CTEcomm;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "//div[@class='ant-select-item-option-content' and text()='Transformation']")
+	private WebElement CTEtrans;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "(//div[contains(text(),'Aggregation')])[1]")
+	private WebElement CTEagg;
+	
+	/* X-path for add new */
+	@FindBy(xpath = "(//div[contains(text(),'Observation')])[1]")
+	private WebElement CTEobs;
+	
 
 	/* X-path for countsgtin */
 	@FindBy(xpath = "//input[@name='CountOfSGTIN']")
@@ -507,6 +542,11 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(5000);
 		actionutil.clickOnElement(addnew, "add new is clicked");
 		Thread.sleep(5000);
+		Thread.sleep(5000);
+		actionutil.clickOnElement(CTE, "clicked on CTE");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(CTEcomm, "clicked on CTE comm");
+		Thread.sleep(2000);
 		actionutil.clickOnElement(productidtext, "Product id is clicked");
 		Thread.sleep(2000);
 		String copyvalue1 = copyvalue();
@@ -520,11 +560,14 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(2000);
 		actionutil.typeText(chooseprocess, "processcomm", "Harvestiong/commission is entered");
 		Thread.sleep(2000);
-		actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
-		Thread.sleep(3000);
+		//actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
+		//Thread.sleep(3000);
 		// actionutil.scrollDown();
 		actionutil.clickOnElement(processselectcomm, "Process commision is selected");
 		Thread.sleep(2000);
+		actionutil.clickOnElement(submit, "click on submit button");
+		Thread.sleep(2000);
+	
 		actionutil.scrollDown();
 		actionutil.clickOnElement(date, "date is selected");
 		Thread.sleep(1000);
@@ -553,7 +596,7 @@ public class Tracetransactionmanufacturernew {
 		actionutil.typeText(countsgtin, "123", "countsgtin is entered");
 		actionutil.clickOnElement(weightsgtin, "weightsgtin sgtin is clicked");
 		actionutil.typeText(weightsgtin, "1234567", "weightsgtin is entered");
-		actionutil.clickOnElement(itemsgtin1, "itemsgtin sgtin is clicked");
+		actionutil.clickOnElement(itemsgtin, "itemsgtin sgtin is clicked");
 		actionutil.clickOnElement(itemsgtinvalue, "itemgtin is entered");
 
 		// actionutil.scrollDowntoelement(tlc);
@@ -578,15 +621,20 @@ public class Tracetransactionmanufacturernew {
 
 	public void transactiontrans() throws InterruptedException, IOException {
 		Thread.sleep(5000);
-
+//actionutil.clickOnElement(trace, "trace is clicked");
+//Thread.sleep(2000);
 		actionutil.scrollToElement(transaction, "Transaction is scrolled");
 		actionutil.clickOnElement(transaction, "transaction is clicked");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(existingproductid, "productid is selected");
 		String copyvalue1 = copyvalue();
+		System.out.println("print the value of copyvalue:" + copyvalue1);
+		Thread.sleep(2000);
 		actionutil.typeText(existingproductid, copyvalue1, "enter the productid");
+		Thread.sleep(4000);
 //actionutil.clickOnElement(existingproductid, "productid is selected");
 		actionutil.clickOnElement(existingproductsearch, "search is selected");
+		Thread.sleep(4000);
 		actionutil.clickOnElement(searchbutton, "search button is clicked");
 		Thread.sleep(2000);
 		String lotvalue = lotelement.getText();
@@ -603,6 +651,11 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(5000);
 		actionutil.clickOnElement(addnew, "add new is clicked");
 		Thread.sleep(5000);
+		
+		actionutil.clickOnElement(CTE, "clicked on CTE");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(CTEtrans, "clicked on CTE Trans");
+		Thread.sleep(2000);
 		actionutil.clickOnElement(productidtext, "Product id is clicked");
 		Thread.sleep(2000);
 		String copyvalue2 = copyvalue();
@@ -614,13 +667,15 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(chooseprocess, "transformation", "Transformation is entered");
+		actionutil.typeText(chooseprocess, "Transformation", "Harvestiong/commission is entered");
 		Thread.sleep(2000);
-		actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
-		Thread.sleep(3000);
+		//actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
+		//Thread.sleep(3000);
 		// actionutil.scrollDown();
-		actionutil.clickOnElement(processselectcomm, "Process Transformation is selected");
-		Thread.sleep(5000);
+		actionutil.clickOnElement(processselectcomm, "Process commision is selected");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(submit, "click on submit button");
+		Thread.sleep(2000);
 		// actionutil.scrollDown();
 		actionutil.clickOnElement(mfgdate, "date is selected");
 		Thread.sleep(1000);
@@ -650,7 +705,6 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(qtyconsumed, "qtyconsumed is clicked");
 		actionutil.typeText(qtyconsumed, "1", "qtyconsumeda is entered");
-
 		actionutil.clickOnElement(packingtype1, "packingtype is selected");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(packingtypeselect1, "packingtypeselect is selected");
@@ -667,7 +721,7 @@ public class Tracetransactionmanufacturernew {
 		actionutil.typeText(tlctrans, "12345", "tlc Value is entered");
 		actionutil.clickOnElement(countsgtin1, "count sgtin is clicked");
 		actionutil.typeText(countsgtin1, "123", "countsgtin is entered");
-		actionutil.clickOnElement(itemsgtin1, "itemsgtin is selected");
+		actionutil.clickOnElement(itemsgtin, "itemsgtin is selected");
 		actionutil.clickOnElement(itemsgtinvalue, "itemsgtinvalue is selected");
 
 		actionutil.clickOnElement(addtran, "Add Transaction is selected");
@@ -698,9 +752,12 @@ public class Tracetransactionmanufacturernew {
 
 		Thread.sleep(2000);
 		actionutil.clickOnElement(existingproductid, "productid is selected");
+		Thread.sleep(2000);
 		String copyvalue1 = copyvalue();
+		
 		actionutil.typeText(existingproductid, copyvalue1, "enter the productid");
-		actionutil.clickOnElement(existingproductid, "productid is selected");
+		Thread.sleep(3000);
+		//actionutil.clickOnElement(existingproductid, "productid is selected");
 		actionutil.clickOnElement(existingproductsearch, "search is selected");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(searchbutton, "search button is clicked");
@@ -719,6 +776,30 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(5000);
 		actionutil.clickOnElement(addnew, "add new is clicked");
 		Thread.sleep(5000);
+		actionutil.clickOnElement(CTE, "clicked on CTE");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(CTEagg, "clicked on CTE Obs");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(productidtext, "Product id is clicked");
+		Thread.sleep(4000);
+		String copyvalue2 = copyvalue();
+		actionutil.typeText(productidtext, copyvalue2, "Saved Value is entered");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(productidtext, "Product id is clicked");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
+		Thread.sleep(2000);
+		actionutil.typeText(chooseprocess, "packing", "processobsnosscc is entered");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(processselectcomm, "Process commision is selected");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(submit, "click on submit button");
+		Thread.sleep(4000);
+		
+		
+	/**
 		actionutil.clickOnElement(productidtext, "Product id is clicked");
 		Thread.sleep(2000);
 		actionutil.typeText(productidtext, copyvalue1, "Saved Value is entered");
@@ -735,6 +816,7 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(4000);
 		actionutil.clickOnElement(processselectcomm, "Process aggre is selected");
 		Thread.sleep(2000);
+		**/
 		actionutil.scrollDown();
 		actionutil.clickOnElement(org, "org is selected");
 		Thread.sleep(2000);
@@ -870,13 +952,15 @@ public class Tracetransactionmanufacturernew {
 
 	public void transactionobswithlot() throws InterruptedException, IOException {
 		
-		// actionutil.clickOnElement(trace,"click on trace"); Thread.sleep(4000);
-		  actionutil.scrollDowntoelement(transaction); Thread.sleep(2000);
+		// actionutil.clickOnElement(trace,"click on trace");
+		Thread.sleep(8000);
+		// actionutil.scrollDowntoelement(transaction); 
+		//Thread.sleep(2000);
 		 
 		 
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		actionutil.scrollDowntoelement(transaction);
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		actionutil.clickOnElement(transaction, "transaction is clicked");
 		Thread.sleep(5000);
 
@@ -904,10 +988,14 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(5000);
 		actionutil.clickOnElement(addnew, "add new is clicked");
 		Thread.sleep(5000);
+		actionutil.clickOnElement(CTE, "clicked on CTE");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(CTEobs, "clicked on CTE Obs");
+		Thread.sleep(2000);
 		actionutil.clickOnElement(productidtext, "Product id is clicked");
 		Thread.sleep(2000);
-		// String copyvalue1 = copyvalue();
-		actionutil.typeText(productidtext, copyvalue1, "Saved Value is entered");
+		String copyvalue2 = copyvalue();
+		actionutil.typeText(productidtext, copyvalue2, "Saved Value is entered");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(productidtext, "Product id is clicked");
 		Thread.sleep(2000);
@@ -915,10 +1003,13 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(chooseprocess, "chooseprocess id is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(chooseprocess, "processobsnosscc", "Observation is entered");
+		actionutil.typeText(chooseprocess, "processobsnosscc", "processobsnosscc is entered");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(processselectcomm, "Process commision is selected");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(submit, "click on submit button");
 		Thread.sleep(4000);
-		actionutil.clickOnElement(chooseprocess1, "chooseprocess id is clicked");
-		Thread.sleep(3000);
+		
 		// actionutil.clickOnElement(processselectobs,"Process obs is selected");
 		// Thread.sleep(2000);
 		actionutil.clickOnElement(activity1, "activity is clicked");

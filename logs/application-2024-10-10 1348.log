@@ -1,0 +1,54 @@
+13:48:05.796 [main] INFO  com.demo.baseutil.Basetest - 
+13:48:05.803 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+13:48:05.932 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+13:48:05.939 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace QA latest/reports/Automation Report- 10_10_2024_13_48_05/Report/10_10_2024_13_48_05
+13:48:06.062 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+13:48:06.064 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+13:48:27.111 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+13:48:29.660 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+13:48:29.687 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+13:48:29.700 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+13:48:29.700 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+13:48:29.700 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+13:48:29.700 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+13:48:32.113 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+13:48:32.114 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+13:48:32.575 [main] INFO  com.demo.baseutil.Basetest - ldekkenq362@yopmail.com typed into Email Id Entered
+13:48:32.576 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+13:48:34.860 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+13:48:34.860 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+13:48:35.103 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+13:48:39.163 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+13:48:39.163 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+13:48:42.954 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+13:48:44.970 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+13:48:54.989 [main] INFO  com.demo.baseutil.Basetest - Validate trace is clicked is clickable
+13:48:57.484 [main] INFO  com.demo.baseutil.Basetest - Clicked on : trace is clicked
+13:49:02.496 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolled to process
+13:49:02.602 [main] INFO  com.demo.baseutil.Basetest - Scroll till the scrolled to process completed
+13:49:07.617 [main] INFO  com.demo.baseutil.Basetest - Validate Process is clicked is clickable
+13:49:10.053 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process is clicked
+13:49:15.056 [main] INFO  com.demo.baseutil.Basetest - Validate Process add is clicked is clickable
+13:49:17.608 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Process add is clicked
+13:49:22.625 [main] INFO  com.demo.baseutil.Basetest - Validate shared product id is clicked is clickable
+13:49:25.115 [main] INFO  com.demo.baseutil.Basetest - Clicked on : shared product id is clicked
+13:49:29.124 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is clicked is clickable
+13:49:31.618 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is clicked
+13:49:39.969 [main] INFO  com.demo.baseutil.Basetest - Validate Product id is selected is clickable
+13:49:42.415 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Product id is selected
+13:49:44.424 [main] INFO  com.demo.baseutil.Basetest - Validate process name is clicked is clickable
+13:49:46.855 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process name is clicked
+13:49:48.860 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+13:49:49.268 [main] INFO  com.demo.baseutil.Basetest - processdisagg typed into process name Value is entered
+13:49:51.273 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+13:49:53.704 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+13:49:55.713 [main] INFO  com.demo.baseutil.Basetest - Enter the value into process name Value is entered
+13:49:56.066 [main] INFO  com.demo.baseutil.Basetest - 9650541994111 typed into process name Value is entered
+13:50:04.075 [main] INFO  com.demo.baseutil.Basetest - Validate process loc is clicked is clickable
+13:50:06.542 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process loc is clicked
+13:50:11.550 [main] INFO  com.demo.baseutil.Basetest - Validate process type is clicked is clickable
+13:50:13.928 [main] INFO  com.demo.baseutil.Basetest - Clicked on : process type is clicked
+13:50:15.937 [main] INFO  com.demo.baseutil.Basetest - Validate process disagg is clicked is clickable
+13:50:17.701 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+13:50:18.952 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+13:50:19.805 [main] ERROR com.demo.baseutil.Basetest - Failed to close the Browser

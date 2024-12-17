@@ -31,8 +31,8 @@ public class Traceprocessmanufacturersharedscen2 extends Basetest2 {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("ldekkenq362@yopmail.com", "Admin@1234");
 		   pages.processshared.processadddisagg();
-		 //  pages.processshared.processaddobs();
-		//   pages.processshared.processaddtrans();
+		  pages.processshared.processaddobs();
+		 pages.processshared.processaddtrans();
 	  //pages.process.processedit();
 	  
 	  

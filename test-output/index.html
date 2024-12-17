@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracequestionbank" class="method navigator-link" hash-for-method="verifytraceinfra">verifytraceinfra</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.demo.testscripts.Tracetransactionsupplier" class="method navigator-link" hash-for-method="verifytracetransaction">verifytracetransaction</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -120,38 +120,55 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.demo.testscripts.Tracequestionbank</span>
+              <span class="class-name">com.demo.testscripts.Tracetransactionsupplier</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifytraceinfra">
-                  </a> <!-- verifytraceinfra -->
-                  <span class="method-name">verifytraceinfra</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;AddQuestionBank_addFieldButton__3egsy&quot;&gt;...&lt;/p&gt; is not clickable at point (846, 670). Other element would receive the click: &lt;div class=&quot;footer&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=129.0.6668.60)
+                  <a name="verifytracetransaction">
+                  </a> <!-- verifytracetransaction -->
+                  <span class="method-name">verifytracetransaction</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;root&apos;]/div/div[5]/aside/div/ul/li[1]/div/span&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:1043)
+	at com.demo.pages.Traceassetcontainer.assets(Traceassetcontainer.java:144)
+	at com.demo.pages.Tracetransactionsupplier.transactioncomm(Tracetransactionsupplier.java:574)
+	at com.demo.testscripts.Tracetransactionsupplier.verifytracetransaction(Tracetransactionsupplier.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;root&apos;]/div/div[5]/aside/div/ul/li[1]/div/span&quot;}
+  (Session info: chrome=131.0.6778.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PARAMOUNT-151&apos;, ip: &apos;192.168.29.169&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc3139bb0390fd834ea34908fb04b9ba
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.108, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ff4f1bf1b0901f9baf70fbc87a3487
+*** Element info: {Using=xpath, value=//*[@id=&apos;root&apos;]/div/div[5]/aside/div/ul/li[1]/div/span}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
-	at com.demo.util.WebActionUtil.clickOnElement(WebActionUtil.java:1036)
-	at com.demo.pages.Tracequestionbank.traceaddcomapnyquestions(Tracequestionbank.java:154)
-	at com.demo.testscripts.Tracequestionbank.verifytraceinfra(Tracequestionbank.java:33)
-... Removed 28 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+... Removed 26 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(Verify UI of the Sigin Page)                  </em>
+(Verify UI of product Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,7 +190,7 @@ Session ID: fc3139bb0390fd834ea34908fb04b9ba
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.demo.testscripts.Tracequestionbank&quot;/&gt;
+      &lt;class name=&quot;com.demo.testscripts.Tracetransactionsupplier&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -215,9 +232,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifytraceinfra')
-data.setCell(0, 2, 'com.demo.testscripts.Tracequestionbank')
-data.setCell(0, 3, 66250);
+data.setCell(0, 1, 'verifytracetransaction')
+data.setCell(0, 2, 'com.demo.testscripts.Tracetransactionsupplier')
+data.setCell(0, 3, 119981);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -233,6 +250,14 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifytracetransaction</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click on trace is not clickable</span>
+                <span class="reporter-method-output">Unable to click on click on trace</span>
+                <span class="reporter-method-output">Unable to click on click on trace</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -248,36 +273,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.demo.testscripts.Tracequestionbank</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.demo.testscripts.Tracetransactionsupplier</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">createFolder</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setExtentReport</span>
-                <span class="method-start">214 ms</span>
+                <span class="method-start">277 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracequestionbank.verifytraceinfra() throws java.lang.Inter...)</span>
-                <span class="method-start">241 ms</span>
+                <span class="method-name">launchBrowser(chrome, public void com.demo.testscripts.Tracetransactionsupplier.verifytracetransaction() throws ja...)</span>
+                <span class="method-start">306 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifytraceinfra</span>
-                <span class="method-start">22440 ms</span>
+                <span class="method-name">verifytracetransaction</span>
+                <span class="method-start">15617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">89012 ms</span>
+                <span class="method-start">136284 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">browserclose1</span>
-                <span class="method-start">89016 ms</span>
+                <span class="method-start">136300 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">killTask(chrome)</span>
-                <span class="method-start">90592 ms</span>
+                <span class="method-start">138191 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

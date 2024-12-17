@@ -8,9 +8,9 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.demo.testscripts.Tracequestionbank">
+      <class name="com.demo.testscripts.Tracetransactionsupplier">
         <methods>
-          <include name="verifytraceinfra"/>
+          <include name="verifytracetransaction"/>
           <include name="createFolder"/>
           <include name="browserclose"/>
           <include name="launchBrowser"/>
@@ -18,7 +18,7 @@
           <include name="setExtentReport"/>
           <include name="killTask"/>
         </methods>
-      </class> <!-- com.demo.testscripts.Tracequestionbank -->
+      </class> <!-- com.demo.testscripts.Tracetransactionsupplier -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

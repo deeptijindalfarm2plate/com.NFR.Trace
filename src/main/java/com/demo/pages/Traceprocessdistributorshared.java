@@ -255,27 +255,27 @@ public class Traceprocessdistributorshared {
 	private WebElement processname;
 
 	/* X-path for process location */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div")
 	private WebElement processloc;
 
 	/* X-path for process location search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[2]/div/div/div[2]/ul/li[1]")
 	private WebElement processlocsearch;
 
 	/* X-path for process type */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/input")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div/div/input")
 	private WebElement processtype;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement processcom;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[2]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[2]")
 	private WebElement processobsold;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[3]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[3]")
 	private WebElement processaggold;
 
 	/* X-path for process type search */
@@ -283,7 +283,7 @@ public class Traceprocessdistributorshared {
 	private WebElement processdiscomm;
 
 	/* X-path for process type search */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div[2]/ul/li[5]")
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[5]")
 	private WebElement processdisagg;
 
 	/* X-path for process type search */
@@ -377,6 +377,7 @@ public class Traceprocessdistributorshared {
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
 		System.out.println("process commission is finished..");
+		Thread.sleep(4000);
 
 	}
 	public void processaddtrans() throws InterruptedException, IOException {
@@ -406,8 +407,9 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "test", "process name Value is entered");
-		Thread.sleep(8000);
+		 actions.sendKeys(processloc, "test").perform();
+		//actionutil.typeText(processloc, "test", "process name Value is entered");
+		Thread.sleep(4000);
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(processtype, "process type is clicked");
@@ -420,9 +422,10 @@ public class Traceprocessdistributorshared {
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
 		System.out.println("process transfromation is finished..");
+		Thread.sleep(4000);
 	}
 	public void processaddobs() throws InterruptedException, IOException {
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		actionutil.scrollToElement(process, "scrolled to process");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(process, "Process is clicked");
@@ -447,11 +450,13 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processname, "process name is clicked");
 		Thread.sleep(2000);
+		
 		actionutil.typeText(processname, "processobs", "process name Value is entered");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "test", "process name Value is entered");
+		actions.sendKeys(processloc, "test").perform();
+	//	actionutil.typeText(processloc, "test", "process name Value is entered");
 		Thread.sleep(8000);
 
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
@@ -466,6 +471,7 @@ public class Traceprocessdistributorshared {
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(5000);
 		System.out.println("process observation is finished..");
+		Thread.sleep(4000);
 	}
 	public void processaddagg() throws InterruptedException, IOException {
 		Thread.sleep(5000);
@@ -487,8 +493,8 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(4000);
 		
 		//actionutil.typeText(productidtextnew, prodid, "prod id is entered");
-		Thread.sleep(4000);
-		Thread.sleep(4000);
+		//Thread.sleep(4000);
+	//	Thread.sleep(4000);
 		actionutil.clickOnElement(productselect, "Product id is selected");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processname, "process name is clicked");
@@ -497,14 +503,18 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "test", "process name Value is entered");
-		Thread.sleep(8000);
+		actions.sendKeys(processloc, "test").perform();
+		//actionutil.typeText(processloc, "test", "process name Value is entered");
+		Thread.sleep(4000);
 
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(processtype, "process type is clicked");
 		Thread.sleep(2000);
-		actionutil.scrollDown();
+		actionutil.scrollToElement(processtype, "scroll little bit");
+		Thread.sleep(4000);
+		
+		//actionutil.scrollDown();
 		actionutil.clickOnElement(processagg, "process aggre is clicked");
 		Thread.sleep(2000);
 		actionutil.scrollToElement(processadd1, "process add is scrolled");
@@ -512,6 +522,7 @@ public class Traceprocessdistributorshared {
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
 		System.out.println("process aggregation is finished..");
+		Thread.sleep(4000);
 
 	}
 	public void processaddret() throws InterruptedException, IOException {
@@ -543,14 +554,18 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "test", "process name Value is entered");
-		Thread.sleep(8000);
+		actions.sendKeys(processloc, "test").perform();
+		//actionutil.typeText(processloc, "test", "process name Value is entered");
+		Thread.sleep(4000);
 
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(processtype, "process type is clicked");
 		Thread.sleep(2000);
-		actionutil.scrollDown();
+		actionutil.scrollToElement(processtype, "scroll little bit");
+		Thread.sleep(4000);
+		
+	//	actionutil.scrollDown();
 		actionutil.clickOnElement(processcom, "process comm is clicked");
 		Thread.sleep(2000);
 		actionutil.scrollToElement(processadd1, "process add is scrolled");
@@ -587,13 +602,18 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actionutil.typeText(processloc, "test", "process name Value is entered");
-		Thread.sleep(8000);
+		actions.sendKeys(processloc, "test").perform();
+		//actionutil.typeText(processloc, "test", "process name Value is entered");
+		Thread.sleep(10000);
 		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(processtype, "process type is clicked");
-		Thread.sleep(2000);
-		actionutil.scrollDown();
+		Thread.sleep(2000);	
+		actionutil.scrollToElement(processtype, "scroll little bit");
+		Thread.sleep(4000);
+		
+		//	actionutil.scrollDown();
+		//Thread.sleep(4000);
 		actionutil.clickOnElement(processdisagg, "process disagg is clicked");
 		Thread.sleep(2000);
 		actionutil.scrollToElement(processadd1, "process add is scrolled");
@@ -601,7 +621,7 @@ public class Traceprocessdistributorshared {
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(5000);
 		System.out.println("process disagg is finsihed..");
-
+		Thread.sleep(4000);
 			}
 
 }

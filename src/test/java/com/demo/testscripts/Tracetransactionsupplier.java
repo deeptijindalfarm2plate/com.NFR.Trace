@@ -30,9 +30,10 @@ public class Tracetransactionsupplier extends Basetest2 {
 	  public void verifytracetransaction() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
-      pages.transaction.transactioncomm();
-    pages.transaction. transactionagg();
-	pages.transaction.transactionobssscc();
+pages.transaction.transactioncomm();
+  pages.transaction. transactionagg();
+//  pages.transaction.transactionshipping();
+	//pages.transaction.transactionobssscc();
 	 
 	  
 	  

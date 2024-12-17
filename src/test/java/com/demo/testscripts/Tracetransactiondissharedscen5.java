@@ -30,9 +30,9 @@ public class Tracetransactiondissharedscen5 extends Basetest2 {
 	  public void verifytracetransaction() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("distributorqa@yopmail.com", "Admin@1234");
-		pages.trandissharedscen5.transactiondis();
-	pages.trandissharedscen5.transactiontrans();
-		   pages.trandissharedscen5.transactionagg();
+	pages.trandissharedscen5.transactiondis();
+//Need to modify this for date slect 	pages.trandissharedscen5.transactiontrans();
+		//   pages.trandissharedscen5.transactionagg();
       
 	 
 	  

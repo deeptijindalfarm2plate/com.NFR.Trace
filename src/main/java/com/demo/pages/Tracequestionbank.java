@@ -5,6 +5,7 @@ import static org.testng.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.Random;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,6 +24,8 @@ public class Tracequestionbank {
 	String randomValue = actionutil.generateRandomAlphanumeric(8);
 	int randomNumber = new Random().nextInt(1000);
 	String emailaddress = randomValue + randomNumber + "@yopmail.com";
+	String subset = randomValue + "abc";
+	//String dynamicXPath = "(//td)[i]";
 
 	public Tracequestionbank(WebDriver driver, long eto, WebActionUtil actionutil) {
 		this.driver = driver;
@@ -31,9 +34,16 @@ public class Tracequestionbank {
 		this.eto = eto;
 	}
 
+	
+	
 	/* X-path for trace button */
 	@FindBy(xpath = "//*[@id='root']/div/div[5]/aside/div/ul/li[1]/div/span")
 	private WebElement trace;
+	
+	/* X-path for trace button */
+	@FindBy(xpath = "	//button[contains(text(),'Yes')]")
+	private WebElement delyes;
+
 
 	/* X-path for trace button */
 	@FindBy(xpath = "//span[contains(text(),'Question Bank')]")
@@ -94,22 +104,22 @@ public class Tracequestionbank {
 	/* X-path for trace button */
 	@FindBy(xpath = "(//td//div//span//textarea)[10]")
 	private WebElement ques10;
-	
+
 	/* X-path for trace button */
-	@FindBy(xpath = "(//input[@class='ant-checkbox-input'])[10]")
+	@FindBy(xpath = "(//tr//td//label)[10]")
 	private WebElement check1;
-	
+
 	/* X-path for trace button */
-	@FindBy(xpath = "(//input[@class='ant-checkbox-input'])[9]")
+	@FindBy(xpath = "(//tr//td//label)[9]")
 	private WebElement check2;
 	/* X-path for trace button */
-	@FindBy(xpath = "(//input[@class='ant-checkbox-input'])[8]")
+	@FindBy(xpath = "(//tr//td//label)[8]")
 	private WebElement check3;
 	/* X-path for trace button */
-	@FindBy(xpath = "(//input[@class='ant-checkbox-input'])[7]")
+	@FindBy(xpath = "(//tr//td//label)[7]")
 	private WebElement check4;
 	/* X-path for trace button */
-	@FindBy(xpath = "(//input[@class='ant-checkbox-input'])[6]")
+	@FindBy(xpath = "(//tr//td//label)[6]")
 	private WebElement check5;
 	/* X-path for trace button */
 	@FindBy(xpath = "//button/span[contains(text(), 'Create Sub Set')]")
@@ -117,13 +127,11 @@ public class Tracequestionbank {
 	/* X-path for trace button */
 	@FindBy(xpath = "//input[@name='name']")
 	private WebElement name;
-	
+
 	/* X-path for trace button */
 	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement subsubmit;
 
-	
-	
 	/* X-path for trace button */
 	@FindBy(xpath = "//button[contains(text(),'Submit')]")
 	private WebElement submit;
@@ -147,10 +155,12 @@ public class Tracequestionbank {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(addbtn, "click on addbtn");
 		Thread.sleep(2000);
+		
+		
 		actionutil.clickOnElement(ques1, "click on ques1");
 		Thread.sleep(2000);
-		actionutil.typeText(ques1, "ques1", "ques1 is entered");
-		Thread.sleep(2000);		
+		//actionutil.typeText(ques1, "ques1", "ques1 is entered");
+		//Thread.sleep(2000);
 		actionutil.clickOnElement(addques, "click on addques");
 		actionutil.clickOnElement(ques2, "click on ques2");
 		Thread.sleep(2000);
@@ -159,7 +169,7 @@ public class Tracequestionbank {
 		actionutil.clickOnElement(addques, "click on addques");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(ques3, "click on ques3");
-Thread.sleep(2000);
+		Thread.sleep(2000);
 		actionutil.typeText(ques3, "ques3", "ques3 is entered");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(addques, "click on addques");
@@ -173,19 +183,19 @@ Thread.sleep(2000);
 		Thread.sleep(2000);
 		actionutil.typeText(ques5, "ques5", "ques5 is entered");
 		Thread.sleep(2000);
-	
+
 		actionutil.clickOnElement(addques, "click on addques");
 		actionutil.clickOnElement(ques6, "click on ques6");
 		Thread.sleep(2000);
 		actionutil.typeText(ques6, "ques6", "ques6 is entered");
 		Thread.sleep(2000);
-		
+
 		actionutil.clickOnElement(addques, "click on addques");
 		actionutil.clickOnElement(ques7, "click on ques7");
 		Thread.sleep(2000);
 		actionutil.typeText(ques7, "ques7", "ques7 is entered");
 		Thread.sleep(2000);
-		
+
 		actionutil.clickOnElement(addques, "click on addques");
 		actionutil.clickOnElement(ques8, "click on ques10");
 		Thread.sleep(2000);
@@ -199,20 +209,23 @@ Thread.sleep(2000);
 		Thread.sleep(2000);
 		actionutil.scrollToElement(submit, "scrolled to addbtn");
 		Thread.sleep(2000);
-	
+
 		actionutil.clickOnElement(addques, "click on addques");
-		//actionutil.clickOnElement(addques, "click on addques");
-		
-			actionutil.clickOnElement(ques10, "click on ques10");
+		// actionutil.clickOnElement(addques, "click on addques");
+
+		actionutil.clickOnElement(ques10, "click on ques10");
 		Thread.sleep(2000);
 		actionutil.typeText(ques10, "ques10", "ques10 is entered");
 		Thread.sleep(2000);
+		
 		actionutil.scrollToElement(submit, "scrolled to addbtn");
 		Thread.sleep(2000);
+		
 		actionutil.clickOnElement(submit, "click on submit");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(yesbtn, "click on yesbtn");
 		Thread.sleep(7000);
+		
 		System.out.println("company level questions are submitted......");
 		actionutil.clickOnElement(check1, "click on check1");
 		Thread.sleep(2000);
@@ -224,25 +237,63 @@ Thread.sleep(2000);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(check5, "click on check5");
 		Thread.sleep(2000);
+		actionutil.scrollToElement(addbtn, "scroll to upwards");
+		Thread.sleep(4000);
 		actionutil.clickOnElement(subques, "click on subques");
 		Thread.sleep(3000);
 		actionutil.clickOnElement(name, "click on name");
 		Thread.sleep(3000);
-		actionutil.typeText(name, "abc", "name is entered");
+		actionutil.typeText(name, subset, "name is entered");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(subsubmit, "click on subsubmit");
 		Thread.sleep(5000);
-		
+
 		System.out.println("subques of comapny level submitted");
+
+	}
+
+	public void tracedeletecompanyquestions() throws InterruptedException {
+		Thread.sleep(8000);
+		//actionutil.clickOnElement(trace, "click on trace");
+	//	Thread.sleep(2000);
+		actionutil.clickOnElement(questionbank, "click on questionbank");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(addnew, "click on addnew");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(dropdown, "click on dropdown");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(companylevel, "click on companylevel");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(addbtn, "click on addbtn");
+		Thread.sleep(5000);
+
 		
-		
+	//	 int startIndex = 1; // The starting index (first element)
+	   //  int increment = 10;  // Increment by 6
+	   //    int maxIndex = 10;  // Maximum index
+
+	         //Loop through the elements and delete them
+	       for (int i = 1; i <=9; i ++) {
+	            // Dynamically construct the XPath for each element
+	          //  String dynamicXPath = "(//td)[" + i + "]";
+	        	String dynamicXPath = "(//td)[6]";
+	            // Find the WebElement using the dynamic XPath
+	            WebElement delquest = driver.findElement(By.xpath(dynamicXPath));
+	            actionutil.clickOnElement(delquest, "quest is deleting");
+	            Thread.sleep(1000);
+	            actionutil.clickOnElement(delyes, "delyes is clicked");
+	            Thread.sleep(1000);
+	                       System.out.println(" question is deleting" + i);
+	            Thread.sleep(5000);
+
+	}
 	}
 
 	public void traceaddproductuestions() throws InterruptedException {
 
 		Thread.sleep(8000);
-		//actionutil.clickOnElement(trace, "click on trace");
-		//Thread.sleep(2000);
+		// actionutil.clickOnElement(trace, "click on trace");
+		// Thread.sleep(2000);
 		actionutil.clickOnElement(questionbank, "click on questionbank");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(addnew, "click on addnew");
@@ -300,7 +351,7 @@ Thread.sleep(2000);
 		actionutil.clickOnElement(yesbtn, "click on yesbtn");
 		Thread.sleep(5000);
 		System.out.println("product level questions are submitted......");
-		
+
 	}
 
 }

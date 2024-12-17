@@ -17,7 +17,7 @@ public class Traceassetcontainer {
 	int randomNumber = new Random().nextInt(1000);
 	String randomValue;
 	String emailaddress = randomNumber + "@yopmail.com";
-	String containertext = "container" + randomNumber + randomNumber + randomNumber;
+	String containertext = "containerrr" + randomNumber + "abc" + randomNumber;
 	public Traceassetcontainer(WebDriver driver, long eto, WebActionUtil actionutil) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -149,9 +149,9 @@ public class Traceassetcontainer {
 		actionutil.clickOnElement(assetinfra, "Asset & Infrastructure Data is clicked");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(asset, "Assets is clicked");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		actionutil.clickOnElement(addnew, "Add new is clicked");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		actionutil.clickOnElement(assettype, "Asset type is clicked");
 		actionutil.clickOnElement(container, "Click on Vehicle Name");
 		Thread.sleep(2000);

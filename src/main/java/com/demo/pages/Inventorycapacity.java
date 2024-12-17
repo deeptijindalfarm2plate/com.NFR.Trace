@@ -32,6 +32,10 @@ public class Inventorycapacity {
 	String randomNumber13 = actionutil.generateRandomNumber(1);
 	String randomValue;
 	String emailaddress = randomNumber + "@yopmail.com";
+	String userDir = System.getProperty("user.dir");
+	String imageaddress1 = userDir + "\\src\\test\\resources\\data\\data.xlsx";
+	String filePath = userDir + "\\src\\test\\resources\\data\\NewProduct.txt";
+	
     
 
 
@@ -272,7 +276,7 @@ public class Inventorycapacity {
 		 try {
 	            Robot robot = new Robot();
 	            // Type the file path (replace "file_path" with the actual path of the file)
-	            StringSelection selection = new StringSelection("C:\\Users\\Admin\\Downloads\\position_of_lots_kept_in_inventory (8).xlsx");
+	            StringSelection selection = new StringSelection(imageaddress1);
 	            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 	            robot.keyPress(KeyEvent.VK_CONTROL);
 	            robot.keyPress(KeyEvent.VK_V);
