@@ -239,6 +239,18 @@ public class Traceproduct {
 	/* X-path for save button */
 	@FindBy(xpath = "//*[@id='add-product-reconfirmation-modal-save-btn']")
 	private WebElement save;
+	
+	/* X-path for delete button */
+	@FindBy(xpath = "(//*[@id='Group_12476'])[4]")
+	private WebElement delship;
+	
+	/* X-path for save button */
+	@FindBy(xpath = "(//*[contains(text(), 'Yes')])[1]")
+	private WebElement delshipconfirm;
+	
+	
+	
+	
 
 	public void productsadd() throws InterruptedException, IOException {
 		Thread.sleep(8000);
@@ -356,9 +368,9 @@ public class Traceproduct {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(gln2, "Click on gln2");
 		actionutil.typeText(gln2, "warehouse", "gln2 is entered");
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		actionutil.clickOnElement(autosearch1, "Click on autosearch");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		actionutil.clickOnElement(gln3, "Click on gln3");
 		actionutil.typeText(gln3, "warehouse", "gln3 is entered");
 		Thread.sleep(2000);
@@ -377,8 +389,10 @@ public class Traceproduct {
 		actionutil.scrollToElement(table, "scrolldown to table:");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(autosearch5, "Click on autosearch");
-		Thread.sleep(10000);
-		
+		Thread.sleep(5000);
+		actionutil.clickOnElement(delship, "click on del of ship");
+		actionutil.clickOnElement(delshipconfirm, "click on confirm of ship");
+		Thread.sleep(4000);
 		actionutil.scrollDowntoelement(registerproduct);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(registerproduct, "Click on registerproduct");
@@ -391,10 +405,10 @@ public class Traceproduct {
 		
 		
 		//driver.navigate().refresh();
-		actionutil.clickOnElement(existingproductidfield, "product exist is clicked");
-		Thread.sleep(5000);
-		actionutil.clickOnElement(productidedit, "product exist is clicked");
-		Thread.sleep(5000);
+	//	actionutil.clickOnElement(existingproductidfield, "product exist is clicked");
+		//Thread.sleep(5000);
+		//actionutil.clickOnElement(productidedit, "product exist is clicked");
+		//Thread.sleep(5000);
 	
 		String saved = productidsaved.getText();
 		String savedinfile = " product id:   " + saved;

@@ -435,6 +435,7 @@ public class Traceprocesssmanufacturernew {
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(5000);
 		System.out.println("Process of comm is finished...");
+		Thread.sleep(10000);
 	}
 		
 		

@@ -30,9 +30,9 @@ public class Traceprocesssmanufacturernew extends Basetest2 {
 	  public void verifytraceprocess() throws InterruptedException, IOException {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("ldekkenq362@yopmail.com", "Admin@1234");
-		   pages.processmanu.processaddcomm();
-		   pages.processmanu.processaddcooling();
-		   pages.processmanu.processaddobswithoutsscc();
+		  pages.processmanu.processaddcomm();
+		 pages.processmanu.processaddcooling();
+		  pages.processmanu.processaddobswithoutsscc();
 		   
 	   
 	  

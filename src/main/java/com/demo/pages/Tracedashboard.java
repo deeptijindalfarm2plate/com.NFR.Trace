@@ -480,7 +480,7 @@ public class Tracedashboard {
 			actionutil.typeText(pass, "Admin@1234", "Password Id Entered");
 			actionutil.scrollDowntoelement(signin1);
 			actionutil.clickOnElement(signin1, "Press the signin button");
-			Thread.sleep(6000);	
+			Thread.sleep(12000);	
 			//actionutil.clickOnElement(outermodal1, "Press the signin button");
 			actionutil.clickOnElement(continue1, "Press the continue button");
 			//actionutil.clickOnElement(outermodal, "Press the outemodal button");

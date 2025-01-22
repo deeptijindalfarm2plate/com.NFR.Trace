@@ -136,7 +136,7 @@ public class Traceusers {
 	private WebElement emailsubject;
 	
 	/* X-path for email link */
-	@FindBy(xpath = "//*[@id='mail']/div/div/div[1]/section/a")
+	@FindBy(xpath = "//*[@id='mail']/div/div[1]/section/a")
 	private WebElement link;
 	
 	/* X-path for enter password */
@@ -400,7 +400,7 @@ public void users() throws InterruptedException
 		Thread.sleep(3000);	
 		//actionutil.clickOnElement(outermodal, "Press the signin button");
 		actionutil.scrollDown();
-		Thread.sleep(1000);
+		Thread.sleep(8000);
 		actionutil.clickOnElement(modalbutton, "Press the button");
 		//actionutil.clickOnElement(outermodal, "Press the signin button");
 		actionutil.scrollDown();

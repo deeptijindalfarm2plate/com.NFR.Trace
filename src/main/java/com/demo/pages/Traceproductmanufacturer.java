@@ -226,6 +226,14 @@ public class Traceproductmanufacturer {
 	@FindBy(xpath = "  //*[@id='DefaultProcessTable_inputs']/div[1]/div/div[4]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement autosearch2;
 
+	/* X-path for delete button */
+	@FindBy(xpath = "(//*[@id='Group_12476'])[4]")
+	private WebElement delship;
+	
+	/* X-path for save button */
+	@FindBy(xpath = "(//*[contains(text(), 'Yes')])[1]")
+	private WebElement delshipconfirm;
+	
 	
 	/* X-path for prodcut id*/
 	@FindBy(xpath = "//tr[1]/th[2]")
@@ -239,9 +247,13 @@ public class Traceproductmanufacturer {
 	@FindBy(xpath = "//div[@id='productSearch_0']")
 	private WebElement productidedit;
 	
+	/* X-path for Edit*/
+	@FindBy(xpath = "	( //div[@class='rc-virtual-list-holder-inner']/div)[1]")
+	private WebElement productidedit2;
+	
 	
 	/* X-path for prodcut id */
-	@FindBy(xpath = "//input[@type='search']")
+	@FindBy(xpath = "//input[@id='productSearch']")
 	private WebElement existingproductidfield;
 	
 	/* X-path for table*/
@@ -399,7 +411,11 @@ public class Traceproductmanufacturer {
 			actionutil.scrollToElement(table, "scrolldown to table:");
 			Thread.sleep(5000);
 			actionutil.clickOnElement(autosearch5, "Click on autosearch");
-			Thread.sleep(9000);
+			
+			Thread.sleep(5000);
+			actionutil.clickOnElement(delship, "click on del of ship");
+			actionutil.clickOnElement(delshipconfirm, "click on confirm of ship");
+			Thread.sleep(4000);
 			
 		 actionutil.scrollDowntoelement(registerproduct);
 		 Thread.sleep(9000);
@@ -415,11 +431,13 @@ public class Traceproductmanufacturer {
 			Thread.sleep(5000);
 			
 			
-			//driver.navigate().refresh();
+			
+			driver.navigate().refresh();
+			Thread.sleep(5000);
 			actionutil.clickOnElement(existingproductidfield, "product exist is clicked");
-			Thread.sleep(5000);
-			actionutil.clickOnElement(productidedit, "product exist is clicked");
-			Thread.sleep(5000);
+		Thread.sleep(5000);
+		actionutil.clickOnElement(productidedit, "product exist is clicked");
+		Thread.sleep(5000);
        //line to be uncoomment driver.navigate().refresh();
 		 String saved = productidsaved.getText();
 		 String savedinfile = " product id:   " + saved;

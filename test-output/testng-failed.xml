@@ -8,17 +8,17 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.demo.testscripts.Tracetransactionsupplier">
+      <class name="com.demo.testscripts.Tracesignuppage">
         <methods>
-          <include name="verifytracetransaction"/>
           <include name="createFolder"/>
           <include name="browserclose"/>
+          <include name="verifysignup_signin_myprofile"/>
           <include name="launchBrowser"/>
           <include name="browserclose1"/>
           <include name="setExtentReport"/>
           <include name="killTask"/>
         </methods>
-      </class> <!-- com.demo.testscripts.Tracetransactionsupplier -->
+      </class> <!-- com.demo.testscripts.Tracesignuppage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -133,6 +133,11 @@ public class Tracetransactionmanufacturernew {
 	@FindBy(xpath = "(//input[@name='LGTIN'])[1]")
 	//// *[@id="myForm"]/div[4]/div/div/div[17]/div/div/div/input
 	private WebElement newbatchlot;
+	
+	/* X-path for itemsgtin */
+	@FindBy(xpath = "(//input[@name='LGTIN'])[2]")
+	//// *[@id="myForm"]/div[4]/div/div/div[17]/div/div/div/input
+	private WebElement newbatchlot1;
 
 	/* X-path for itemsgtin */
 	@FindBy(xpath = "//*[@id='observation_lgtin_arrow_button']")
@@ -428,7 +433,7 @@ public class Tracetransactionmanufacturernew {
 	private WebElement field;
 
 	/* X-path for container */
-	@FindBy(xpath = "(//input[contains(@class,'form-control CustomSelectInput_customSelectInputField')])[7]")
+	@FindBy(xpath = "(//*[@id='containerName_add_transactions'])[1]")
 	private WebElement Container;
 
 	// *[@id="myForm"]/div[4]/div/div/div[19]/div/div/div/input
@@ -451,7 +456,7 @@ public class Tracetransactionmanufacturernew {
 	private WebElement itemsgtin;
 
 	/* X-path for itemsgtin */
-	@FindBy(xpath = "(//input[contains(@class,'form-control CustomSelectInput_customSelectInputField')])[7]")
+	@FindBy(xpath = "(//*[@id='UoMSGTIN_add_transactions'])[1]")
 	//// //*[@id='myForm']/div[4]/div/div/div[17]/div/div[1]/div/input
 	private WebElement itemsgtin1;
 
@@ -596,7 +601,7 @@ public class Tracetransactionmanufacturernew {
 		actionutil.typeText(countsgtin, "123", "countsgtin is entered");
 		actionutil.clickOnElement(weightsgtin, "weightsgtin sgtin is clicked");
 		actionutil.typeText(weightsgtin, "1234567", "weightsgtin is entered");
-		actionutil.clickOnElement(itemsgtin, "itemsgtin sgtin is clicked");
+		actionutil.clickOnElement(itemsgtin1, "itemsgtin sgtin is clicked");
 		actionutil.clickOnElement(itemsgtinvalue, "itemgtin is entered");
 
 		// actionutil.scrollDowntoelement(tlc);
@@ -622,8 +627,9 @@ public class Tracetransactionmanufacturernew {
 	public void transactiontrans() throws InterruptedException, IOException {
 		Thread.sleep(5000);
 //actionutil.clickOnElement(trace, "trace is clicked");
-//Thread.sleep(2000);
-		actionutil.scrollToElement(transaction, "Transaction is scrolled");
+Thread.sleep(2000);
+	
+actionutil.scrollToElement(transaction, "Transaction is scrolled");
 		actionutil.clickOnElement(transaction, "transaction is clicked");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(existingproductid, "productid is selected");
@@ -645,6 +651,8 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(4000);
 		actionutil.clickOnElement(transaction, "transaction is clicked");
 		Thread.sleep(5000);
+		
+		
 
 		actionutil.scrollToElement(transaction, "Transaction is scrolled");
 		actionutil.clickOnElement(transaction, "transaction is clicked");
@@ -690,7 +698,7 @@ public class Tracetransactionmanufacturernew {
 		actionutil.clickOnElement(expdateselect, "date is entered");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(expokbutton, "date is selected");
-		Thread.sleep(2000);
+		Thread.sleep(8000);
 
 		actionutil.scrollDowntoelement(activity);
 		actionutil.clickOnElement(activity, "activity is selected");
@@ -701,6 +709,10 @@ public class Tracetransactionmanufacturernew {
 		Thread.sleep(3000);
 		actionutil.clickOnElement(newlgtinarrow, "newlgtinarrow is clicked");
 		Thread.sleep(3000);
+	//	actionutil.clickOnElement(packingtype1, "packingtypeselect is selected");
+	//	Thread.sleep(2000);
+	//	actionutil.clickOnElement(packingtypeselect1, "packingtypeselect is selected");
+		//Thread.sleep(2000);
 		actionutil.scrollToElement(packingtype1, "packing type scrolled");
 		Thread.sleep(2000);
 		actionutil.clickOnElement(qtyconsumed, "qtyconsumed is clicked");

@@ -185,6 +185,16 @@ public class Tracesignuppage {
 	@FindBy(xpath = "//input[@name='designation']")
 	private WebElement myprofiledest;
 	
+	/* X-path for my profile  destination*/
+	@FindBy(xpath = "//*[@id='rc_select_0']")
+	private WebElement myprofilezone;
+	
+	/* X-path for my profile  destination*/
+	@FindBy(xpath = "//div[@title='Africa/Abidjan']/div")
+	private WebElement myprofilezoneval;
+	
+	
+	
 	/* X-path for submit */
 	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement myprofilesubmit;
@@ -244,11 +254,11 @@ public class Tracesignuppage {
 	private WebElement ifsccode;
 
 	/* X-path for bankname*/
-	@FindBy(xpath = "(//input[contains(@class, 'form-control CustomSelectInput')])[2]")
+	@FindBy(xpath = "//input[@id='codeType']")
 	private WebElement ifscdrop;
 	
 	/* X-path for bankname*/
-	@FindBy(xpath = "(//div[contains(@class, 'mb-0 CustomSelectInput_customSelectInputOptionsListItemValue__3PJK5 undefined undefined')])[1]")
+	@FindBy(xpath = "//div/div[contains(text(), 'IFSC No.')]")
 	private WebElement ifscdropvalue;
 	
 	/* X-path for bankname*/
@@ -355,6 +365,9 @@ public class Tracesignuppage {
 		 driver.navigate().refresh();
 		 Thread.sleep(2000);
 		 driver.switchTo().frame("ifinbox");
+		 Thread.sleep(2000);
+		 actionutil.scrollToElement(firstemail, "scrolldown");
+		 Thread.sleep(2000);
 		 actionutil.clickOnElement(firstemail, "first email is clicked");
 		 Thread.sleep(2000);
 		 driver.switchTo().defaultContent();
@@ -402,6 +415,9 @@ public void myprofile() throws InterruptedException
 	actionutil.typeText(myprofilelasttname,"Last", "enter the  Last");
 	actionutil.clickOnElement(myprofiledest, "Click on dest");
 	actionutil.typeText(myprofiledest,"dest", "enter the  dest");
+	actionutil.clickOnElement(myprofilezone, "Click on zone");
+	Thread.sleep(2000);
+	actionutil.clickOnElement(myprofilezoneval, "Click on zone val");
 	actionutil.clickOnElement(myprofilesubmit, "Click on Submit");
 	//actionutil.clickOnElement(mybusiness, "Click on Business");
 	 

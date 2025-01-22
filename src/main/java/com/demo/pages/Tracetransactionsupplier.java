@@ -179,6 +179,17 @@ public class Tracetransactionsupplier {
 	/* X-path for activity */
 	@FindBy(xpath = "//*[@id='add_transactions_why_input']")
 	private WebElement activity;
+	
+	
+	/* X-path for activity */
+	@FindBy(xpath = "(//*[@id='add_transactions_who_gln_input'])[1]")
+	private WebElement locfirst;
+	
+	/* X-path for activity */
+	@FindBy(xpath = "//*[@id='add_transactions_who_gln_input_0']")
+	private WebElement locfirstval;
+	
+	
 
 	/* X-path for sscc */
 	@FindBy(xpath = "//*[@id='add_transactions_observation_lgtin']")
@@ -639,8 +650,8 @@ public class Tracetransactionsupplier {
 		actionutil.typeText(countsgtin, "123", "countsgtin is entered");
 		actionutil.clickOnElement(weightsgtin, "weightsgtin sgtin is clicked");
 		actionutil.typeText(weightsgtin, "1234567", "weightsgtin is entered");
-		actionutil.clickOnElement(dim, "dim is clicked");
-		actionutil.typeText(dim, "1234567", "dim is entered");
+		////actionutil.clickOnElement(dim, "dim is clicked");
+		//actionutil.typeText(dim, "1234567", "dim is entered");
 		actionutil.clickOnElement(itemsgtin, "itemsgtin sgtin is clicked");
 		actionutil.clickOnElement(itemsgtinvalue, "itemgtin is entered");
 		actionutil.clickOnElement(document, "document is clicked");
@@ -944,6 +955,10 @@ public class Tracetransactionsupplier {
 		actionutil.clickOnElement(submit, "click on submit button");
 		Thread.sleep(4000);
 		actionutil.scrollDown();
+		actionutil.clickOnElement(locfirst, "clicked on location");
+		actionutil.typeText(locfirst, "test", "entered the location");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(locfirstval, "clicked on location value");
 		actionutil.clickOnElement(activity, "click on activity");
 		actionutil.typeText(activity, "abcd", "entered the activity");
 		Thread.sleep(2000);
@@ -1060,7 +1075,7 @@ Thread.sleep(2000);
 		
 		
 		actionutil.clickOnElement(addtran, "add transaction is clickec");
-		Thread.sleep(8000);
+		Thread.sleep(18000);
 		System.out.println("Process shipping is done.....");
 		Thread.sleep(2000);
 	}
