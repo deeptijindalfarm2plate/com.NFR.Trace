@@ -1,0 +1,44 @@
+14:59:32.850 [main] INFO  com.demo.baseutil.Basetest - 
+14:59:32.859 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+14:59:32.986 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+14:59:32.995 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace QA latest/reports/Automation Report- 01_24_2025_14_59_32/Report/01_24_2025_14_59_32
+14:59:33.140 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+14:59:33.141 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+14:59:47.281 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+14:59:49.969 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Sign in with FarmtoPlate account
+14:59:50.020 [main] INFO  com.demo.baseutil.Basetest - Url contains farmtoplateapps.io/login
+14:59:50.038 [main] INFO  com.demo.baseutil.Basetest - Sign in title matched
+14:59:50.038 [main] INFO  com.demo.baseutil.Basetest - UI verified for Sigin page.
+14:59:50.039 [main] INFO  com.demo.baseutil.Basetest - Sign in function call
+14:59:50.039 [main] INFO  com.demo.baseutil.Basetest - Validate email address field is clicked is clickable
+14:59:52.865 [main] INFO  com.demo.baseutil.Basetest - Clicked on : email address field is clicked
+14:59:52.866 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Email Id Entered
+14:59:53.355 [main] INFO  com.demo.baseutil.Basetest - 139@yopmail.com typed into Email Id Entered
+14:59:53.356 [main] INFO  com.demo.baseutil.Basetest - Validate Enter the password is clickable
+14:59:55.840 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Enter the password
+14:59:55.840 [main] INFO  com.demo.baseutil.Basetest - Enter the value into Password Id Entered
+14:59:56.151 [main] INFO  com.demo.baseutil.Basetest - Admin@1234 typed into Password Id Entered
+15:00:00.238 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:00:00.238 [main] INFO  com.demo.baseutil.Basetest - Validate Press the signin button is clickable
+15:00:03.395 [main] INFO  com.demo.baseutil.Basetest - Clicked on : Press the signin button
+15:00:06.371 [main] INFO  com.demo.baseutil.Basetest - HomePage title  is matched
+15:00:16.387 [main] INFO  com.demo.baseutil.Basetest - Validate click on trace is clickable
+15:00:18.942 [main] INFO  com.demo.baseutil.Basetest - Clicked on : click on trace
+15:00:27.032 [main] INFO  com.demo.baseutil.Basetest - Scroll down
+15:00:29.038 [main] INFO  com.demo.baseutil.Basetest - Validate Products is clicked is clickable
+15:00:59.151 [main] ERROR com.demo.baseutil.Basetest - Products is clicked is not clickable
+15:00:59.151 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Products is clicked
+15:01:29.617 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:01:32.293 [main] INFO  com.demo.baseutil.Basetest - Browser is closed sucessfuly
+15:01:36.101 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+15:01:36.106 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+15:02:06.552 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+15:02:06.552 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+15:02:37.080 [main] ERROR com.demo.baseutil.Basetest - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT112', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c4cc9d4245bb78d2ea484f0dc91626c

@@ -269,6 +269,10 @@ public class Traceprocessdistributorshared {
 	/* X-path for process type search */
 	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]")
 	private WebElement processcom;
+	
+	/* X-path for process type search */
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[5]")
+	private WebElement processshipping;
 
 	/* X-path for process type search */
 	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[2]")
@@ -525,6 +529,65 @@ public class Traceprocessdistributorshared {
 		Thread.sleep(4000);
 
 	}
+	
+	public void processshipping() throws InterruptedException, IOException{
+		Thread.sleep(8000);
+		//actionutil.clickOnElement(trace, "click on trace");
+		//Thread.sleep(4000);
+		
+		
+		actionutil.scrollDowntoelement(process);
+		Thread.sleep(2000);
+		actionutil.clickOnElement(process, "Process is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processadd, "Process add is clicked");
+		Thread.sleep(5000);
+		Thread.sleep(5000);
+		actionutil.clickOnElement(sharedproduct, "shared product id is clicked");
+		Thread.sleep(4000);
+
+		actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+
+		Thread.sleep(2000);
+		String prodid = copyvalue();
+		Actions actions = new Actions(driver);
+        actions.sendKeys(productidtextnew, prodid).perform();
+		Thread.sleep(4000);
+		
+		//actionutil.typeText(productidtextnew, prodid, "prod id is entered");
+		//Thread.sleep(4000);
+	//	Thread.sleep(4000);
+		actionutil.clickOnElement(productselect, "Product id is selected");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(processname, "process name is clicked");
+		Thread.sleep(2000);
+		actionutil.typeText(processname, "processshipping", "process name Value is entered");
+		Thread.sleep(2000);
+		actionutil.scrollDown();
+		actionutil.clickOnElement(processloc, "process loc is clicked");
+		Thread.sleep(2000);
+		actions.sendKeys(processloc, "test").perform();
+		//actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(processtype, "process type is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDown();
+		actionutil.clickOnElement(processshipping, "process shipping is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(processadd1);
+		actionutil.clickOnElement(processadd1, "process add button is clicked");
+		Thread.sleep(4000);
+		actionutil.clickOnElement(processadd1, "process add button is clicked");
+		Thread.sleep(4000);
+		System.out.println("Process shipping is completed....");
+		Thread.sleep(5000);
+
+
+	}
+	
+	
 	public void processaddret() throws InterruptedException, IOException {
 
 		Thread.sleep(4000);

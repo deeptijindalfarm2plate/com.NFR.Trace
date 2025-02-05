@@ -273,6 +273,11 @@ public class Traceprocesssmanufacturernew {
 	/* X-path for process type search */
 	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[2]")
 	private WebElement processobs;
+	
+
+	/* X-path for process type search */
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[5]")
+	private WebElement processshipping;
 
 	/* X-path for process type search */
 	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div//div[2]/ul/li[3]")
@@ -588,6 +593,50 @@ public class Traceprocesssmanufacturernew {
 			actionutil.clickOnElement(processadd1, "process add button is clicked");
 			Thread.sleep(5000);
 			System.out.println("Process of observation is finished without sscc...");
+			Thread.sleep(8000);
+			actionutil.scrollDowntoelement(process);
+			Thread.sleep(2000);
+			actionutil.clickOnElement(process, "Process is clicked");
+			Thread.sleep(5000);
+			actionutil.clickOnElement(processadd, "Process add is clicked");
+			Thread.sleep(5000);
+			actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+			Thread.sleep(2000);
+			actions.sendKeys(productidtextnew, copyvalue1).perform();
+			Thread.sleep(2000);
+			actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+			Thread.sleep(2000);
+			actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
+			Thread.sleep(2000);
+			actionutil.clickOnElement(outside, "outside is clicked");
+			Thread.sleep(2000);
+			actionutil.scrollDowntoelement(productidtextnew);
+			actionutil.clickOnElement(processname, "process name is clicked");
+			Thread.sleep(2000);
+			actionutil.typeText(processname, "processshipping", "process name Value is entered");
+			Thread.sleep(2000);
+			actionutil.scrollDown();
+			actionutil.clickOnElement(processloc, "process loc is clicked");
+			Thread.sleep(2000);
+			actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
+			Thread.sleep(5000);
+			actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+			Thread.sleep(2000);
+			actionutil.clickOnElement(processtype, "process type is clicked");
+			Thread.sleep(2000);
+			actionutil.scrollDown();
+			actionutil.clickOnElement(processshipping, "process shipping is clicked");
+			Thread.sleep(2000);
+			actionutil.scrollDowntoelement(processadd1);
+			actionutil.clickOnElement(processadd1, "process add button is clicked");
+			Thread.sleep(4000);
+			actionutil.clickOnElement(processadd1, "process add button is clicked");
+			Thread.sleep(4000);
+			System.out.println("Process shipping is completed....");
+			Thread.sleep(5000);
+
+
+
 
 	
 }

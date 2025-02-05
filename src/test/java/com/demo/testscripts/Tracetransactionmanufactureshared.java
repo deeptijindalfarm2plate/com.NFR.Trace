@@ -31,7 +31,7 @@ public class Tracetransactionmanufactureshared extends Basetest2 {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("ldekkenq362@yopmail.com", "Admin@1234");
 		   pages.transmanu.transactiondis();
-		 //pages.transmanu.transactiontrans();
+		// pages.transmanu.transactiontrans();
       
 	 
 	  

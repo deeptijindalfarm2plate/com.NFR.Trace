@@ -28,11 +28,11 @@ public class Tracetransactionmanufacturernew extends Basetest2 {
 	public void verifytracetransaction() throws InterruptedException, IOException {
 		pages.signinpage.verifysigninPage();
 		pages.loginpage.verifyLogin("ldekkenq362@yopmail.com", "Admin@1234");
-		pages.transactionnew.transactioncomm();
-		pages.transactionnew.transactiontrans();
-		pages.transactionnew.transactionobswithlot();
-		pages.transactionnew.transactionagg();
-
+		//pages.transactionnew.transactioncomm();
+		//pages.transactionnew.transactiontrans();
+		//pages.transactionnew.transactionobswithlot();
+	//	pages.transactionnew.transactionagg();
+		pages.transactionnew.transactionshipping();
 	}
 
 }

@@ -921,7 +921,7 @@ public class Tracetransactionsupplier {
 	Tracedrivers textnew = new Tracedrivers(driver, eto, actionutil);
 	textnew.adddriver();
 		
-		//
+	
 
 		Thread.sleep(8000);
 		actionutil.scrollDowntoelement(transaction);

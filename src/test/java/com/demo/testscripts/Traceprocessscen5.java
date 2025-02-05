@@ -34,6 +34,7 @@ public class Traceprocessscen5 extends Basetest2 {
 		  pages.processdisshared.processaddtrans();
 		  pages.processdisshared.processaddobs();
 		   pages.processdisshared.processaddagg();
+		  // pages.processdisshared.processshipping();
 	  //pages.process.processedit();
 	  
 	  

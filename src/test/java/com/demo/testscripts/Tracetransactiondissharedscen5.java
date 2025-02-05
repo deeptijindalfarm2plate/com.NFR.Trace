@@ -21,23 +21,18 @@ public class Tracetransactiondissharedscen5 extends Basetest2 {
 	 * Description: Navigating to sigin page verifying UI of the page
 	 * 
 	 * @throws InterruptedException
-	 * @throws IOException 
+	 * @throws IOException
 	 *
 	 */
-	
-	
-	  @Test(priority = 1, description = "Verify UI of product Page", enabled = true)
-	  public void verifytracetransaction() throws InterruptedException, IOException {
-		  pages.signinpage.verifysigninPage();
-		   pages.loginpage.verifyLogin("distributorqa@yopmail.com", "Admin@1234");
-	pages.trandissharedscen5.transactiondis();
-//Need to modify this for date slect 	pages.trandissharedscen5.transactiontrans();
-		//   pages.trandissharedscen5.transactionagg();
-      
-	 
-	  
-	  
-	  }
-	  
-	  	
+
+	@Test(priority = 1, description = "Verify UI of product Page", enabled = true)
+	public void verifytracetransaction() throws InterruptedException, IOException {
+		pages.signinpage.verifysigninPage();
+		pages.loginpage.verifyLogin("distributorqa@yopmail.com", "Admin@1234");
+		pages.trandissharedscen5.transactiondis();
+		pages.trandissharedscen5.transactiontrans();
+		pages.trandissharedscen5.transactionagg();
+
+	}
+
 }
