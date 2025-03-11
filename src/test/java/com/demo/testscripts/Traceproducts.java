@@ -31,6 +31,7 @@ public class Traceproducts extends Basetest2 {
 		  pages.signinpage.verifysigninPage();
 		   pages.loginpage.verifyLogin("139@yopmail.com", "Admin@1234");
 	  pages.products.productsadd();
+	  
 	// pages.products.productedit();
 	  
 	  

@@ -1,0 +1,16 @@
+21:01:27.198 [main] INFO  com.demo.baseutil.Basetest - 
+21:01:27.207 [main] INFO  com.demo.baseutil.Basetest - Running locally JavaMail
+21:01:27.388 [main] INFO  com.demo.baseutil.Basetest2 - Folder creation for Extent
+21:01:27.397 [main] INFO  com.demo.baseutil.Basetest - ExtentDir:-C:\Users\Deepti Jindal\eclipse-workspace2\com.NFR.Trace QA latest/reports/Automation Report- 03_07_2025_21_01_27/Report/03_07_2025_21_01_27
+21:01:27.614 [main] INFO  com.demo.baseutil.Basetest - Report Initiated
+21:01:27.616 [main] INFO  com.demo.baseutil.Basetest - Screenshot folder created
+21:11:36.121 [main] ERROR com.demo.baseutil.Basetest - Failed to launch the Browser
+21:11:36.259 [main] INFO  com.demo.baseutil.Basetest - Validate Sign in with FarmtoPlate account is clickable
+21:11:36.394 [main] ERROR com.demo.baseutil.Basetest - Sign in with FarmtoPlate account is not clickable
+21:11:36.394 [main] ERROR com.demo.baseutil.Basetest - Unable to click on Sign in with FarmtoPlate account
+21:11:36.565 [main] ERROR com.demo.baseutil.Basetest - invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARAMOUNT112', ip: '192.168.29.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.92, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56581}, msedge: {msedgedriverVersion: 133.0.3065.92 (e8591772eda3..., userDataDir: C:\Users\DEEPTI~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f82da36526a23c78195cb1257ae00e

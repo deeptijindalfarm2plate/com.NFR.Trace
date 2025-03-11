@@ -27,8 +27,8 @@ Process -> 3CTEs (Commission/Cooling/Observation/Aggregation)
 Transactions- Commission (New LGTIN)/Aggregation (New SSCC)/Shipping-->
 
 			<!--class name="com.demo.testscripts.Traceproducts" />
-         <class name="com.demo.testscripts.Traceprocess" />
-         <class name="com.demo.testscripts.Tracetransactionsupplier" />-->
+         <class name="com.demo.testscripts.Traceprocess" />-->
+         <class name="com.demo.testscripts.Tracetransactionsupplier" />
 
 			<!-- This is scenario 2
 Scenario#2: Manufacturer Account
@@ -70,9 +70,9 @@ Next will be Aggregation Event> Aggre(New SSCC) by selecting distributor org
 			 Process -> (Disaggregation(SSCC))
 			 Transaction -> Not required (edited)-->
 
-			<!--class name="com.demo.testscripts.Traceprocessscen5" />-->
+			<!--class name="com.demo.testscripts.Traceprocessscen5" />
 			<class name="com.demo.testscripts.Tracetransactiondissharedscen5" />
-          <!--class name="com.demo.testscripts.Traceprocessscen6" />-->
+          <class name="com.demo.testscripts.Traceprocessscen6" />-->
 
 
 

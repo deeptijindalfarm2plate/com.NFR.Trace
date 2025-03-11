@@ -61,12 +61,12 @@ public class Traceproduct {
 	private WebElement addnew;
 
 	/* X-path for Product category */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[1]")
+	@FindBy(xpath = "//*[@id='add_product_productCategory']")
 	private WebElement productcategory;
 	// *[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 
 	/* X-path for product based food */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='add_product_productCategory_0']")
 	private WebElement productbasedfood;
 
 	/* X-path for productname */
@@ -94,7 +94,7 @@ public class Traceproduct {
 	private WebElement productexists;
 
 	/* X-path for upload */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[5]/div[2]/div[1]/div[2]/button")
+	@FindBy(xpath = "//button[@id='add_product_fileUpload']")
 	private WebElement upload;
 
 	// span[text()='Upload Photo/Video']
@@ -113,7 +113,7 @@ public class Traceproduct {
 	private WebElement consumption;
 
 	/* X-path for UOM */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[4]/div[1]/div/div[2]/ul/li[1]")
+	@FindBy(xpath = "//*[@id='add_product_nutrition_uom_0']")
 	private WebElement uom;
 
 	/* X-path for Nutrition quanity */
@@ -125,19 +125,19 @@ public class Traceproduct {
 	private WebElement nuritionfact;
 
 	/* X-path for Nutrition drop */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[8]/div[2]/div/div[1]/div/div[2]/div[3]/div/div/div")
+	@FindBy(xpath = "//*[@id='add_product_nutrition_uom_0']")
 	private WebElement nuritiondrop;
 
 	/* X-path for Nutrition value */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[8]/div[2]/div/div[1]/div/div[2]/div[3]/div/div/div[2]/ul/li[1]/div/div/div[1]")
+	@FindBy(xpath = "//*[@id='add_product_nutrition_uom_0_0']")
 	private WebElement nuritionvalue;
 
 	/* X-path for Unit of Measurement */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[1]/div/div/div/input")
+	@FindBy(xpath = "(//*[@id='add_product_productUOM'])[1]")
 	private WebElement unitofmeasue;
 
 	/* X-path for unit of measurement dropdow */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[1]/div/div[2]/ul/li[1]/div/div/div")
+	@FindBy(xpath = "//*[@id='add_product_productUOM_0']")
 	private WebElement dropdown;
 
 	/* X-path for price */
@@ -145,28 +145,28 @@ public class Traceproduct {
 	private WebElement price;
 
 	/* X-path for currency */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[2]/div[2]/span/div/div/div[1]/div/input")
+	@FindBy(xpath = "//*[@id='currency']")
 	private WebElement currency;
 
 	/* X-path for currency value */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[9]/div[2]/div[2]/span/div/div/div[2]/ul/li[1]/div/div/div/div/span")
+	@FindBy(xpath = "//span[contains(text(),'USA ($)')]")
 	private WebElement currencyvalue;
 
 	/* X-path for Add type packing */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[1]/input")
+	@FindBy(xpath = "//*[@id='PackagingInputTable_inputs_quantity_0']")
 	private WebElement typepacking;
 
 	/* X-path for Length */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[3]/input")
+	@FindBy(xpath = "//*[@id='PackagingInputTable_inputs_length_0']")
 	private WebElement length;
 	// *[@id="root"]/div/div[5]/form/div[4]/div[1]/div/div[2]
 
 	/* X-path for breath */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[4]/input")
+	@FindBy(xpath = "//*[@id='PackagingInputTable_inputs_breadth_0']")
 	private WebElement breath;
 
 	/* X-path for height */
-	@FindBy(xpath = "//*[@id='root']/div/div[6]/form/div[10]/div/div/div[1]/div/div[2]/div[5]/input")
+	@FindBy(xpath = "//*[@id='PackagingInputTable_inputs_height_0']")
 	private WebElement height;
 
 	/* X-path for checkbox1 */
@@ -337,9 +337,9 @@ public class Traceproduct {
 		Thread.sleep(2000);
 		actionutil.scrollDown();
 
-		actionutil.clickOnElement(unitofmeasue, "Click on ingrediant name");
-		actionutil.clickOnElement(dropdown, "Click on ingrediant name");
-		actionutil.clickOnElement(price, "Click on ingrediant name");
+		actionutil.clickOnElement(unitofmeasue, "Click on Uinitofmeasure name");
+		actionutil.clickOnElement(dropdown, "Click on Uinitofmeasure name");
+		actionutil.clickOnElement(price, "Click on Uinitofmeasure name");
 		actionutil.typeText(price, "1", "price is entered");
 		actionutil.clickOnElement(currency, "Click on currency");
 		// actionutil.scrollDowntoelement(currencyvalue);
@@ -354,7 +354,7 @@ public class Traceproduct {
 		actionutil.typeText(height, "1", "height is entered");
 		Thread.sleep(2000);
 		actionutil.scrollDown();
-		
+		/** For Defect id: 19693
 		
 		actionutil.clickOnElement(checkbox1, "Click on checkbox1");
 		// actionutil.scrollDown();
@@ -393,6 +393,8 @@ public class Traceproduct {
 		actionutil.clickOnElement(delship, "click on del of ship");
 		actionutil.clickOnElement(delshipconfirm, "click on confirm of ship");
 		Thread.sleep(4000);
+		
+		**/
 		actionutil.scrollDowntoelement(registerproduct);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(registerproduct, "Click on registerproduct");
@@ -401,7 +403,7 @@ public class Traceproduct {
 		actionutil.scrollDowntoelement(products);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(products, "Products is clicked");
-		Thread.sleep(5000);
+		Thread.sleep(25000);
 		
 		
 		//driver.navigate().refresh();

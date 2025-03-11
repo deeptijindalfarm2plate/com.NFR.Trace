@@ -295,6 +295,12 @@ public class Traceprocesssupplier {
 	/* X-path for process type search */
 	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[7]")
 	private WebElement processdisagg;
+	
+	/* X-path for process type search */
+	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[1]")
+	private WebElement processcomm;
+	
+	
 
 	/* X-path for process type search */
 	@FindBy(xpath = "//*[@id='root']/div/div[6]/div/div[6]/div/form/div[1]/div[3]/div/div/div[2]/ul/li[8]")
@@ -329,10 +335,7 @@ public class Traceprocesssupplier {
 	}
 
 	public void processadd() throws InterruptedException, IOException {
-
-		/* New process disagg */
-
-		Thread.sleep(8000);
+		//New Process type commission/Harvesting
 		actionutil.clickOnElement(trace, "click on trace");
 		Thread.sleep(4000);
 		actionutil.scrollDowntoelement(process);
@@ -346,7 +349,61 @@ public class Traceprocesssupplier {
 		String copyvalue1 = copyvalue();
 		Thread.sleep(7000);
 		Actions actions = new Actions(driver);
+		
 		actions.sendKeys(productidtextnew, copyvalue1).perform();
+		Thread.sleep(2000);
+		actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(outside, "outside is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(productidtextnew);
+
+		actionutil.clickOnElement(processname, "process name is clicked");
+		Thread.sleep(2000);
+		actionutil.typeText(processname, "Harvesting", "process name Value is entered");
+		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(productidtextnew);
+		Thread.sleep(2000);
+		actionutil.clickOnElement(processloc, "process loc is clicked");
+		Thread.sleep(2000);
+		actions.sendKeys(processloc, "9650541994112").perform();
+		Thread.sleep(4000);
+		//actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processtype, "process type is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDown();
+		actionutil.clickOnElement(processcomm, "process comm is clicked");
+		Thread.sleep(2000);
+		actionutil.scrollDowntoelement(processadd1);
+		actionutil.clickOnElement(processadd1, "process add button is clicked");
+		Thread.sleep(2000);
+
+		
+		
+		
+		
+		/* New process disagg */
+
+		Thread.sleep(8000);
+		actionutil.clickOnElement(trace, "click on trace");
+		Thread.sleep(4000);
+		actionutil.scrollDowntoelement(process);
+		Thread.sleep(2000);
+		actionutil.clickOnElement(process, "Process is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(processadd, "Process add is clicked");
+		Thread.sleep(5000);
+		actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+		Thread.sleep(2000);
+		String copyvalue2 = copyvalue();
+		Thread.sleep(7000);
+		//Actions actions1 = new Actions(driver);
+		actions.sendKeys(productidtextnew, copyvalue2).perform();
 		Thread.sleep(4000);
 		actionutil.clickOnElement(productidtextnew, "Product id is clicked");
 		Thread.sleep(2000);
@@ -363,7 +420,7 @@ public class Traceprocesssupplier {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(processloc, "process loc is clicked");
 		Thread.sleep(2000);
-		actions.sendKeys(processloc, "0956265002424").perform();
+		actions.sendKeys(processloc, "9650541994112").perform();
 		Thread.sleep(4000);
 		//actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
 		Thread.sleep(5000);
@@ -377,6 +434,51 @@ public class Traceprocesssupplier {
 		actionutil.scrollDowntoelement(processadd1);
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(2000);
+		
+		
+
+// New process type aggregation/Packing
+		
+				actionutil.scrollDowntoelement(process);
+				Thread.sleep(2000);
+				actionutil.clickOnElement(process, "Process is clicked");
+				Thread.sleep(5000);
+				actionutil.clickOnElement(processadd, "Process add is clicked");
+				Thread.sleep(5000);
+				actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+				Thread.sleep(2000);
+				actions.sendKeys(productidtextnew, copyvalue1).perform();
+				Thread.sleep(2000);
+				actionutil.clickOnElement(productidtextnew, "Product id is clicked");
+				Thread.sleep(2000);
+				actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
+				Thread.sleep(2000);
+				actionutil.clickOnElement(outside, "outside is clicked");
+				Thread.sleep(2000);
+				actionutil.scrollDowntoelement(productidtextnew);
+
+				actionutil.clickOnElement(processname, "process name is clicked");
+				Thread.sleep(2000);
+				actionutil.typeText(processname, "Packing", "process name Value is entered");
+				Thread.sleep(2000);
+				actionutil.scrollDowntoelement(productidtextnew);
+				Thread.sleep(2000);
+				actionutil.clickOnElement(processloc, "process loc is clicked");
+				Thread.sleep(2000);
+				actions.sendKeys(processloc, "0956265002424").perform();
+				Thread.sleep(4000);
+				//actionutil.typeText(processloc, "0956265002424", "process name Value is entered");
+				Thread.sleep(5000);
+				actionutil.clickOnElement(processlocsearch, "process loc is clicked");
+				Thread.sleep(5000);
+				actionutil.clickOnElement(processtype, "process type is clicked");
+				Thread.sleep(2000);
+				actionutil.scrollDown();
+				actionutil.clickOnElement(processagg, "process comm is clicked");
+				Thread.sleep(2000);
+				actionutil.scrollDowntoelement(processadd1);
+				actionutil.clickOnElement(processadd1, "process add button is clicked");
+				Thread.sleep(2000);
 
 		// New process type transformation
 
@@ -546,10 +648,11 @@ public class Traceprocesssupplier {
 		actionutil.scrollDowntoelement(processadd1);
 		actionutil.clickOnElement(processadd1, "process add button is clicked");
 		Thread.sleep(4000);
-		actionutil.clickOnElement(processadd1, "process add button is clicked");
-		Thread.sleep(4000);
+	//	actionutil.clickOnElement(processadd1, "process add button is clicked");
+		//Thread.sleep(4000);
 		System.out.println("Process shipping is completed....");
 		Thread.sleep(5000);
+
 
 
 	}

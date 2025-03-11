@@ -12,9 +12,11 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
+import java.util.Set;
 
 import org.apache.commons.collections4.bag.SynchronizedSortedBag;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -179,17 +181,14 @@ public class Tracetransactionsupplier {
 	/* X-path for activity */
 	@FindBy(xpath = "//*[@id='add_transactions_why_input']")
 	private WebElement activity;
-	
-	
+
 	/* X-path for activity */
 	@FindBy(xpath = "(//*[@id='add_transactions_who_gln_input'])[1]")
 	private WebElement locfirst;
-	
+
 	/* X-path for activity */
 	@FindBy(xpath = "//*[@id='add_transactions_who_gln_input_0']")
 	private WebElement locfirstval;
-	
-	
 
 	/* X-path for sscc */
 	@FindBy(xpath = "//*[@id='add_transactions_observation_lgtin']")
@@ -202,6 +201,14 @@ public class Tracetransactionsupplier {
 	/* X-path for sscc arrow */
 	@FindBy(xpath = "//*[@id='observation_sscc_arrow_button']")
 	private WebElement ssccarrow;
+
+	/* X-path for date */
+	@FindBy(xpath = "//*[@id='add_transactions_who_gln_input']")
+	private WebElement loc;
+
+	/* X-path for date */
+	@FindBy(xpath = "//*[@id='add_transactions_who_gln_input_0']")
+	private WebElement locvalue;
 
 	/* X-path for date */
 	@FindBy(xpath = "//*[@class='ant-picker-input']")
@@ -228,12 +235,11 @@ public class Tracetransactionsupplier {
 	/* X-path for packing type date next button */
 	@FindBy(xpath = "//button[@class='ant-picker-header-next-btn']")
 	private WebElement datenextbutton;
-	
-	
+
 	/* X-path for packing type date next button */
 	@FindBy(xpath = "(//button[@class='ant-picker-header-next-btn'])[2]")
 	private WebElement datenextbuttondel;
-	
+
 	// button[@class='ant-picker-header-next-btn']
 	// */div[5]/div/div/div/div/div[1]/div/div[1]/div[1]/button[3]
 
@@ -259,18 +265,17 @@ public class Tracetransactionsupplier {
 	/* X-path for ok button */
 	@FindBy(xpath = "//button/span[contains(text(), 'OK')]")
 	private WebElement okbutton;
-	
+
 	/* X-path for ok button */
 	@FindBy(xpath = "(//button/span[contains(text(), 'OK')])[2]")
 	private WebElement okbuttondel;
-
 
 	/* X-path for ok button */
 	@FindBy(xpath = "//*/div[3]/div/div/div/div/div[2]/ul/li/button")
 	private WebElement okbuttonnew;
 
 	/* X-path for ok button */
-	@FindBy(xpath = "//*/div[6]/div/div/div/div/div[2]/ul/li/button")
+	@FindBy(xpath = "(//button/span[contains(text(),'OK')])[2]")
 	private WebElement okbutton1;
 
 	/* X-path for ok button */
@@ -302,12 +307,13 @@ public class Tracetransactionsupplier {
 	private WebElement lotelement;
 
 	/* X-path for organisation */
-	@FindBy(xpath = "//*[@id='myForm']/div[1]/div[2]/div/div/div/div/input")
-	// @FindBy(xpath = "//*[@id='new_transaction_select_organization']")
+	// @FindBy(xpath = "//*[@id='myForm']/div[1]/div[2]/div/div/div/div/input")
+	@FindBy(xpath = "//input[@id='organizationSearch']")
 	private WebElement org;
 
 	/* X-path for organisation select */
-	@FindBy(xpath = "//*[@id='myForm']/div[1]/div[2]/div/div/div[2]/ul/li")
+	@FindBy(xpath = "//*[@class='organization-label']")
+	// @FindBy(xpath = "//*[@id='myForm']/div[1]/div[2]/div/div/div[2]/ul/li")
 	private WebElement orgselect;
 
 	/* X-path for location */
@@ -337,12 +343,10 @@ public class Tracetransactionsupplier {
 	/* X-path for TLC loc */
 	@FindBy(xpath = "//*[@id='add_transactions_shipping_BatchLotLGTIN_0']")
 	private WebElement lotnoselect;
-	
+
 	/* X-path for TLC loc */
 	@FindBy(xpath = "//input[@id='add_transactions_shipping_deliveryDate']")
 	private WebElement deldate;
-	
-	
 
 	/* X-path for TLC loc */
 	@FindBy(xpath = "//input[@id='add_transactions_shipping_productionLotNo']")
@@ -385,11 +389,11 @@ public class Tracetransactionsupplier {
 	private WebElement assetselect;
 
 	/* X-path for shippiing date */
-	@FindBy(xpath = "//*[@id='myForm']/div[4]/div[3]/div[5]/div[2]")
+	@FindBy(xpath = "//*[@id='ShippingDate&Time_add_transactions']")
 	private WebElement shippingdate;
 
 	/* X-path for deliverydate */
-	@FindBy(xpath = "//*[@id='myForm']/div[4]/div[3]/div[6]/div[2]")
+	@FindBy(xpath = "//*[@id='DeliveryDateTime_add_transactions']")
 	private WebElement deliverydate;
 
 	/* X-path for container */
@@ -453,12 +457,12 @@ public class Tracetransactionsupplier {
 	private WebElement field;
 
 	/* X-path for container */
-	//@FindBy(xpath = "//*[@id='myForm']/div[4]/div/div/div[19]/div/div[1]/div/input")
-	@FindBy(xpath = "(//input[@id='containerName_add_transactions'])[1]")
-	
+	// @FindBy(xpath =
+	// "//*[@id='myForm']/div[4]/div/div/div[19]/div/div[1]/div/input")
+	// @FindBy(xpath =
+	// "(//input[@id='add_transactions_aggregation_containerId'])[1]")
+	@FindBy(xpath = "//input[@id='containerName_add_transactions']")
 	private WebElement Container;
-	
-
 
 	/* X-path for containervalue */
 	@FindBy(xpath = "//*[@id='containerName_add_transactions_0']")
@@ -487,32 +491,22 @@ public class Tracetransactionsupplier {
 	/* X-path for document */
 	@FindBy(xpath = "//textarea[@id='remarks']")
 	private WebElement textarea;
-	
+
 	/* X-path for document */
 	@FindBy(xpath = "//button[@id='e_signature_btn']")
 	private WebElement addsign;
-	
-	
+
 	/* X-path for document */
 	@FindBy(xpath = "//div[@id='rc-tabs-0-tab-2']")
 	private WebElement addtype;
-	
-	
+
 	/* X-path for document */
 	@FindBy(xpath = "//input[@id='basic_sign']")
 	private WebElement addsigntext;
-	
+
 	/* X-path for document */
 	@FindBy(xpath = "(//button[contains(text(),'Submit')])[3]")
 	private WebElement addsignsubmit;
-	
-	
-	
-	
-	
-	
-	
-	
 
 	/* X-path for document */
 	@FindBy(xpath = "//input[@name='documentReferenceNo']")
@@ -525,11 +519,10 @@ public class Tracetransactionsupplier {
 	/* X-path for itemsgtin */
 	@FindBy(xpath = "//div[contains(text() ,'kgs')]")
 	private WebElement itemsgtinvalue;
-	
+
 	/* X-path for itemsgtin */
 	@FindBy(xpath = "(//input[@id='add_transactions_commission_DIMENSIONS'])[1]")
 	private WebElement dim;
-	
 
 	/* X-path for weightsgtin */
 	@FindBy(xpath = "//input[@name='WeightPerSGTIN']")
@@ -580,15 +573,21 @@ public class Tracetransactionsupplier {
 	}
 
 	public void transactioncomm() throws InterruptedException, IOException {
+		Thread.sleep(2000);
+
 		Thread.sleep(8000);
 		Traceassetcontainer textnew = new Traceassetcontainer(driver, eto, actionutil);
 		textnew.assets();
 		// actionutil.clickOnElement(trace, "click on trace");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		actionutil.scrollToElement(transaction, "transaction");
 		actionutil.clickOnElement(transaction, "transaction is clicked");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(addnew, "add new is clicked");
+		driver.navigate().refresh();
+		// js.executeScript("localStorage.setItem('businessinfo', arguments[0]);",
+		// businessInfo);
+		// driver.navigate().refresh();
 		Thread.sleep(5000);
 		actionutil.clickOnElement(CTE, "clicked on CTE");
 		Thread.sleep(4000);
@@ -614,7 +613,13 @@ public class Tracetransactionsupplier {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(submit, "click on submit button");
 		Thread.sleep(2000);
+		// driver.navigate().refresh();
 		actionutil.scrollDown();
+		Thread.sleep(2000);
+		// actionutil.clickOnElement(loc, "loc is selected");
+		// actionutil.typeText(loc, "9650541994", "loc Value is entered");
+		// Thread.sleep(2000);
+		// actionutil.clickOnElement(locvalue, "locvalue is selected");
 		actionutil.clickOnElement(date, "date is selected");
 		Thread.sleep(1000);
 		actionutil.clickOnElement(datenextbutton, "date netx button");
@@ -650,8 +655,8 @@ public class Tracetransactionsupplier {
 		actionutil.typeText(countsgtin, "123", "countsgtin is entered");
 		actionutil.clickOnElement(weightsgtin, "weightsgtin sgtin is clicked");
 		actionutil.typeText(weightsgtin, "1234567", "weightsgtin is entered");
-		////actionutil.clickOnElement(dim, "dim is clicked");
-		//actionutil.typeText(dim, "1234567", "dim is entered");
+		//// actionutil.clickOnElement(dim, "dim is clicked");
+		// actionutil.typeText(dim, "1234567", "dim is entered");
 		actionutil.clickOnElement(itemsgtin, "itemsgtin sgtin is clicked");
 		actionutil.clickOnElement(itemsgtinvalue, "itemgtin is entered");
 		actionutil.clickOnElement(document, "document is clicked");
@@ -659,6 +664,7 @@ public class Tracetransactionsupplier {
 		actionutil.scrollDownToBottom();
 		actionutil.scrollDowntoelement(document);
 		actionutil.clickOnElement(addtran, "Add Transaction is selected");
+		System.out.println("commision is passed::");
 		Thread.sleep(8000);
 
 	}
@@ -671,8 +677,8 @@ public class Tracetransactionsupplier {
 
 		Thread.sleep(8000);
 		actionutil.clickOnElement(trace, "click on trace");
-		Thread.sleep(4000);
-		Traceassetcontainer textnew1 = new Traceassetcontainer(driver, eto, actionutil);
+		 Thread.sleep(4000);
+		 Traceassetcontainer textnew1 = new Traceassetcontainer(driver, eto, actionutil);
 		textnew1.assets();
 		Thread.sleep(6000);
 
@@ -728,10 +734,10 @@ public class Tracetransactionsupplier {
 		Thread.sleep(2000);
 
 		actionutil.scrollDown();
-		actionutil.clickOnElement(org, "org is selected");
-		Thread.sleep(2000);
+		// actionutil.clickOnElement(org, "org is selected");
+		// Thread.sleep(2000);
 		actionutil.typeText(org, "178", "org value is entered");
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		actionutil.clickOnElement(orgselect, "org is selected");
 		Thread.sleep(3000);
 		actionutil.clickOnElement(location, "location is selected");
@@ -814,7 +820,7 @@ public class Tracetransactionsupplier {
 		actionutil.scrollDown();
 		String text1 = textnew1.getconatiner();
 		actionutil.clickOnElement(container, "container is clicked");
-		actionutil.typeText(container, text1, "container value is entered");
+	actionutil.typeText(container, text1, "container value is entered");
 		Thread.sleep(5000);
 		actionutil.clickOnElement(containerselect, "container select is clicked");
 		Thread.sleep(2000);
@@ -918,10 +924,8 @@ public class Tracetransactionsupplier {
 		Thread.sleep(8000);
 		actionutil.clickOnElement(trace, "click on trace");
 		Thread.sleep(5000);
-	Tracedrivers textnew = new Tracedrivers(driver, eto, actionutil);
-	textnew.adddriver();
-		
-	
+		Tracedrivers textnew = new Tracedrivers(driver, eto, actionutil);
+		textnew.adddriver();
 
 		Thread.sleep(8000);
 		actionutil.scrollDowntoelement(transaction);
@@ -940,18 +944,19 @@ public class Tracetransactionsupplier {
 		Thread.sleep(2000);
 		actionutil.clickOnElement(productidtext1, "Product id is clicked");
 		Thread.sleep(12000);
-		//actionutil.typeText(productidtext1, "F2PG10002704", "Enetered the productid");
+		// actionutil.typeText(productidtext1, "F2PG10002704", "Enetered the
+		// productid");
 		// Thread.sleep(2000);
 		Actions actions = new Actions(driver);
-        
+
 		String copyvalue2 = copyvalue();
 		actions.click(productidtext1).sendKeys(copyvalue2).perform();
-		//actionutil.typeText(productidtext1, copyvalue2, "Saved Value is entered");
+		// actionutil.typeText(productidtext1, copyvalue2, "Saved Value is entered");
 		Thread.sleep(5000);
 		// actionutil.clickOnElement(productidtext1, "Product id is clicked");
 		// Thread.sleep(2000);
-		 actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
-		 Thread.sleep(2000);
+		actionutil.clickOnElement(productidsearchbox, "Product id is clicked");
+		Thread.sleep(2000);
 		actionutil.clickOnElement(submit, "click on submit button");
 		Thread.sleep(4000);
 		actionutil.scrollDown();
@@ -1029,19 +1034,19 @@ public class Tracetransactionsupplier {
 
 		actionutil.clickOnElement(lotno, "clicked on lot no");
 		Thread.sleep(3000);
-	//	actionutil.typeText(lotno, "1691004122410000002", "Entered the lotno");
-		//Thread.sleep(3000);
+		// actionutil.typeText(lotno, "1691004122410000002", "Entered the lotno");
+		// Thread.sleep(3000);
 		actionutil.clickOnElement(lotnoselect, copiedTextsscc);
-Thread.sleep(2000);
-actionutil.scrollUptoelement(deldate, "scrolled to up");
-Thread.sleep(2000);
-actionutil.clickOnElement(deldate, "deldate is clicked:");
-actionutil.clickOnElement(datenextbuttondel, "datenextbuttondel is clicked");
-actionutil.clickOnElement(datenextbuttondel, "datenextbuttondel is clicked");
-actionutil.clickOnElement(dateselect1, "dateselect1 is clicked");
-Thread.sleep(2000);
-actionutil.clickOnElement(okbuttondel, "clicked on okbutton");
-Thread.sleep(2000);
+		Thread.sleep(2000);
+		actionutil.scrollUptoelement(deldate, "scrolled to up");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(deldate, "deldate is clicked:");
+		actionutil.clickOnElement(datenextbuttondel, "datenextbuttondel is clicked");
+		actionutil.clickOnElement(datenextbuttondel, "datenextbuttondel is clicked");
+		actionutil.clickOnElement(dateselect1, "dateselect1 is clicked");
+		Thread.sleep(2000);
+		actionutil.clickOnElement(okbuttondel, "clicked on okbutton");
+		Thread.sleep(2000);
 		actionutil.clickOnElement(orgnew, "clicked on orgnew");
 		Thread.sleep(3000);
 		actionutil.typeText(orgnew, "178", "Entered the orgnew");
@@ -1072,8 +1077,7 @@ Thread.sleep(2000);
 		Thread.sleep(2000);
 		actionutil.clickOnElement(addsignsubmit, "clicked on addsignsubmit");
 		Thread.sleep(2000);
-		
-		
+
 		actionutil.clickOnElement(addtran, "add transaction is clickec");
 		Thread.sleep(18000);
 		System.out.println("Process shipping is done.....");
